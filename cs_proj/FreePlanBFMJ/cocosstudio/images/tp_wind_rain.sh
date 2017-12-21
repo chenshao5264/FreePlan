@@ -1,0 +1,1 @@
+tp wind_rain  --sheet wind_rain_atlas.png --data wind_rain_atlas.plist --format cocos2d --max-size 1024 --allow-free-size --no-trim

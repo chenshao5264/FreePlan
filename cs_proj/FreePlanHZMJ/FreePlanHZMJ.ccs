@@ -1,0 +1,247 @@
+<Solution>
+  <PropertyGroup Name="FreePlanHZMJ" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="csb">
+          <Project Name="GameLayer.csd" Type="Layer" />
+          <Project Name="MahjWallNode.csd" Type="Node" />
+        </Folder>
+        <Folder Name="fonts">
+          <TTF Name="msyhbd.ttf" />
+        </Folder>
+        <Folder Name="images">
+          <PlistImageFolder Image="chow_atlas.png" PListFile="chow_atlas.plist" Name=".chow_atlas_PList.Dir">
+            <PlistImageFile Name="mj_ani_chow_0.png" Key="mj_ani_chow_0.png" />
+            <PlistImageFile Name="mj_ani_chow_1.png" Key="mj_ani_chow_1.png" />
+            <PlistImageFile Name="mj_ani_chow_10.png" Key="mj_ani_chow_10.png" />
+            <PlistImageFile Name="mj_ani_chow_11.png" Key="mj_ani_chow_11.png" />
+            <PlistImageFile Name="mj_ani_chow_12.png" Key="mj_ani_chow_12.png" />
+            <PlistImageFile Name="mj_ani_chow_13.png" Key="mj_ani_chow_13.png" />
+            <PlistImageFile Name="mj_ani_chow_2.png" Key="mj_ani_chow_2.png" />
+            <PlistImageFile Name="mj_ani_chow_3.png" Key="mj_ani_chow_3.png" />
+            <PlistImageFile Name="mj_ani_chow_4.png" Key="mj_ani_chow_4.png" />
+            <PlistImageFile Name="mj_ani_chow_5.png" Key="mj_ani_chow_5.png" />
+            <PlistImageFile Name="mj_ani_chow_6.png" Key="mj_ani_chow_6.png" />
+            <PlistImageFile Name="mj_ani_chow_7.png" Key="mj_ani_chow_7.png" />
+            <PlistImageFile Name="mj_ani_chow_8.png" Key="mj_ani_chow_8.png" />
+            <PlistImageFile Name="mj_ani_chow_9.png" Key="mj_ani_chow_9.png" />
+          </PlistImageFolder>
+          <PlistImageFolder Image="hu_atlas.png" PListFile="hu_atlas.plist" Name=".hu_atlas_PList.Dir">
+            <PlistImageFile Name="mj_ani_hu_0.png" Key="mj_ani_hu_0.png" />
+            <PlistImageFile Name="mj_ani_hu_1.png" Key="mj_ani_hu_1.png" />
+            <PlistImageFile Name="mj_ani_hu_10.png" Key="mj_ani_hu_10.png" />
+            <PlistImageFile Name="mj_ani_hu_11.png" Key="mj_ani_hu_11.png" />
+            <PlistImageFile Name="mj_ani_hu_12.png" Key="mj_ani_hu_12.png" />
+            <PlistImageFile Name="mj_ani_hu_13.png" Key="mj_ani_hu_13.png" />
+            <PlistImageFile Name="mj_ani_hu_2.png" Key="mj_ani_hu_2.png" />
+            <PlistImageFile Name="mj_ani_hu_3.png" Key="mj_ani_hu_3.png" />
+            <PlistImageFile Name="mj_ani_hu_4.png" Key="mj_ani_hu_4.png" />
+            <PlistImageFile Name="mj_ani_hu_5.png" Key="mj_ani_hu_5.png" />
+            <PlistImageFile Name="mj_ani_hu_6.png" Key="mj_ani_hu_6.png" />
+            <PlistImageFile Name="mj_ani_hu_7.png" Key="mj_ani_hu_7.png" />
+            <PlistImageFile Name="mj_ani_hu_8.png" Key="mj_ani_hu_8.png" />
+            <PlistImageFile Name="mj_ani_hu_9.png" Key="mj_ani_hu_9.png" />
+          </PlistImageFolder>
+          <PlistImageFolder Image="kong_atlas.png" PListFile="kong_atlas.plist" Name=".kong_atlas_PList.Dir">
+            <PlistImageFile Name="mj_ani_kong_0.png" Key="mj_ani_kong_0.png" />
+            <PlistImageFile Name="mj_ani_kong_1.png" Key="mj_ani_kong_1.png" />
+            <PlistImageFile Name="mj_ani_kong_10.png" Key="mj_ani_kong_10.png" />
+            <PlistImageFile Name="mj_ani_kong_11.png" Key="mj_ani_kong_11.png" />
+            <PlistImageFile Name="mj_ani_kong_12.png" Key="mj_ani_kong_12.png" />
+            <PlistImageFile Name="mj_ani_kong_13.png" Key="mj_ani_kong_13.png" />
+            <PlistImageFile Name="mj_ani_kong_2.png" Key="mj_ani_kong_2.png" />
+            <PlistImageFile Name="mj_ani_kong_3.png" Key="mj_ani_kong_3.png" />
+            <PlistImageFile Name="mj_ani_kong_4.png" Key="mj_ani_kong_4.png" />
+            <PlistImageFile Name="mj_ani_kong_5.png" Key="mj_ani_kong_5.png" />
+            <PlistImageFile Name="mj_ani_kong_6.png" Key="mj_ani_kong_6.png" />
+            <PlistImageFile Name="mj_ani_kong_7.png" Key="mj_ani_kong_7.png" />
+            <PlistImageFile Name="mj_ani_kong_8.png" Key="mj_ani_kong_8.png" />
+            <PlistImageFile Name="mj_ani_kong_9.png" Key="mj_ani_kong_9.png" />
+          </PlistImageFolder>
+          <PlistImageFolder Image="mahj_atlas.png" PListFile="mahj_atlas.plist" Name=".mahj_atlas_PList.Dir">
+            <PlistImageFile Name="mj_1_b.png" Key="mj_1_b.png" />
+            <PlistImageFile Name="mj_1_s.png" Key="mj_1_s.png" />
+            <PlistImageFile Name="mj_1_s_l.png" Key="mj_1_s_l.png" />
+            <PlistImageFile Name="mj_1_s_r.png" Key="mj_1_s_r.png" />
+            <PlistImageFile Name="mj_11_b.png" Key="mj_11_b.png" />
+            <PlistImageFile Name="mj_11_s.png" Key="mj_11_s.png" />
+            <PlistImageFile Name="mj_11_s_l.png" Key="mj_11_s_l.png" />
+            <PlistImageFile Name="mj_11_s_r.png" Key="mj_11_s_r.png" />
+            <PlistImageFile Name="mj_12_b.png" Key="mj_12_b.png" />
+            <PlistImageFile Name="mj_12_s.png" Key="mj_12_s.png" />
+            <PlistImageFile Name="mj_12_s_l.png" Key="mj_12_s_l.png" />
+            <PlistImageFile Name="mj_12_s_r.png" Key="mj_12_s_r.png" />
+            <PlistImageFile Name="mj_13_b.png" Key="mj_13_b.png" />
+            <PlistImageFile Name="mj_13_s.png" Key="mj_13_s.png" />
+            <PlistImageFile Name="mj_13_s_l.png" Key="mj_13_s_l.png" />
+            <PlistImageFile Name="mj_13_s_r.png" Key="mj_13_s_r.png" />
+            <PlistImageFile Name="mj_14_b.png" Key="mj_14_b.png" />
+            <PlistImageFile Name="mj_14_s.png" Key="mj_14_s.png" />
+            <PlistImageFile Name="mj_14_s_l.png" Key="mj_14_s_l.png" />
+            <PlistImageFile Name="mj_14_s_r.png" Key="mj_14_s_r.png" />
+            <PlistImageFile Name="mj_15_b.png" Key="mj_15_b.png" />
+            <PlistImageFile Name="mj_15_s.png" Key="mj_15_s.png" />
+            <PlistImageFile Name="mj_15_s_l.png" Key="mj_15_s_l.png" />
+            <PlistImageFile Name="mj_15_s_r.png" Key="mj_15_s_r.png" />
+            <PlistImageFile Name="mj_16_b.png" Key="mj_16_b.png" />
+            <PlistImageFile Name="mj_16_s.png" Key="mj_16_s.png" />
+            <PlistImageFile Name="mj_16_s_l.png" Key="mj_16_s_l.png" />
+            <PlistImageFile Name="mj_16_s_r.png" Key="mj_16_s_r.png" />
+            <PlistImageFile Name="mj_17_b.png" Key="mj_17_b.png" />
+            <PlistImageFile Name="mj_17_s.png" Key="mj_17_s.png" />
+            <PlistImageFile Name="mj_17_s_l.png" Key="mj_17_s_l.png" />
+            <PlistImageFile Name="mj_17_s_r.png" Key="mj_17_s_r.png" />
+            <PlistImageFile Name="mj_18_b.png" Key="mj_18_b.png" />
+            <PlistImageFile Name="mj_18_s.png" Key="mj_18_s.png" />
+            <PlistImageFile Name="mj_18_s_l.png" Key="mj_18_s_l.png" />
+            <PlistImageFile Name="mj_18_s_r.png" Key="mj_18_s_r.png" />
+            <PlistImageFile Name="mj_19_b.png" Key="mj_19_b.png" />
+            <PlistImageFile Name="mj_19_s.png" Key="mj_19_s.png" />
+            <PlistImageFile Name="mj_19_s_l.png" Key="mj_19_s_l.png" />
+            <PlistImageFile Name="mj_19_s_r.png" Key="mj_19_s_r.png" />
+            <PlistImageFile Name="mj_2_b.png" Key="mj_2_b.png" />
+            <PlistImageFile Name="mj_2_s.png" Key="mj_2_s.png" />
+            <PlistImageFile Name="mj_2_s_l.png" Key="mj_2_s_l.png" />
+            <PlistImageFile Name="mj_2_s_r.png" Key="mj_2_s_r.png" />
+            <PlistImageFile Name="mj_21_b.png" Key="mj_21_b.png" />
+            <PlistImageFile Name="mj_21_s.png" Key="mj_21_s.png" />
+            <PlistImageFile Name="mj_21_s_l.png" Key="mj_21_s_l.png" />
+            <PlistImageFile Name="mj_21_s_r.png" Key="mj_21_s_r.png" />
+            <PlistImageFile Name="mj_22_b.png" Key="mj_22_b.png" />
+            <PlistImageFile Name="mj_22_s.png" Key="mj_22_s.png" />
+            <PlistImageFile Name="mj_22_s_l.png" Key="mj_22_s_l.png" />
+            <PlistImageFile Name="mj_22_s_r.png" Key="mj_22_s_r.png" />
+            <PlistImageFile Name="mj_23_b.png" Key="mj_23_b.png" />
+            <PlistImageFile Name="mj_23_s.png" Key="mj_23_s.png" />
+            <PlistImageFile Name="mj_23_s_l.png" Key="mj_23_s_l.png" />
+            <PlistImageFile Name="mj_23_s_r.png" Key="mj_23_s_r.png" />
+            <PlistImageFile Name="mj_24_b.png" Key="mj_24_b.png" />
+            <PlistImageFile Name="mj_24_s.png" Key="mj_24_s.png" />
+            <PlistImageFile Name="mj_24_s_l.png" Key="mj_24_s_l.png" />
+            <PlistImageFile Name="mj_24_s_r.png" Key="mj_24_s_r.png" />
+            <PlistImageFile Name="mj_25_b.png" Key="mj_25_b.png" />
+            <PlistImageFile Name="mj_25_s.png" Key="mj_25_s.png" />
+            <PlistImageFile Name="mj_25_s_l.png" Key="mj_25_s_l.png" />
+            <PlistImageFile Name="mj_25_s_r.png" Key="mj_25_s_r.png" />
+            <PlistImageFile Name="mj_26_b.png" Key="mj_26_b.png" />
+            <PlistImageFile Name="mj_26_s.png" Key="mj_26_s.png" />
+            <PlistImageFile Name="mj_26_s_l.png" Key="mj_26_s_l.png" />
+            <PlistImageFile Name="mj_26_s_r.png" Key="mj_26_s_r.png" />
+            <PlistImageFile Name="mj_27_b.png" Key="mj_27_b.png" />
+            <PlistImageFile Name="mj_27_s.png" Key="mj_27_s.png" />
+            <PlistImageFile Name="mj_27_s_l.png" Key="mj_27_s_l.png" />
+            <PlistImageFile Name="mj_27_s_r.png" Key="mj_27_s_r.png" />
+            <PlistImageFile Name="mj_28_b.png" Key="mj_28_b.png" />
+            <PlistImageFile Name="mj_28_s.png" Key="mj_28_s.png" />
+            <PlistImageFile Name="mj_28_s_l.png" Key="mj_28_s_l.png" />
+            <PlistImageFile Name="mj_28_s_r.png" Key="mj_28_s_r.png" />
+            <PlistImageFile Name="mj_29_b.png" Key="mj_29_b.png" />
+            <PlistImageFile Name="mj_29_s.png" Key="mj_29_s.png" />
+            <PlistImageFile Name="mj_29_s_l.png" Key="mj_29_s_l.png" />
+            <PlistImageFile Name="mj_29_s_r.png" Key="mj_29_s_r.png" />
+            <PlistImageFile Name="mj_3_b.png" Key="mj_3_b.png" />
+            <PlistImageFile Name="mj_3_s.png" Key="mj_3_s.png" />
+            <PlistImageFile Name="mj_3_s_l.png" Key="mj_3_s_l.png" />
+            <PlistImageFile Name="mj_3_s_r.png" Key="mj_3_s_r.png" />
+            <PlistImageFile Name="mj_31_b.png" Key="mj_31_b.png" />
+            <PlistImageFile Name="mj_31_s.png" Key="mj_31_s.png" />
+            <PlistImageFile Name="mj_31_s_l.png" Key="mj_31_s_l.png" />
+            <PlistImageFile Name="mj_31_s_r.png" Key="mj_31_s_r.png" />
+            <PlistImageFile Name="mj_32_b.png" Key="mj_32_b.png" />
+            <PlistImageFile Name="mj_32_s.png" Key="mj_32_s.png" />
+            <PlistImageFile Name="mj_32_s_l.png" Key="mj_32_s_l.png" />
+            <PlistImageFile Name="mj_32_s_r.png" Key="mj_32_s_r.png" />
+            <PlistImageFile Name="mj_33_b.png" Key="mj_33_b.png" />
+            <PlistImageFile Name="mj_33_s.png" Key="mj_33_s.png" />
+            <PlistImageFile Name="mj_33_s_l.png" Key="mj_33_s_l.png" />
+            <PlistImageFile Name="mj_33_s_r.png" Key="mj_33_s_r.png" />
+            <PlistImageFile Name="mj_34_b.png" Key="mj_34_b.png" />
+            <PlistImageFile Name="mj_34_s.png" Key="mj_34_s.png" />
+            <PlistImageFile Name="mj_34_s_l.png" Key="mj_34_s_l.png" />
+            <PlistImageFile Name="mj_34_s_r.png" Key="mj_34_s_r.png" />
+            <PlistImageFile Name="mj_35_b.png" Key="mj_35_b.png" />
+            <PlistImageFile Name="mj_35_s.png" Key="mj_35_s.png" />
+            <PlistImageFile Name="mj_35_s_l.png" Key="mj_35_s_l.png" />
+            <PlistImageFile Name="mj_35_s_r.png" Key="mj_35_s_r.png" />
+            <PlistImageFile Name="mj_36_b.png" Key="mj_36_b.png" />
+            <PlistImageFile Name="mj_36_s.png" Key="mj_36_s.png" />
+            <PlistImageFile Name="mj_36_s_l.png" Key="mj_36_s_l.png" />
+            <PlistImageFile Name="mj_36_s_r.png" Key="mj_36_s_r.png" />
+            <PlistImageFile Name="mj_37_b.png" Key="mj_37_b.png" />
+            <PlistImageFile Name="mj_37_s.png" Key="mj_37_s.png" />
+            <PlistImageFile Name="mj_37_s_l.png" Key="mj_37_s_l.png" />
+            <PlistImageFile Name="mj_37_s_r.png" Key="mj_37_s_r.png" />
+            <PlistImageFile Name="mj_4_b.png" Key="mj_4_b.png" />
+            <PlistImageFile Name="mj_4_s.png" Key="mj_4_s.png" />
+            <PlistImageFile Name="mj_4_s_l.png" Key="mj_4_s_l.png" />
+            <PlistImageFile Name="mj_4_s_r.png" Key="mj_4_s_r.png" />
+            <PlistImageFile Name="mj_5_b.png" Key="mj_5_b.png" />
+            <PlistImageFile Name="mj_5_s.png" Key="mj_5_s.png" />
+            <PlistImageFile Name="mj_5_s_l.png" Key="mj_5_s_l.png" />
+            <PlistImageFile Name="mj_5_s_r.png" Key="mj_5_s_r.png" />
+            <PlistImageFile Name="mj_6_b.png" Key="mj_6_b.png" />
+            <PlistImageFile Name="mj_6_s.png" Key="mj_6_s.png" />
+            <PlistImageFile Name="mj_6_s_l.png" Key="mj_6_s_l.png" />
+            <PlistImageFile Name="mj_6_s_r.png" Key="mj_6_s_r.png" />
+            <PlistImageFile Name="mj_7_b.png" Key="mj_7_b.png" />
+            <PlistImageFile Name="mj_7_s.png" Key="mj_7_s.png" />
+            <PlistImageFile Name="mj_7_s_l.png" Key="mj_7_s_l.png" />
+            <PlistImageFile Name="mj_7_s_r.png" Key="mj_7_s_r.png" />
+            <PlistImageFile Name="mj_8_b.png" Key="mj_8_b.png" />
+            <PlistImageFile Name="mj_8_s.png" Key="mj_8_s.png" />
+            <PlistImageFile Name="mj_8_s_l.png" Key="mj_8_s_l.png" />
+            <PlistImageFile Name="mj_8_s_r.png" Key="mj_8_s_r.png" />
+            <PlistImageFile Name="mj_9_b.png" Key="mj_9_b.png" />
+            <PlistImageFile Name="mj_9_s.png" Key="mj_9_s.png" />
+            <PlistImageFile Name="mj_9_s_l.png" Key="mj_9_s_l.png" />
+            <PlistImageFile Name="mj_9_s_r.png" Key="mj_9_s_r.png" />
+            <PlistImageFile Name="mj_back_b.png" Key="mj_back_b.png" />
+            <PlistImageFile Name="mj_back_b_lie.png" Key="mj_back_b_lie.png" />
+            <PlistImageFile Name="mj_back_s.png" Key="mj_back_s.png" />
+            <PlistImageFile Name="mj_back_s_l.png" Key="mj_back_s_l.png" />
+            <PlistImageFile Name="mj_back_s_l_lie.png" Key="mj_back_s_l_lie.png" />
+            <PlistImageFile Name="mj_back_s_l_stand.png" Key="mj_back_s_l_stand.png" />
+            <PlistImageFile Name="mj_back_s_lie.png" Key="mj_back_s_lie.png" />
+            <PlistImageFile Name="mj_back_s_r.png" Key="mj_back_s_r.png" />
+            <PlistImageFile Name="mj_back_s_r_lie.png" Key="mj_back_s_r_lie.png" />
+            <PlistImageFile Name="mj_back_s_r_stand.png" Key="mj_back_s_r_stand.png" />
+            <PlistImageFile Name="mj_back_s_stand.png" Key="mj_back_s_stand.png" />
+          </PlistImageFolder>
+          <PlistImageFolder Image="playing_atlas.png" PListFile="playing_atlas.plist" Name=".playing_atlas_PList.Dir">
+            <PlistImageFile Name="mj_btn_chow.png" Key="mj_btn_chow.png" />
+            <PlistImageFile Name="mj_btn_hu.png" Key="mj_btn_hu.png" />
+            <PlistImageFile Name="mj_btn_kong.png" Key="mj_btn_kong.png" />
+            <PlistImageFile Name="mj_btn_pass.png" Key="mj_btn_pass.png" />
+            <PlistImageFile Name="mj_btn_pong.png" Key="mj_btn_pong.png" />
+            <PlistImageFile Name="mj_diceSmall_yxn_pic_1.png" Key="mj_diceSmall_yxn_pic_1.png" />
+            <PlistImageFile Name="mj_diceSmall_yxn_pic_2.png" Key="mj_diceSmall_yxn_pic_2.png" />
+            <PlistImageFile Name="mj_diceSmall_yxn_pic_3.png" Key="mj_diceSmall_yxn_pic_3.png" />
+            <PlistImageFile Name="mj_diceSmall_yxn_pic_4.png" Key="mj_diceSmall_yxn_pic_4.png" />
+            <PlistImageFile Name="mj_diceSmall_yxn_pic_5.png" Key="mj_diceSmall_yxn_pic_5.png" />
+            <PlistImageFile Name="mj_diceSmall_yxn_pic_6.png" Key="mj_diceSmall_yxn_pic_6.png" />
+            <PlistImageFile Name="mj_mahj_remain.png" Key="mj_mahj_remain.png" />
+            <PlistImageFile Name="mj_tt_remain.png" Key="mj_tt_remain.png" />
+          </PlistImageFolder>
+          <PlistImageFolder Image="pong_atlas.png" PListFile="pong_atlas.plist" Name=".pong_atlas_PList.Dir">
+            <PlistImageFile Name="mj_ani_pong_0.png" Key="mj_ani_pong_0.png" />
+            <PlistImageFile Name="mj_ani_pong_1.png" Key="mj_ani_pong_1.png" />
+            <PlistImageFile Name="mj_ani_pong_10.png" Key="mj_ani_pong_10.png" />
+            <PlistImageFile Name="mj_ani_pong_11.png" Key="mj_ani_pong_11.png" />
+            <PlistImageFile Name="mj_ani_pong_12.png" Key="mj_ani_pong_12.png" />
+            <PlistImageFile Name="mj_ani_pong_13.png" Key="mj_ani_pong_13.png" />
+            <PlistImageFile Name="mj_ani_pong_2.png" Key="mj_ani_pong_2.png" />
+            <PlistImageFile Name="mj_ani_pong_3.png" Key="mj_ani_pong_3.png" />
+            <PlistImageFile Name="mj_ani_pong_4.png" Key="mj_ani_pong_4.png" />
+            <PlistImageFile Name="mj_ani_pong_5.png" Key="mj_ani_pong_5.png" />
+            <PlistImageFile Name="mj_ani_pong_6.png" Key="mj_ani_pong_6.png" />
+            <PlistImageFile Name="mj_ani_pong_7.png" Key="mj_ani_pong_7.png" />
+            <PlistImageFile Name="mj_ani_pong_8.png" Key="mj_ani_pong_8.png" />
+            <PlistImageFile Name="mj_ani_pong_9.png" Key="mj_ani_pong_9.png" />
+          </PlistImageFolder>
+          <Image Name="mg_mutiply_chow.png" />
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

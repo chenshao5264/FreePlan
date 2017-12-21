@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>Lobby/Images/set/cjwt.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,296},{187,53}}</string>
+				<key>offset</key>
+				<string>{0,-4}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{209,61}</string>
+			</dict>
+			<key>Lobby/Images/set/cjwt_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{438,1},{209,61}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{209,61}</string>
+			</dict>
+			<key>Lobby/Images/set/fk_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{302,1},{219,80}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{219,80}</string>
+			</dict>
+			<key>Lobby/Images/set/gfenghuan.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{190,351},{141,52}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{141,52}</string>
+			</dict>
+			<key>Lobby/Images/set/jizjh.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,222},{187,53}}</string>
+				<key>offset</key>
+				<string>{0,-4}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{209,61}</string>
+			</dict>
+			<key>Lobby/Images/set/jizjh_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{438,212},{209,61}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{209,61}</string>
+			</dict>
+			<key>Lobby/Images/set/toux.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{423,423},{87,87}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{87,87}</string>
+			</dict>
+			<key>Lobby/Images/set/wafagz.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,351},{187,53}}</string>
+				<key>offset</key>
+				<string>{0,-4}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{209,61}</string>
+			</dict>
+			<key>Lobby/Images/set/wafagz_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,423},{209,61}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{209,61}</string>
+			</dict>
+			<key>Lobby/Images/set/yinxiao.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{403,296},{46,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{46,22}</string>
+			</dict>
+			<key>Lobby/Images/set/yinyue.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{403,344},{45,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{45,22}</string>
+			</dict>
+			<key>Lobby/Images/set/youxgy.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{190,296},{187,53}}</string>
+				<key>offset</key>
+				<string>{0,-4}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{209,61}</string>
+			</dict>
+			<key>Lobby/Images/set/youxgy_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{212,423},{209,61}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{209,61}</string>
+			</dict>
+			<key>Lobby/Images/set/btnPY-n.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{299,59}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{299,59}</string>
+			</dict>
+			<key>Lobby/Images/set/btnPY-s.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{384,1},{293,52}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{293,52}</string>
+			</dict>
+			<key>Lobby/Images/set/py-KSF.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,486},{159,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{159,24}</string>
+			</dict>
+			<key>Lobby/Images/set/py-PTHNan.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{379,296},{110,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{110,22}</string>
+			</dict>
+			<key>Lobby/Images/set/py-PTHNv.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{299,486},{111,23}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{111,23}</string>
+			</dict>
+			<key>Lobby/Images/set/py-WM.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{162,486},{135,23}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{135,23}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Set.png</string>
+			<key>realTextureFileName</key>
+			<string>Set.png</string>
+			<key>size</key>
+			<string>{511,511}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>511</integer>
+			<key>height</key>
+			<integer>511</integer>
+		</dict>
+	</dict>
+</plist>

@@ -1,0 +1,1 @@
+tp dice  --sheet dice_atlas.png --data dice_atlas.plist --format cocos2d --max-size 1024 --allow-free-size --no-trim
