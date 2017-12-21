@@ -78,6 +78,8 @@
               <PlistImageFile Name="lobby_table_enter.png" Key="lobby_table_enter.png" />
               <PlistImageFile Name="lobby_table_num_bg.png" Key="lobby_table_num_bg.png" />
               <PlistImageFile Name="lobby_table_vsing.png" Key="lobby_table_vsing.png" />
+              <PlistImageFile Name="lobby_btn_bx.png" Key="lobby_btn_bx.png" />
+              <PlistImageFile Name="lobby_btn_friend.png" Key="lobby_btn_friend.png" />
             </PlistImageFolder>
             <Image Name="bg_lobby_1.jpg" />
             <Image Name="bg_lobby_2.jpg" />
@@ -129,6 +131,7 @@
               <PlistImageFile Name="input_sp9_1.png" Key="input_sp9_1.png" />
               <PlistImageFile Name="reward_dialog_title.png" Key="reward_dialog_title.png" />
               <PlistImageFile Name="txt_hd.png" Key="txt_hd.png" />
+              <PlistImageFile Name="tt_wxts.png" Key="tt_wxts.png" />
             </PlistImageFolder>
           </Folder>
           <Folder Name="shop">
@@ -162,6 +165,9 @@
             <Fnt Name="fnt_sd_sz.fnt" />
             <Fnt Name="fnt_sd_sz2.fnt" />
             <Fnt Name="fnt_sd_sz3.fnt" />
+          </Folder>
+          <Folder Name="signin">
+            <Fnt Name="fnt_sign_day.fnt" />
           </Folder>
         </Folder>
         <Folder Name="others">
@@ -1043,6 +1049,10 @@
             <PlistImageFile Name="Lobby_Images_Match_Champion_WaitNode_ZZPPZ1.png" Key="Lobby/Images/Match/Champion/WaitNode/ZZPPZ1.png" />
             <PlistImageFile Name="Lobby_Images_Match_Champion_WaitNode_ZZPPZ2.png" Key="Lobby/Images/Match/Champion/WaitNode/ZZPPZ2.png" />
           </PlistImageFolder>
+          <PlistParticleFile Name="xingxinglihebao001.plist" />
+          <PlistParticleFile Name="zhuanguang001.plist" />
+          <PlistParticleFile Name="jindutiaohuo001.plist" />
+          <PlistParticleFile Name="jindutiaojiemian001.plist" />
         </Folder>
       </RootFolder>
     </Group>

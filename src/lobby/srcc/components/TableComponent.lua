@@ -7,6 +7,7 @@ local cc = cc
 local Global     = gg.Global
 local TableModel = gg.TableModel
 local ggGlobal   = gg.Global
+local ggUIHelper = gg.UIHelper
 
 local M = class("TableComponent", function()
     return cc.CSLoader:createNode(Global:getCsbFile("components/ProjTable"))
@@ -31,6 +32,10 @@ function M:ctor(tableNo)
         self.imgSeats[i] = self:getChildByName("Image_Seat_" ..i)
         self.imgSeats[i].imgAvatar = self.imgSeats[i]:getChildByName("Image_Avatar"):hide()
         self.imgSeats[i].imgOK     = self.imgSeats[i]:getChildByName("Image_OK"):hide()
+
+        self.imgSeats[i]:onClick_(function(obj)
+            ggUIHelper:showOneMsgBox("开局消耗1个钻石")
+        end)
     end
 end
 

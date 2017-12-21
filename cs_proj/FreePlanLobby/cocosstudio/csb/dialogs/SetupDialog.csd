@@ -31,17 +31,6 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="setting_title_1" ActionTag="710682660" Tag="86" IconVisible="False" LeftMargin="-67.5000" RightMargin="-67.5000" TopMargin="-213.4994" BottomMargin="160.4994" ctype="SpriteObjectData">
-            <Size X="135.0000" Y="53.0000" />
-            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position Y="186.9994" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-            <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition />
-            <PreSize X="0.0000" Y="0.0000" />
-            <FileData Type="PlistSubImage" Path="setting_title.png" Plist="images/setup/setup_atlas.plist" />
-            <BlendFunc Src="1" Dst="771" />
-          </AbstractNodeData>
           <AbstractNodeData Name="Slider_Music" ActionTag="1645999714" Tag="87" IconVisible="False" LeftMargin="-229.6644" RightMargin="-165.3356" TopMargin="-52.0000" BottomMargin="4.0000" TouchEnable="True" PercentInfo="85" ctype="SliderObjectData">
             <Size X="395.0000" Y="48.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -81,7 +70,7 @@
             <FileData Type="PlistSubImage" Path="setting_music.png" Plist="images/setup/setup_atlas.plist" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="setting_sound_effect_3" ActionTag="1371421335" Tag="90" IconVisible="False" LeftMargin="-233.0000" RightMargin="165.0000" TopMargin="26.0001" BottomMargin="-66.0001" ctype="SpriteObjectData">
+          <AbstractNodeData Name="setting_sound_effect_3" ActionTag="1371421335" Tag="90" IconVisible="False" LeftMargin="-233.0012" RightMargin="165.0012" TopMargin="26.0001" BottomMargin="-66.0001" ctype="SpriteObjectData">
             <Size X="68.0000" Y="40.0000" />
             <AnchorPoint ScaleX="0.4559" ScaleY="0.6000" />
             <Position X="-202.0000" Y="-42.0001" />
@@ -92,10 +81,10 @@
             <FileData Type="PlistSubImage" Path="setting_sound_effect.png" Plist="images/setup/setup_atlas.plist" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Sprite_On_Tag_Music" ActionTag="1775649178" Tag="92" IconVisible="False" LeftMargin="184.1293" RightMargin="-245.1293" TopMargin="-53.0000" BottomMargin="3.0000" ctype="SpriteObjectData">
+          <AbstractNodeData Name="Sprite_On_Tag_Music" ActionTag="1775649178" Tag="92" IconVisible="False" LeftMargin="187.1293" RightMargin="-248.1293" TopMargin="-53.0001" BottomMargin="3.0001" ctype="SpriteObjectData">
             <Size X="61.0000" Y="50.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="214.6293" Y="28.0000" />
+            <Position X="217.6293" Y="28.0001" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
@@ -103,16 +92,28 @@
             <FileData Type="PlistSubImage" Path="setting_max_sound_sign.png" Plist="images/setup/setup_atlas.plist" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Sprite_On_Tag_Effect" ActionTag="-916674033" Tag="104" IconVisible="False" LeftMargin="184.1293" RightMargin="-245.1293" TopMargin="77.0002" BottomMargin="-127.0002" ctype="SpriteObjectData">
+          <AbstractNodeData Name="Sprite_On_Tag_Effect" ActionTag="-916674033" Tag="104" IconVisible="False" LeftMargin="187.1293" RightMargin="-248.1293" TopMargin="77.0003" BottomMargin="-127.0003" ctype="SpriteObjectData">
             <Size X="61.0000" Y="50.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="214.6293" Y="-102.0002" />
+            <Position X="217.6293" Y="-102.0003" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
             <FileData Type="PlistSubImage" Path="setting_max_sound_sign.png" Plist="images/setup/setup_atlas.plist" />
             <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Text_Title" ActionTag="633362191" Tag="164" IconVisible="False" LeftMargin="-32.0000" RightMargin="-32.0000" TopMargin="-193.0000" BottomMargin="157.0000" FontSize="26" LabelText="设 置" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+            <Size X="64.0000" Y="36.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position Y="175.0000" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="0" G="128" B="0" />
+            <PrePosition />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FontResource Type="Normal" Path="fonts/msyhbd.ttf" Plist="" />
+            <OutlineColor A="255" R="191" G="191" B="191" />
+            <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
         </Children>
       </ObjectData>

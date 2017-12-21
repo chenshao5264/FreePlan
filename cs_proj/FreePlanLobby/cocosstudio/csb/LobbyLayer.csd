@@ -158,13 +158,13 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Button_Mail" ActionTag="1421404625" Tag="357" IconVisible="False" LeftMargin="798.9613" RightMargin="281.0387" TopMargin="566.9192" BottomMargin="13.0808" TouchEnable="True" FontSize="14" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="26" Scale9Height="38" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+          <AbstractNodeData Name="Button_Mail" ActionTag="1421404625" Tag="357" IconVisible="False" LeftMargin="686.4604" RightMargin="393.5396" TopMargin="565.9189" BottomMargin="14.0811" TouchEnable="True" FontSize="14" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="26" Scale9Height="38" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="56.0000" Y="60.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="826.9613" Y="43.0808" />
+            <Position X="714.4604" Y="44.0811" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.7280" Y="0.0673" />
+            <PrePosition X="0.6289" Y="0.0689" />
             <PreSize X="0.0493" Y="0.0938" />
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
@@ -173,28 +173,28 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Button_Task" ActionTag="304702716" Tag="356" IconVisible="False" LeftMargin="700.6716" RightMargin="378.3284" TopMargin="561.9189" BottomMargin="13.0811" TouchEnable="True" FontSize="14" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="27" Scale9Height="43" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
-            <Size X="57.0000" Y="65.0000" />
+          <AbstractNodeData Name="Button_Friend" ActionTag="304702716" Tag="356" IconVisible="False" LeftMargin="778.4998" RightMargin="288.5002" TopMargin="561.9189" BottomMargin="14.0811" TouchEnable="True" FontSize="14" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="39" Scale9Height="42" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+            <Size X="69.0000" Y="64.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="729.1716" Y="45.5811" />
+            <Position X="812.9998" Y="46.0811" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.6419" Y="0.0712" />
-            <PreSize X="0.0502" Y="0.1016" />
+            <PrePosition X="0.7157" Y="0.0720" />
+            <PreSize X="0.0607" Y="0.1000" />
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
-            <PressedFileData Type="PlistSubImage" Path="lobby_btn_task.png" Plist="images/lobby/lobby_atlas.plist" />
-            <NormalFileData Type="PlistSubImage" Path="lobby_btn_task.png" Plist="images/lobby/lobby_atlas.plist" />
+            <PressedFileData Type="PlistSubImage" Path="lobby_btn_friend.png" Plist="images/lobby/lobby_atlas.plist" />
+            <NormalFileData Type="PlistSubImage" Path="lobby_btn_friend.png" Plist="images/lobby/lobby_atlas.plist" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Button_Activity" ActionTag="-1377193757" Tag="263" IconVisible="False" LeftMargin="602.3792" RightMargin="476.6208" TopMargin="561.9189" BottomMargin="13.0811" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="27" Scale9Height="43" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+          <AbstractNodeData Name="Button_Activity" ActionTag="-1377193757" Tag="263" IconVisible="False" LeftMargin="593.4217" RightMargin="485.5783" TopMargin="560.9189" BottomMargin="14.0811" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="27" Scale9Height="43" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="57.0000" Y="65.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="630.8792" Y="45.5811" />
+            <Position X="621.9217" Y="46.5811" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.5554" Y="0.0712" />
+            <PrePosition X="0.5475" Y="0.0728" />
             <PreSize X="0.0502" Y="0.1016" />
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
@@ -218,7 +218,7 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="img_renwu" Visible="False" ActionTag="1580522400" Tag="188" IconVisible="False" LeftMargin="-62.8315" RightMargin="703.8315" TopMargin="105.9992" BottomMargin="0.0008" ctype="SpriteObjectData">
+          <AbstractNodeData Name="img_renwu" ActionTag="1580522400" Tag="188" IconVisible="False" LeftMargin="-62.8315" RightMargin="703.8315" TopMargin="105.9992" BottomMargin="0.0008" ctype="SpriteObjectData">
             <Size X="495.0000" Y="534.0000" />
             <AnchorPoint />
             <Position X="-62.8315" Y="0.0008" />
@@ -228,6 +228,21 @@
             <PreSize X="0.4357" Y="0.8344" />
             <FileData Type="PlistSubImage" Path="img_renwu.png" Plist="images/lobby/lobby_atlas.plist" />
             <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Button_bx" ActionTag="-1642568371" Tag="84" IconVisible="False" LeftMargin="960.0000" TopMargin="560.0000" TouchEnable="True" FontSize="14" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="146" Scale9Height="58" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+            <Size X="176.0000" Y="80.0000" />
+            <AnchorPoint ScaleX="1.0000" />
+            <Position X="1136.0000" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="1.0000" />
+            <PreSize X="0.1549" Y="0.1250" />
+            <TextColor A="255" R="65" G="65" B="70" />
+            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
+            <PressedFileData Type="PlistSubImage" Path="lobby_btn_bx.png" Plist="images/lobby/lobby_atlas.plist" />
+            <NormalFileData Type="PlistSubImage" Path="lobby_btn_bx.png" Plist="images/lobby/lobby_atlas.plist" />
+            <OutlineColor A="255" R="255" G="0" B="0" />
+            <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
           <AbstractNodeData Name="Image_bg_2" Visible="False" ActionTag="-1760367956" Tag="290" IconVisible="False" LeftEage="374" RightEage="374" TopEage="237" BottomEage="237" Scale9OriginX="374" Scale9OriginY="237" Scale9Width="388" Scale9Height="165" ctype="ImageViewObjectData">
             <Size X="1136.0000" Y="640.0000" />

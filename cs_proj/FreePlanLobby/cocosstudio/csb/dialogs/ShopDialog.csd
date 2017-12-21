@@ -77,7 +77,7 @@
             <PreSize X="0.0000" Y="0.0000" />
             <FileData Type="PlistSubImage" Path="bg_dialog_sp9_3.png" Plist="images/share/share_atlas.plist" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Image_Goods_Item" ActionTag="747532339" Tag="388" IconVisible="False" LeftMargin="67.4539" RightMargin="-269.4539" TopMargin="-542.4022" BottomMargin="353.4022" LeftEage="66" RightEage="66" TopEage="62" BottomEage="62" Scale9OriginX="66" Scale9OriginY="62" Scale9Width="70" Scale9Height="65" ctype="ImageViewObjectData">
+          <AbstractNodeData Name="Image_Goods_Item" ActionTag="747532339" Tag="388" IconVisible="False" LeftMargin="-732.2072" RightMargin="530.2072" TopMargin="-18.1957" BottomMargin="-170.8043" LeftEage="66" RightEage="66" TopEage="62" BottomEage="62" Scale9OriginX="66" Scale9OriginY="62" Scale9Width="70" Scale9Height="65" ctype="ImageViewObjectData">
             <Size X="202.0000" Y="189.0000" />
             <Children>
               <AbstractNodeData Name="Image_Extra_Bg" ActionTag="1508521492" Tag="390" IconVisible="False" LeftMargin="135.9860" RightMargin="-8.9860" TopMargin="-1.7152" BottomMargin="126.7152" LeftEage="24" RightEage="24" TopEage="21" BottomEage="21" Scale9OriginX="24" Scale9OriginY="21" Scale9Width="27" Scale9Height="22" ctype="ImageViewObjectData">
@@ -142,7 +142,7 @@
               </AbstractNodeData>
             </Children>
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="168.4539" Y="447.9022" />
+            <Position X="-631.2072" Y="-76.3043" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />

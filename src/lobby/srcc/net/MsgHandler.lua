@@ -244,7 +244,7 @@ MsgHandler[protocolNum.PL_PHONE_IOS_RECHARGEINFO_ACK_P] = function(buf)
 
     cclog.warn(AppModel:getShopGooldsInfo(), "AppModel:getShopGooldsInfo()")
 
-    gg.RequestManager:reqRecharge(AppModel:getShopGooldsInfo()[2][1].productId)
+    --gg.RequestManager:reqRecharge(AppModel:getShopGooldsInfo()[2][1].productId)
 end
 
 --// 充值结果

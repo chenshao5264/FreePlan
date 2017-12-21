@@ -4,10 +4,10 @@
 --
 
 
-
 LOBBY_SRC_ROOT = "lobby.srcc."
 
 FONT_MSYHBD = "fronts/msyhbd"
+
 
 
 SPLASH_SCENE = "SplashScene"
@@ -15,7 +15,7 @@ LOGIN_SCENE  = "LoginScene"
 LOBBY_SCENE  = "LobbyScene"
 GAME_SCENE   = "GameScene"
 
-LAUNCH_SCENE = LOBBY_SCENE
+LAUNCH_SCENE = SPLASH_SCENE
 
 LAUNCH_GAME = "bfmj"
 GAME_ID = 1

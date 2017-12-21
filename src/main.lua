@@ -13,7 +13,7 @@ cc.FileUtils:getInstance():addSearchPath(writeablePath .."update", true)
 require "config" 
 require "cocos.init"
 require "ccEx.cclog.init"
-require "AppDelegate"
+local appDelegate = require "AppDelegate"
 
 --for CCLuaEngine traceback
 function __G__TRACKBACK__(msg)
@@ -24,7 +24,7 @@ function __G__TRACKBACK__(msg)
 end
 
 local function main()
-    runApp()
+    appDelegate:runApp()
 end
 
 xpcall(main, __G__TRACKBACK__)

@@ -47,14 +47,13 @@ end
 --  */
 function UIHelper:showShade(params)
 
-    self:removeShade()
     params = params or {}
     local layShade = ccui.Layout:create()
     layShade:setContentSize(cc.size(display.width, display.height))
     layShade:setTouchEnabled(true)
     layShade:setBackGroundColorType(1)
     layShade:setBackGroundColor(cc.c3b(0, 0, 0))
-    layShade:setOpacity(params.opacity or 100)
+    layShade:setOpacity(params.opacity or 150)
     layShade:setName(params.name or "layer_shade")
     layShade:addTo(self:getRoot(), params.zOrder or E_ZORDER.SHADE)
 
@@ -72,6 +71,7 @@ end
 local function playOpenAction(node)
     openendDialogs[#openendDialogs + 1] = node
 
+    node:show()
     node:setScale(GOLD_TIME)
     local act1 = cc.ScaleTo:create(GOLD_HALF_TIME, 1)
     node:stopAllActions()
@@ -103,7 +103,7 @@ end
 
 
 local function showMsgBox(content, type, callback)
-    UIHelper:showShade({zOrder = E_ZORDER.POP_WINDOWS - 1})
+    UIHelper:showShade({zOrder = E_ZORDER.POP_WINDOWS - 1, name = "box_shader"})
 
     UIHelper:getRoot():removeChildByName("msg_box")
 
@@ -113,7 +113,7 @@ local function showMsgBox(content, type, callback)
                 if callback then
                     callback(ret)
                 end
-                UIHelper:removeShade()
+                UIHelper:removeShade("box_shader")
                 playCloseAction(msgBox)
             end)
         :pos(display.cx, display.cy)
@@ -212,8 +212,13 @@ function UIHelper:showDialog(name)
         :pos(display.cx, display.cy)
         :addTo(self:getRoot(), E_ZORDER.COMMOM_DIALOG)
         :name(name)
+        :hide()
 
-    playOpenAction(dialogNode)
+    --// 优化打开动画
+    dialogNode:performWithDelay(function()
+        playOpenAction(dialogNode)
+    end, 0)
+    
 end
 
 -- /**

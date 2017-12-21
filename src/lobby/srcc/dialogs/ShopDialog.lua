@@ -117,24 +117,33 @@ end
 
             imgItem:onClick_(handler(self, self.onBuyClick))
             items[#items + 1] = imgItem
-            imgItem:getChildByName("BitmapFontLabel_Quantity"):setString(ggUtility.getShortBean(info.productNum) .."d")
+            
             local imgIcon = imgItem:getChildByName("Image_Icon")
             imgIcon:ignoreContentAdaptWithSize(true)  
             imgItem:getChildByName("BitmapFontLabel_Price"):setString(info.productPrice)
-            if info.productExtra == 0 then
-                imgItem:getChildByName("Image_Extra_Bg"):hide()
-                imgItem:getChildByName("BitmapFontLabel_Extra"):hide()
-            else
-                imgItem:getChildByName("BitmapFontLabel_Extra"):setString(ggUtility.getShortBean(info.productExtra) .."d")
-            end
+            
             local imgCurrencyType = imgItem:getChildByName("Image_Currency_Type")
             imgCurrencyType:ignoreContentAdaptWithSize(true)
             if i == ggPayType.DIAMOND then
+                imgItem:getChildByName("BitmapFontLabel_Quantity"):setString(ggUtility.getShortBean(info.productNum) .."d")
                 imgIcon:loadTexture("shop_icon_bean_" .. j ..".png", 1)
                 imgCurrencyType:loadTexture("shop_icon_currency_type_diamond.png", 1)
+                if info.productExtra == 0 then
+                    imgItem:getChildByName("Image_Extra_Bg"):hide()
+                    imgItem:getChildByName("BitmapFontLabel_Extra"):hide()
+                else
+                    imgItem:getChildByName("BitmapFontLabel_Extra"):setString(ggUtility.getShortBean(info.productExtra) .."d")
+                end
             else
+                imgItem:getChildByName("BitmapFontLabel_Quantity"):setString(ggUtility.getShortBean(info.productNum) .."z")
                 imgIcon:loadTexture("shop_icon_diamond_" .. j ..".png", 1)
                 imgCurrencyType:loadTexture("shop_icon_currency_type_rmb.png", 1)
+                if info.productExtra == 0 then
+                    imgItem:getChildByName("Image_Extra_Bg"):hide()
+                    imgItem:getChildByName("BitmapFontLabel_Extra"):hide()
+                else
+                    imgItem:getChildByName("BitmapFontLabel_Extra"):setString(ggUtility.getShortBean(info.productExtra) .."z")
+                end
             end
         end
 

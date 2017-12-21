@@ -14,13 +14,8 @@ function M:ctor(...)
     --// todo
     --// ...
 
-    local loginView = myApp:createView("LoginView")
-    self:addChild(loginView, 1)
-
     local loginCtrl = myApp:createController("LoginController")
     self:addChild(loginCtrl, 1)
-
-    loginCtrl:bindView(loginView)
 end
 
 function M:onInit()

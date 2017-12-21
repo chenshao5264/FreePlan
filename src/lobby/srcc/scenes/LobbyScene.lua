@@ -11,13 +11,8 @@ function M:ctor(...)
     --// todo
     --// ...
 
-    local lobbyView = myApp:createView("LobbyView")
-    self:addChild(lobbyView, 1)
-
     local lobbyCtrl = myApp:createController("LobbyController")
     self:addChild(lobbyCtrl, 1)
-
-    lobbyCtrl:bindView(lobbyView)
 end
 
 function M:onInit()

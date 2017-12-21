@@ -8,46 +8,15 @@ local BaseController = class("BaseController", function()
     return cc.Node:create()
 end)
 
-function BaseController:ctor()
+function BaseController:ctor(csb)
     self:enableNodeEvents()
-    self:onInit()
-end
-
-function BaseController:showShade(showTime)
-    if not self.layShade then
-        self.layShade = ccui.Layout:create()
-        self.layShade:setPosition(0, 0)
-        self.layShade:setContentSize(cc.size(display.width, display.height))
-        self.layShade:setTouchEnabled(true)
-        --self.layShade:setBackGroundColorType(1)
-        --self.layShade:setBackGroundColor(cc.c3b(255, 0, 0))
-        self._view:addChild(self.layShade, 0xffffff)
+    
+    if csb then
+        self.resNode = cc.CSLoader:createNode(csb)
+        self:addChild(self.resNode, 1)
     end
-    if showTime then
-        self.layShade:performWithDelay(function(obj)
-            obj:hide()
-        end, showTime)
-    end
-
-    self.layShade:show()
-end
-
-function BaseController:hideShade()
-    self.layShade:hide()
-end
-
--- /**
---  * 绑定控制器对应的视图
---  */
-function BaseController:bindView(view)
-    self.view    = view
-    self.resNode = view.resNode
 
     self:onRelateViewElements()
-end
-
-function BaseController:onInit()
-    self._models = {}
 end
 
 function BaseController:onEnterTransitionFinish()

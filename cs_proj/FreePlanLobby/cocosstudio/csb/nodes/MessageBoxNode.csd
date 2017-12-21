@@ -16,8 +16,8 @@
             <PreSize X="0.0000" Y="0.0000" />
             <FileData Type="PlistSubImage" Path="bg_msgbox_1.png" Plist="images/share/share_atlas.plist" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Text_Title" ActionTag="-1059442134" Tag="134" IconVisible="False" LeftMargin="-30.0000" RightMargin="-30.0000" TopMargin="-131.8547" BottomMargin="97.8547" FontSize="24" LabelText="提 示" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-            <Size X="60.0000" Y="34.0000" />
+          <AbstractNodeData Name="Text_Title" ActionTag="-1059442134" Tag="134" IconVisible="False" LeftMargin="-26.5000" RightMargin="-26.5000" TopMargin="-131.8547" BottomMargin="97.8547" FontSize="24" LabelText="提示" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+            <Size X="53.0000" Y="34.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position Y="114.8547" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />

@@ -36,4 +36,11 @@ M.PL_PHONE_IOS_RECHARGEINFO_REQ_P = 51056   --// 充值商品信息请求
 M.PL_PHONE_IOS_RECHARGEINFO_ACK_P = 51057   --// 
 M.PL_PHONE_IOS_RECHARGE_REQ_P     = 51053   --// 充值商品信息回复 
 M.PL_PHONE_IOS_RECHARGE_ACK_P     = 51055   --// 充值结果
+
+
+-- M.PL_PHONE_LC_SHOWFIRSTINFO_ACK_P = 51060    --// 发送给客户端是否显示首冲按钮
+-- M.PL_PHONE_LC_INISIGNININFO_ACK_P = 51079    --// 初始化签到信息给客户端
+
+--// 服务器暂时屏蔽发送
+-- M.SC_LOGIN_TOKEN_P                = 11573    --// 登陆成功服务器发送玩家代币信息
 return M

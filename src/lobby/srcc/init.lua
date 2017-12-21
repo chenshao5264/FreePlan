@@ -10,6 +10,7 @@ require("AppConfig")
 
 require("defines.Dialogs")
 require("defines.Constants")
+require("Debug")
 
 --// 单例
 gg.AppModel  = require("models.AppModel").new()
@@ -36,7 +37,7 @@ gg.TableModel = require("models.TableModel").new()
 --// 全局工具类
 gg.Global  = require("public.Global")
 gg.Utility = require("public.utility")
-
+gg.ScreenBlur = require("public.ScreenBlur")
 --// 弹窗管理类
 gg.UIHelper = require("helpers.UIHelper")
 

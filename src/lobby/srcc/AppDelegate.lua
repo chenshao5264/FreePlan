@@ -4,8 +4,9 @@
 -- Brief: 
 --
 
---// 启动app
-function runApp()
+local AppDelegate = {}
+
+function AppDelegate:runApp()
     --local scene = require("scenes.UpdateScene").new()
     --display.runScene(scene)
     
@@ -16,3 +17,5 @@ function runApp()
 
     --myApp:launchGame(LAUNCH_GAME)
 end
+
+return AppDelegate

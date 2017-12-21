@@ -26,22 +26,22 @@
             <PreSize X="0.0000" Y="0.0000" />
             <FileData Type="PlistSubImage" Path="gain_bg_2.png" Plist="images/share/share_atlas.plist" />
           </AbstractNodeData>
-          <AbstractNodeData Name="reward_dialog_title_1" ActionTag="-752616260" Tag="14" IconVisible="False" LeftMargin="-221.5002" RightMargin="-221.4998" TopMargin="-151.4999" BottomMargin="58.4999" ctype="SpriteObjectData">
-            <Size X="443.0000" Y="93.0000" />
+          <AbstractNodeData Name="reward_dialog_title_1" ActionTag="-752616260" Tag="14" IconVisible="False" LeftMargin="-177.0000" RightMargin="-177.0000" TopMargin="-163.0005" BottomMargin="89.0005" ctype="SpriteObjectData">
+            <Size X="354.0000" Y="74.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="-0.0002" Y="104.9999" />
-            <Scale ScaleX="0.7000" ScaleY="0.7000" />
+            <Position Y="126.0005" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
             <FileData Type="PlistSubImage" Path="reward_dialog_title.png" Plist="images/share/share_atlas.plist" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="txt_hd_2" ActionTag="212706339" Tag="15" IconVisible="False" LeftMargin="-63.0002" RightMargin="-64.9998" TopMargin="-142.4999" BottomMargin="77.4999" ctype="SpriteObjectData">
-            <Size X="128.0000" Y="65.0000" />
+          <AbstractNodeData Name="txt_hd_2" ActionTag="212706339" Tag="15" IconVisible="False" LeftMargin="-40.0003" RightMargin="-41.9997" TopMargin="-152.0010" BottomMargin="110.0010" ctype="SpriteObjectData">
+            <Size X="82.0000" Y="42.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="0.9998" Y="109.9999" />
-            <Scale ScaleX="0.5500" ScaleY="0.5500" />
+            <Position X="0.9997" Y="131.0010" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
@@ -58,10 +58,10 @@
             <PreSize X="0.0000" Y="0.0000" />
             <FileData Type="Default" Path="Default/ImageFile.png" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="BitmapFontLabel_Value" ActionTag="-1638457973" Tag="18" IconVisible="False" LeftMargin="-34.0000" RightMargin="-34.0000" TopMargin="77.9999" BottomMargin="-101.9999" LabelText="12345" ctype="TextBMFontObjectData">
+          <AbstractNodeData Name="BitmapFontLabel_Value" ActionTag="-1638457973" Tag="18" IconVisible="False" LeftMargin="-34.0001" RightMargin="-33.9999" TopMargin="78.9999" BottomMargin="-102.9999" LabelText="12345" ctype="TextBMFontObjectData">
             <Size X="68.0000" Y="24.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position Y="-89.9999" />
+            <Position X="-0.0001" Y="-90.9999" />
             <Scale ScaleX="1.3000" ScaleY="1.3000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
