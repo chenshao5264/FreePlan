@@ -48,13 +48,14 @@ function M:onRelateViewElements()
     self.nodeBean.fixedPos    = cc.p(self.nodeBean:getPosition())
     self.nodeDiamond.fixedPos = cc.p(self.nodeDiamond:getPosition())
     self.btnSetup.fixedPos    = cc.p(self.btnSetup:getPosition())
+    self.btnBuyBean    = self.nodeBean:getChildByName("Button_Puls")
+    self.btnBuyDiamond = self.nodeDiamond:getChildByName("Button_Puls")
 
     self.nodeHead:posX(-200)
     self.nodeBean:posY(display.top + 100)
     self.nodeDiamond:posY(display.top + 100)
     self.btnSetup:posY(display.top + 100)
 
-  
     self.btnBX = self.resNode:getChildByName("Button_bx")
     self.btnBX.fixedPos = cc.p(self.btnBX:getPosition())
     self.btnBX:posX(display.right + self.btnBX:getContentSize().width)
@@ -171,7 +172,14 @@ function M:playEnterTablePage()
         self.nodeTables[i] = TableComponent:create(i)
     end
 
-    local gridTables = cc.GridNode:create(self.nodeTables, 3, 125, 2, 520)
+    local params = {
+        totalCount = 6, 
+        colCount   = 2,
+        rowMargin  = 125,
+        colMargin  = 520,
+    }
+
+    local gridTables = cc.GridNode:create(self.nodeTables, params)
         :pos(display.cx, display.cy - 40)
         :addTo(self, 2)
 
@@ -340,6 +348,13 @@ function M:onRegisterButtonClickEvent()
     --// 签到
     self.btnSign:onClick_(function(obj)
         ggUIHelper:showDialog(ggDialog.SignInDialog)
+    end)
+
+    self.btnBuyBean:onClick_(function(obj)
+        ggUIHelper:showDialog(ggDialog.ShopDialog, gg.CurrencyType.BEAN)
+    end)
+    self.btnBuyDiamond:onClick_(function(obj)
+        ggUIHelper:showDialog(ggDialog.ShopDialog, gg.CurrencyType.DIAMOND)
     end)
 end
 

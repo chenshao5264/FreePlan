@@ -18,12 +18,13 @@ local M = class(ggDialog.ShopDialog, function()
 end)
 
 --// step1
-function M:ctor()
+function M:ctor(defaultPage)
 
     self._isReady     = false
     self._buyType     = 0
     self._buyIndex    = 0
     self._buyQuantity = 0
+    self._defaultPage = defaultPage or ggCurrencyType.DIAMOND
 
     local btnClose = self:getChildByName("Button_Close")
     btnClose:onClick_(function(obj)
@@ -51,10 +52,17 @@ function M:ctor()
 
     self:getChildByName("Image_Goods_Item"):hide()
 
-    self.btnDiamond:setEnabled(false)
-    self.btnDiamond:setBright(false)
-    self.btnBean:setEnabled(true)
-    self.btnBean:setBright(true)
+    if self._defaultPage == ggCurrencyType.BEAN then
+        self.btnDiamond:setEnabled(true)
+        self.btnDiamond:setBright(true)
+        self.btnBean:setEnabled(false)
+        self.btnBean:setBright(false)
+    else
+        self.btnDiamond:setEnabled(false)
+        self.btnDiamond:setBright(false)
+        self.btnBean:setEnabled(true)
+        self.btnBean:setBright(true)
+    end
 
     cc.EventProxy.new(myApp, self)
         :on("evt_PL_PHONE_IOS_RECHARGEINFO_ACK_P", function(evt)
@@ -156,16 +164,14 @@ function M:onFillData()
             self.nodeGoods[i] = cc.GridNode:create(items, {totalCount = goodsCount, 
                                                             colCount = 4,
                                                             rowMargin = 20,
-                                                            colMargin = 20,
-                                                            alignment = "center"
+                                                            colMargin = 20
                                                             })
                 :posY(-65)
                 :addTo(self, 1)
             self.nodeGoods[i]:setCascadeOpacityEnabled(true)
         end
     end
-    
-    self:setDefaultPage(ggCurrencyType.DIAMOND)
+    self:setDefaultPage(self._defaultPage)
 end
 
 --// 购买按钮事件回调

@@ -208,10 +208,10 @@ end
 -- /**
 --  * 打开某个弹窗
 --  */
-function UIHelper:showDialog(name)
+function UIHelper:showDialog(name, ...)
     UIHelper:showShade({zOrder = E_ZORDER.COMMOM_DIALOG - 1})
 
-    local dialogNode = require("dialogs." ..name).new()
+    local dialogNode = require("dialogs." ..name).new(...)
         :pos(display.cx, display.cy)
         :addTo(self:getRoot(), E_ZORDER.COMMOM_DIALOG)
         :name(name)

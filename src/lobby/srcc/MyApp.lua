@@ -1,5 +1,8 @@
 local MyApp = class("MyApp")
 
+local string_format = string.format
+
+local cc = cc
 local display = display
 
 function MyApp:ctor()
@@ -8,9 +11,6 @@ function MyApp:ctor()
 
     cc(self):addComponent("ccEx.cc.components.behavior.EventProtocol"):exportMethods()
 
-    if CC_SHOW_FPS then
-        cc.Director:getInstance():setDisplayStats(true)
-    end
 
     display.loadSpriteFrames("images/share/share_atlas.plist", "images/share/share_atlas.png")
     display.loadSpriteFrames("images/game/game_atlas.plist", "images/game/game_atlas.png")
@@ -53,7 +53,7 @@ end
 --// 启动小游戏
 function MyApp:launchGame(name)
     gg.ClientSocket:setIsQueuePause(true)
-    game = require(string.format("%s.srcc.main", name))
+    game = require(string_format("%s.srcc.main", name))
     game:launch()
 end
 
@@ -69,7 +69,7 @@ end
 function MyApp:enterScene(name, isNotWrap)
     --// 切换场景时，不错做消息处理
     gg.ClientSocket:setIsQueuePause(true)
-    local sceneName = string.format("scenes.%s", name)
+    local sceneName = string_format("scenes.%s", name)
     local scene = require(sceneName).new()
     if not isNotWrap then
         display.runScene(scene, "fade", GOLD_TIME)
@@ -78,23 +78,16 @@ function MyApp:enterScene(name, isNotWrap)
     end
 end
 
---// 创建视图
-function MyApp:createView(name)
-    local viewName = string.format("views.%s", name)
-    local view = require(viewName).new()
-    return view
-end
-
 --// 创建控制器
 function MyApp:createController(name)
-    local ctrlName = string.format("controllers.%s", name)
+    local ctrlName = string_format("controllers.%s", name)
     local ctrl = require(ctrlName).new()
     return ctrl
 end
 
 --// 创建csb
 function MyApp:createCsbNode(name)
-    return cc.CSLoader:createNode(string.format("csb/%s.csb", name))
+    return cc.CSLoader:createNode(string_format("csb/%s.csb", name))
 end
 
 return MyApp

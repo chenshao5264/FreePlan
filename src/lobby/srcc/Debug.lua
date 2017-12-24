@@ -13,21 +13,5 @@ _DEBUG_QUICK_LOGIN = true
 
 --_DEBUG_SHOP = true
 
---LAUNCH_SCENE = LOBBY_SCENE
---_DEBUG_SHOP = true
-
-_Debug_Table = {}
-_Debug_Table[1] = {}
-
-_Debug_Table[2] = {}
-_Debug_Table[2] = {[0] = {}}
-
-_Debug_Table[3] = {}
-_Debug_Table[3] = {[1] = {}, [2] = {}}
-
-_Debug_Table[4] = {}
-_Debug_Table[4] = {[1] = {}, [2] = {}, [3] = {}}
-
-_Debug_Table[5] = {}
-_Debug_Table[5] = {[0] = {}, [1] = {}, [2] = {}, [3] = {}}
-
+LAUNCH_SCENE = LOBBY_SCENE
+_DEBUG_SHOP = true

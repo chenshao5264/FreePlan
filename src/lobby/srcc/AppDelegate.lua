@@ -10,6 +10,9 @@ function AppDelegate:runApp()
     --local scene = require("scenes.UpdateScene").new()
     --display.runScene(scene)
     
+    if CC_SHOW_FPS then
+        cc.Director:getInstance():setDisplayStats(true)
+    end
     
     --// DBUEG
     myApp = require("MyApp").new()
