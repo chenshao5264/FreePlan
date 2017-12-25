@@ -24,7 +24,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
-            <FileData Type="PlistSubImage" Path="img_avatar0.png" Plist="images/game/game_atlas.plist" />
+            <FileData Type="Default" Path="Default/Sprite.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="Text_Nickname" ActionTag="-1002424406" Tag="33" IconVisible="False" LeftMargin="-61.5000" RightMargin="-61.5000" TopMargin="47.0000" BottomMargin="-73.0000" FontSize="20" LabelText="chenshao01" ShadowOffsetX="1.0000" ShadowOffsetY="-1.0000" ctype="TextObjectData">

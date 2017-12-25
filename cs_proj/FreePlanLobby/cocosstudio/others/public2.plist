@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>Lobby/Images/public/txtJF.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{969,209},{49,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{49,24}</string>
+			</dict>
+			<key>Lobby/Images/public/txtMC.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{969,235},{40,17}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{42,18}</string>
+			</dict>
+			<key>Lobby/Images/public/head0.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{445,1},{151,152}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{152,152}</string>
+			</dict>
+			<key>Lobby/Images/public/head1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{599,1},{151,152}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{152,152}</string>
+			</dict>
+			<key>Lobby/Images/public/btnJPY.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{608,375},{97,97}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{97,97}</string>
+			</dict>
+			<key>Lobby/Images/public/tanchuang-bg -2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{442,275}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{442,275}</string>
+			</dict>
+			<key>Lobby/Images/public/btn-TJ-n.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{753,1},{219,80}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{219,80}</string>
+			</dict>
+			<key>Lobby/Images/public/btn-TJ-s.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{753,83},{219,80}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{219,80}</string>
+			</dict>
+			<key>Lobby/Images/public/btn-QDXG-n.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{445,154},{219,80}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{219,80}</string>
+			</dict>
+			<key>Lobby/Images/public/btn-QDXG-s.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{666,154},{219,80}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{219,80}</string>
+			</dict>
+			<key>Lobby/Images/public/btn-BD-n.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{445,236},{219,80}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{219,80}</string>
+			</dict>
+			<key>Lobby/Images/public/btn-BD-s.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{748,165},{219,80}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{219,80}</string>
+			</dict>
+			<key>Lobby/Images/public/btn-CZMM-n.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{748,247},{219,80}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{219,80}</string>
+			</dict>
+			<key>Lobby/Images/public/btn-CZMM-s.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{748,329},{219,80}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{219,80}</string>
+			</dict>
+			<key>Lobby/Images/public/btn-CZMM-z.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,278},{219,80}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{219,80}</string>
+			</dict>
+			<key>Lobby/Images/public/bg1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{974,1},{206,33}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{214,34}</string>
+			</dict>
+			<key>Lobby/Images/public/btnHistory.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{222,351},{73,74}}</string>
+				<key>offset</key>
+				<string>{-1,-1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{77,76}</string>
+			</dict>
+			<key>Lobby/Images/public/yxn_btn_jsbx.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{222,278},{191,71}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{191,71}</string>
+			</dict>
+			<key>Lobby/Images/public/yxn_btn_sqjs.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{298,351},{65,64}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{65,64}</string>
+			</dict>
+			<key>Lobby/Images/public/yxn_btn_yqhy.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{415,318},{191,71}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{191,71}</string>
+			</dict>
+			<key>Lobby/Images/public/yxn_frame_dc.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1009,1},{29,13}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{29,13}</string>
+			</dict>
+			<key>Lobby/Images/public/yxn_pic_dc.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1009,73},{4,9}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{4,9}</string>
+			</dict>
+			<key>Lobby/Images/public/yxn_pic_wfw.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{969,254},{24,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{24,22}</string>
+			</dict>
+			<key>Lobby/Images/public/yxn_pic_wfy1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1009,54},{10,9}}</string>
+				<key>offset</key>
+				<string>{0,-6}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{24,22}</string>
+			</dict>
+			<key>Lobby/Images/public/yxn_pic_wfy2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{995,298},{16,16}}</string>
+				<key>offset</key>
+				<string>{0,-3}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{24,22}</string>
+			</dict>
+			<key>Lobby/Images/public/yxn_pic_wfy3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{995,254},{24,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{24,22}</string>
+			</dict>
+			<key>Lobby/Images/public/yxn_pic_xhw.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{995,278},{24,18}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{24,18}</string>
+			</dict>
+			<key>Lobby/Images/public/yxn_pic_xhy1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1009,65},{6,12}}</string>
+				<key>offset</key>
+				<string>{-9,-3}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{24,18}</string>
+			</dict>
+			<key>Lobby/Images/public/yxn_pic_xhy2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1009,32},{13,20}}</string>
+				<key>offset</key>
+				<string>{-4,-2}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{21,24}</string>
+			</dict>
+			<key>Lobby/Images/public/yxn_pic_xhy3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{969,278},{21,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{21,24}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>public2.png</string>
+			<key>realTextureFileName</key>
+			<string>public2.png</string>
+			<key>size</key>
+			<string>{1023,473}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1023</integer>
+			<key>height</key>
+			<integer>473</integer>
+		</dict>
+	</dict>
+</plist>

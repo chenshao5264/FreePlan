@@ -74,11 +74,15 @@ function M:onRelateViewElements()
     self.btnRegister = self.resNode:getChildByName("Button_Register")
 
 
+    local canAutoLogin = false
     local account, password = AppModel:readAccount()
     if account ~= "" and password ~= "" then
         self.editboxAccount:setString(account)
         self.editboxPwd:setString("**********")
+        canAutoLogin = true
+    end
 
+    if canAutoLogin and AppModel:getIsAutoLogin() then
         gg.UIHelper:showWaitting("正在登录中")
         if _DEBUG_QUICK_LOGIN then
             gg.RequestManager:reqLoginAccount(account, password, true)

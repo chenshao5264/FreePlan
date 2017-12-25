@@ -44,7 +44,6 @@ function M:fillData()
     for chairID, userInfo in pairs(userInfos) do
         local imgSeat = self.imgSeats[chairID]
         imgSeat.imgAvatar:loadTexture(ggGlobal:getAvatarImageByGender(userInfo.gender), 1)
-        cclog.warn("userInfo.userStatus = " ..userStatus)
     end
 end
 

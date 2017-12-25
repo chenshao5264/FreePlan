@@ -12,6 +12,7 @@
             <Project Name="SetupDialog.csd" Type="Node" />
             <Project Name="ShopDialog.csd" Type="Node" />
             <Project Name="SignInDialog.csd" Type="Node" />
+            <Project Name="UserCenterDialog.csd" Type="Node" />
           </Folder>
           <Folder Name="games">
             <Project Name="AvatarNode.csd" Type="Node" />
@@ -41,8 +42,6 @@
               <PlistImageFile Name="btn_exit_game.png" Key="btn_exit_game.png" />
               <PlistImageFile Name="btn_set.png" Key="btn_set.png" />
               <PlistImageFile Name="img_avatar_bg.png" Key="img_avatar_bg.png" />
-              <PlistImageFile Name="img_avatar0.png" Key="img_avatar0.png" />
-              <PlistImageFile Name="img_avatar1.png" Key="img_avatar1.png" />
               <PlistImageFile Name="img_ready.png" Key="img_ready.png" />
               <PlistImageFile Name="time_bg_1.png" Key="time_bg_1.png" />
               <PlistImageFile Name="time_bg_2.png" Key="time_bg_2.png" />
@@ -76,6 +75,7 @@
               <PlistImageFile Name="lobby_btn_sign.png" Key="lobby_btn_sign.png" />
               <PlistImageFile Name="lobby_btn_task.png" Key="lobby_btn_task.png" />
               <PlistImageFile Name="lobby_handup_tag.png" Key="lobby_handup_tag.png" />
+              <PlistImageFile Name="lobby_red_point.png" Key="lobby_red_point.png" />
               <PlistImageFile Name="lobby_table_bg_1.png" Key="lobby_table_bg_1.png" />
               <PlistImageFile Name="lobby_table_bg_2.png" Key="lobby_table_bg_2.png" />
               <PlistImageFile Name="lobby_table_enter.png" Key="lobby_table_enter.png" />
@@ -113,10 +113,10 @@
               <PlistImageFile Name="bg_dialog_sp9_1.png" Key="bg_dialog_sp9_1.png" />
               <PlistImageFile Name="bg_dialog_sp9_2.png" Key="bg_dialog_sp9_2.png" />
               <PlistImageFile Name="bg_dialog_sp9_3.png" Key="bg_dialog_sp9_3.png" />
+              <PlistImageFile Name="bg_dialog_sp9_4.png" Key="bg_dialog_sp9_4.png" />
               <PlistImageFile Name="bg_msgbox_1.png" Key="bg_msgbox_1.png" />
               <PlistImageFile Name="bg_msgbox_2.png" Key="bg_msgbox_2.png" />
               <PlistImageFile Name="bg_sp9_1.png" Key="bg_sp9_1.png" />
-              <PlistImageFile Name="bg_sp9_2.png" Key="bg_sp9_2.png" />
               <PlistImageFile Name="btn_cancel1.png" Key="btn_cancel1.png" />
               <PlistImageFile Name="btn_cancel2.png" Key="btn_cancel2.png" />
               <PlistImageFile Name="btn_close_1.png" Key="btn_close_1.png" />
@@ -127,12 +127,15 @@
               <PlistImageFile Name="dialog_btn_bg.png" Key="dialog_btn_bg.png" />
               <PlistImageFile Name="gain_bg_1.png" Key="gain_bg_1.png" />
               <PlistImageFile Name="gain_bg_2.png" Key="gain_bg_2.png" />
-              <PlistImageFile Name="img_dialog_title.png" Key="img_dialog_title.png" />
+              <PlistImageFile Name="icon_item_1.png" Key="icon_item_1.png" />
+              <PlistImageFile Name="icon_item_2.png" Key="icon_item_2.png" />
               <PlistImageFile Name="img_loading.png" Key="img_loading.png" />
               <PlistImageFile Name="input_sp9_1.png" Key="input_sp9_1.png" />
               <PlistImageFile Name="reward_dialog_title.png" Key="reward_dialog_title.png" />
               <PlistImageFile Name="tt_wxts.png" Key="tt_wxts.png" />
               <PlistImageFile Name="txt_hd.png" Key="txt_hd.png" />
+              <PlistImageFile Name="img_avatar0.png" Key="img_avatar0.png" />
+              <PlistImageFile Name="img_avatar1.png" Key="img_avatar1.png" />
             </PlistImageFolder>
           </Folder>
           <Folder Name="shop">
@@ -169,14 +172,43 @@
           </Folder>
           <Folder Name="signin">
             <PlistImageFolder Image="signin_atlas.png" PListFile="signin_atlas.plist" Name=".signin_atlas_PList.Dir">
-              <PlistImageFile Name="bg_sign_item_1.png" Key="bg_sign_item_1.png" />
               <PlistImageFile Name="bg_sign_item_2.png" Key="bg_sign_item_2.png" />
               <PlistImageFile Name="btn_djlq.png" Key="btn_djlq.png" />
               <PlistImageFile Name="frame_sign_item.png" Key="frame_sign_item.png" />
               <PlistImageFile Name="ic_sign_ylq.png" Key="ic_sign_ylq.png" />
-              <PlistImageFile Name="img_sign_mark.png" Key="img_sign_mark.png" />
+              <PlistImageFile Name="img_sign_shade.png" Key="img_sign_shade.png" />
+              <PlistImageFile Name="sign_icon_coin_01.png" Key="sign_icon_coin_01.png" />
+              <PlistImageFile Name="sign_icon_coin_02.png" Key="sign_icon_coin_02.png" />
+              <PlistImageFile Name="sign_icon_coin_03.png" Key="sign_icon_coin_03.png" />
+              <PlistImageFile Name="sign_icon_coin_04.png" Key="sign_icon_coin_04.png" />
+              <PlistImageFile Name="sign_icon_coin_05.png" Key="sign_icon_coin_05.png" />
+              <PlistImageFile Name="sign_icon_coin_06.png" Key="sign_icon_coin_06.png" />
+              <PlistImageFile Name="sign_icon_coin_07.png" Key="sign_icon_coin_07.png" />
             </PlistImageFolder>
             <Fnt Name="fnt_sign_day.fnt" />
+          </Folder>
+          <Folder Name="userCenter">
+            <PlistImageFolder Image="userCenter_atlas.png" PListFile="userCenter_atlas.plist" Name=".userCenter_atlas_PList.Dir">
+              <PlistImageFile Name="UserCenter_Icon_HZMJ.png" Key="UserCenter_Icon_HZMJ.png" />
+              <PlistImageFile Name="UserCenter_Icon_SK.png" Key="UserCenter_Icon_SK.png" />
+              <PlistImageFile Name="UserCenter_Icon_SKY.png" Key="UserCenter_Icon_SKY.png" />
+              <PlistImageFile Name="UserCenter_bg_1.png" Key="UserCenter_bg_1.png" />
+              <PlistImageFile Name="UserCenter_btn_plus.png" Key="UserCenter_btn_plus.png" />
+              <PlistImageFile Name="UserCenter_line_1.png" Key="UserCenter_line_1.png" />
+              <PlistImageFile Name="UserCenter_line_2.png" Key="UserCenter_line_2.png" />
+              <PlistImageFile Name="UserCenter_modifiy.png" Key="UserCenter_modifiy.png" />
+              <PlistImageFile Name="UserCenter_txtKXD.png" Key="UserCenter_txtKXD.png" />
+              <PlistImageFile Name="UserCenter_txtN.png" Key="UserCenter_txtN.png" />
+              <PlistImageFile Name="UserCenter_txtNC.png" Key="UserCenter_txtNC.png" />
+              <PlistImageFile Name="UserCenter_txtNV.png" Key="UserCenter_txtNV.png" />
+              <PlistImageFile Name="UserCenter_txtXB.png" Key="UserCenter_txtXB.png" />
+              <PlistImageFile Name="UserCenter_txtZS.png" Key="UserCenter_txtZS.png" />
+              <PlistImageFile Name="UserCenter_txtGRZX.png" Key="UserCenter_txtGRZX.png" />
+              <PlistImageFile Name="UserCenter_TXbg.png" Key="UserCenter_TXbg.png" />
+              <PlistImageFile Name="UserCenter_btn_ChangeAccount.png" Key="UserCenter_btn_ChangeAccount.png" />
+              <PlistImageFile Name="UserCenter_head0.png" Key="UserCenter_head0.png" />
+              <PlistImageFile Name="UserCenter_head1.png" Key="UserCenter_head1.png" />
+            </PlistImageFolder>
           </Folder>
         </Folder>
         <Folder Name="others">
@@ -1062,6 +1094,116 @@
           <PlistParticleFile Name="jindutiaojiemian001.plist" />
           <PlistParticleFile Name="xingxinglihebao001.plist" />
           <PlistParticleFile Name="zhuanguang001.plist" />
+          <PlistImageFolder Image="public2.png" PListFile="public2.plist" Name=".public2_PList.Dir">
+            <PlistImageFile Name="Lobby_Images_public_txtJF.png" Key="Lobby/Images/public/txtJF.png" />
+            <PlistImageFile Name="Lobby_Images_public_txtMC.png" Key="Lobby/Images/public/txtMC.png" />
+            <PlistImageFile Name="Lobby_Images_public_head0.png" Key="Lobby/Images/public/head0.png" />
+            <PlistImageFile Name="Lobby_Images_public_head1.png" Key="Lobby/Images/public/head1.png" />
+            <PlistImageFile Name="Lobby_Images_public_btnJPY.png" Key="Lobby/Images/public/btnJPY.png" />
+            <PlistImageFile Name="Lobby_Images_public_tanchuang-bg -2.png" Key="Lobby/Images/public/tanchuang-bg -2.png" />
+            <PlistImageFile Name="Lobby_Images_public_btn-TJ-n.png" Key="Lobby/Images/public/btn-TJ-n.png" />
+            <PlistImageFile Name="Lobby_Images_public_btn-TJ-s.png" Key="Lobby/Images/public/btn-TJ-s.png" />
+            <PlistImageFile Name="Lobby_Images_public_btn-QDXG-n.png" Key="Lobby/Images/public/btn-QDXG-n.png" />
+            <PlistImageFile Name="Lobby_Images_public_btn-QDXG-s.png" Key="Lobby/Images/public/btn-QDXG-s.png" />
+            <PlistImageFile Name="Lobby_Images_public_btn-BD-n.png" Key="Lobby/Images/public/btn-BD-n.png" />
+            <PlistImageFile Name="Lobby_Images_public_btn-BD-s.png" Key="Lobby/Images/public/btn-BD-s.png" />
+            <PlistImageFile Name="Lobby_Images_public_btn-CZMM-n.png" Key="Lobby/Images/public/btn-CZMM-n.png" />
+            <PlistImageFile Name="Lobby_Images_public_btn-CZMM-s.png" Key="Lobby/Images/public/btn-CZMM-s.png" />
+            <PlistImageFile Name="Lobby_Images_public_btn-CZMM-z.png" Key="Lobby/Images/public/btn-CZMM-z.png" />
+            <PlistImageFile Name="Lobby_Images_public_bg1.png" Key="Lobby/Images/public/bg1.png" />
+            <PlistImageFile Name="Lobby_Images_public_btnHistory.png" Key="Lobby/Images/public/btnHistory.png" />
+            <PlistImageFile Name="Lobby_Images_public_yxn_btn_jsbx.png" Key="Lobby/Images/public/yxn_btn_jsbx.png" />
+            <PlistImageFile Name="Lobby_Images_public_yxn_btn_sqjs.png" Key="Lobby/Images/public/yxn_btn_sqjs.png" />
+            <PlistImageFile Name="Lobby_Images_public_yxn_btn_yqhy.png" Key="Lobby/Images/public/yxn_btn_yqhy.png" />
+            <PlistImageFile Name="Lobby_Images_public_yxn_frame_dc.png" Key="Lobby/Images/public/yxn_frame_dc.png" />
+            <PlistImageFile Name="Lobby_Images_public_yxn_pic_dc.png" Key="Lobby/Images/public/yxn_pic_dc.png" />
+            <PlistImageFile Name="Lobby_Images_public_yxn_pic_wfw.png" Key="Lobby/Images/public/yxn_pic_wfw.png" />
+            <PlistImageFile Name="Lobby_Images_public_yxn_pic_wfy1.png" Key="Lobby/Images/public/yxn_pic_wfy1.png" />
+            <PlistImageFile Name="Lobby_Images_public_yxn_pic_wfy2.png" Key="Lobby/Images/public/yxn_pic_wfy2.png" />
+            <PlistImageFile Name="Lobby_Images_public_yxn_pic_wfy3.png" Key="Lobby/Images/public/yxn_pic_wfy3.png" />
+            <PlistImageFile Name="Lobby_Images_public_yxn_pic_xhw.png" Key="Lobby/Images/public/yxn_pic_xhw.png" />
+            <PlistImageFile Name="Lobby_Images_public_yxn_pic_xhy1.png" Key="Lobby/Images/public/yxn_pic_xhy1.png" />
+            <PlistImageFile Name="Lobby_Images_public_yxn_pic_xhy2.png" Key="Lobby/Images/public/yxn_pic_xhy2.png" />
+            <PlistImageFile Name="Lobby_Images_public_yxn_pic_xhy3.png" Key="Lobby/Images/public/yxn_pic_xhy3.png" />
+          </PlistImageFolder>
+          <PlistImageFolder Image="LobbyAction.png" PListFile="LobbyAction.plist" Name=".LobbyAction_PList.Dir">
+            <PlistImageFile Name="Lobby_Images_LobbyAction_BackGroundAct_guangxian.png" Key="Lobby/Images/LobbyAction/BackGroundAct/guangxian.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_BackGroundAct_guangyun01.png" Key="Lobby/Images/LobbyAction/BackGroundAct/guangyun01.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_BackGroundAct_guangyun02.png" Key="Lobby/Images/LobbyAction/BackGroundAct/guangyun02.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_BackGroundAct_guangyun03.png" Key="Lobby/Images/LobbyAction/BackGroundAct/guangyun03.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_BackGroundAct_guangyun04.png" Key="Lobby/Images/LobbyAction/BackGroundAct/guangyun04.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_BackGroundAct_shu01.png" Key="Lobby/Images/LobbyAction/BackGroundAct/shu01.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_BackGroundAct_shu02.png" Key="Lobby/Images/LobbyAction/BackGroundAct/shu02.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_BackGroundAct_shu03.png" Key="Lobby/Images/LobbyAction/BackGroundAct/shu03.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_BackGroundAct_shu04.png" Key="Lobby/Images/LobbyAction/BackGroundAct/shu04.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_BackGroundAct_shu05.png" Key="Lobby/Images/LobbyAction/BackGroundAct/shu05.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_BackGroundAct_yangguang01.png" Key="Lobby/Images/LobbyAction/BackGroundAct/yangguang01.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_DownUIAct_beibao01.png" Key="Lobby/Images/LobbyAction/DownUIAct/beibao01.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_DownUIAct_beibao02.png" Key="Lobby/Images/LobbyAction/DownUIAct/beibao02.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_DownUIAct_beibaozi01.png" Key="Lobby/Images/LobbyAction/DownUIAct/beibaozi01.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_DownUIAct_beibaozi02.png" Key="Lobby/Images/LobbyAction/DownUIAct/beibaozi02.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_DownUIAct_duihuandai01.png" Key="Lobby/Images/LobbyAction/DownUIAct/duihuandai01.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_DownUIAct_duihuandai02.png" Key="Lobby/Images/LobbyAction/DownUIAct/duihuandai02.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_DownUIAct_duihuanjuan01.png" Key="Lobby/Images/LobbyAction/DownUIAct/duihuanjuan01.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_DownUIAct_duihuanjuan02.png" Key="Lobby/Images/LobbyAction/DownUIAct/duihuanjuan02.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_DownUIAct_duihuanzi01.png" Key="Lobby/Images/LobbyAction/DownUIAct/duihuanzi01.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_DownUIAct_duihuanzi02.png" Key="Lobby/Images/LobbyAction/DownUIAct/duihuanzi02.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_DownUIAct_huodong01.png" Key="Lobby/Images/LobbyAction/DownUIAct/huodong01.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_DownUIAct_huodong02.png" Key="Lobby/Images/LobbyAction/DownUIAct/huodong02.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_DownUIAct_kapai.png" Key="Lobby/Images/LobbyAction/DownUIAct/kapai.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_DownUIAct_lihe01.png" Key="Lobby/Images/LobbyAction/DownUIAct/lihe01.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_DownUIAct_lihe02.png" Key="Lobby/Images/LobbyAction/DownUIAct/lihe02.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_DownUIAct_lihe03.png" Key="Lobby/Images/LobbyAction/DownUIAct/lihe03.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_DownUIAct_modiantongyong.png" Key="Lobby/Images/LobbyAction/DownUIAct/modiantongyong.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_DownUIAct_nanwa.png" Key="Lobby/Images/LobbyAction/DownUIAct/nanwa.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_DownUIAct_NULL.png" Key="Lobby/Images/LobbyAction/DownUIAct/NULL.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_DownUIAct_nvwa.png" Key="Lobby/Images/LobbyAction/DownUIAct/nvwa.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_DownUIAct_paiyouzi01.png" Key="Lobby/Images/LobbyAction/DownUIAct/paiyouzi01.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_DownUIAct_paiyouzi02.png" Key="Lobby/Images/LobbyAction/DownUIAct/paiyouzi02.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_DownUIAct_shanguangdang.png" Key="Lobby/Images/LobbyAction/DownUIAct/shanguangdang.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_BackGroundAct_shu00.png" Key="Lobby/Images/LobbyAction/BackGroundAct/shu00.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_BackGroundAct_yg01.png" Key="Lobby/Images/LobbyAction/BackGroundAct/yg01.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_BackGroundAct_yg02.png" Key="Lobby/Images/LobbyAction/BackGroundAct/yg02.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_BackGroundAct_yg03.png" Key="Lobby/Images/LobbyAction/BackGroundAct/yg03.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_BackGroundAct_yg04.png" Key="Lobby/Images/LobbyAction/BackGroundAct/yg04.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_HPSaoGuang_dasaoguang00.png" Key="Lobby/Images/LobbyAction/HPSaoGuang/dasaoguang00.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_HPSaoGuang_faguangyun00.png" Key="Lobby/Images/LobbyAction/HPSaoGuang/faguangyun00.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_HPSaoGuang_faguangyun01.png" Key="Lobby/Images/LobbyAction/HPSaoGuang/faguangyun01.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_HPSaoGuang_saoguang00.png" Key="Lobby/Images/LobbyAction/HPSaoGuang/saoguang00.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_HPSaoGuang_xingxingshan.png" Key="Lobby/Images/LobbyAction/HPSaoGuang/xingxingshan.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_JinBiShineAct_qianbi.png" Key="Lobby/Images/LobbyAction/JinBiShineAct/qianbi.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_JinBiShineAct_qianbis0001.png" Key="Lobby/Images/LobbyAction/JinBiShineAct/qianbis0001.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_JinBiShineAct_qianbis0002.png" Key="Lobby/Images/LobbyAction/JinBiShineAct/qianbis0002.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_JinBiShineAct_qianbis0003.png" Key="Lobby/Images/LobbyAction/JinBiShineAct/qianbis0003.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_JinBiShineAct_qianbis0004.png" Key="Lobby/Images/LobbyAction/JinBiShineAct/qianbis0004.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_JinBiShineAct_qianbis0005.png" Key="Lobby/Images/LobbyAction/JinBiShineAct/qianbis0005.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_JinBiShineAct_qianbis0006.png" Key="Lobby/Images/LobbyAction/JinBiShineAct/qianbis0006.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_JinBiShineAct_qianbis0007.png" Key="Lobby/Images/LobbyAction/JinBiShineAct/qianbis0007.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_JinBiShineAct_qianbis0008.png" Key="Lobby/Images/LobbyAction/JinBiShineAct/qianbis0008.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_JinBiShineAct_qianbis0009.png" Key="Lobby/Images/LobbyAction/JinBiShineAct/qianbis0009.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_JinBiShineAct_qianbixing.png" Key="Lobby/Images/LobbyAction/JinBiShineAct/qianbixing.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_LeavesAct_shuyepiao0001.png" Key="Lobby/Images/LobbyAction/LeavesAct/shuyepiao0001.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_LeavesAct_shuyepiao0002.png" Key="Lobby/Images/LobbyAction/LeavesAct/shuyepiao0002.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_LeavesAct_shuyepiao0003.png" Key="Lobby/Images/LobbyAction/LeavesAct/shuyepiao0003.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_LeavesAct_shuyepiao0004.png" Key="Lobby/Images/LobbyAction/LeavesAct/shuyepiao0004.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_LeavesAct_shuyepiao0005.png" Key="Lobby/Images/LobbyAction/LeavesAct/shuyepiao0005.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_LeavesAct_shuyepiao001.png" Key="Lobby/Images/LobbyAction/LeavesAct/shuyepiao001.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_LeavesAct_shuyepiao002.png" Key="Lobby/Images/LobbyAction/LeavesAct/shuyepiao002.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_ZSShineAct_zuanshi.png" Key="Lobby/Images/LobbyAction/ZSShineAct/zuanshi.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_ZSShineAct_zuanshis0001.png" Key="Lobby/Images/LobbyAction/ZSShineAct/zuanshis0001.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_ZSShineAct_zuanshis0002.png" Key="Lobby/Images/LobbyAction/ZSShineAct/zuanshis0002.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_ZSShineAct_zuanshis0003.png" Key="Lobby/Images/LobbyAction/ZSShineAct/zuanshis0003.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_ZSShineAct_zuanshis0004.png" Key="Lobby/Images/LobbyAction/ZSShineAct/zuanshis0004.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_ZSShineAct_zuanshis0005.png" Key="Lobby/Images/LobbyAction/ZSShineAct/zuanshis0005.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_ZSShineAct_zuanshis0006.png" Key="Lobby/Images/LobbyAction/ZSShineAct/zuanshis0006.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_ZSShineAct_zuanshis0007.png" Key="Lobby/Images/LobbyAction/ZSShineAct/zuanshis0007.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_ZSShineAct_zuanshis0008.png" Key="Lobby/Images/LobbyAction/ZSShineAct/zuanshis0008.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_ZSShineAct_zuanshis0009.png" Key="Lobby/Images/LobbyAction/ZSShineAct/zuanshis0009.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_ZSShineAct_zuanshixing.png" Key="Lobby/Images/LobbyAction/ZSShineAct/zuanshixing.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_BackGroundAct_guangyun00.png" Key="Lobby/Images/LobbyAction/BackGroundAct/guangyun00.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_BackGroundAct_zhongyuan01.png" Key="Lobby/Images/LobbyAction/BackGroundAct/zhongyuan01.png" />
+            <PlistImageFile Name="Lobby_Images_LobbyAction_BackGroundAct_qian01.png" Key="Lobby/Images/LobbyAction/BackGroundAct/qian01.png" />
+          </PlistImageFolder>
         </Folder>
       </RootFolder>
     </Group>

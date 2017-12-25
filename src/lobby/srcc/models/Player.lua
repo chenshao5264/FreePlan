@@ -13,8 +13,8 @@ Model.schema["account"]         = {"string", ""}
 Model.schema["password"]        = {"string", ""}
 
 Model.schema["userID"]          = {"number", -1}
-Model.schema["gender"]          = {"number", 1}
-Model.schema["nickname"]        = {"string", ""}
+Model.schema["gender"]          = {"number", 1}     --// 0 男 1 女
+Model.schema["nickname"]        = {"string", ""}    
 Model.schema["beanCurrency"]    = {"number", 0}     --// 游戏豆
 Model.schema["diamondCurrency"] = {"number", 0}     --// 钻石
 
@@ -27,7 +27,7 @@ function Model:ctor()
 
     --// 需要重写的set get函数
     local override = (function()
-        
+
     end)()
 end
 

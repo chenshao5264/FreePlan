@@ -87,6 +87,11 @@ function M:ctor(defaultPage)
         end)
 end
 
+--// 关闭弹窗回调，可在外部重写
+function M:onClosedCompleted()
+
+end
+
 function M:onOpenCompleted()
     if _DEBUG_SHOP then    
         local infoString = cc.FileUtils:getInstance():getStringFromFile("IosRechargeInfo.json")

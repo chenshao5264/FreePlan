@@ -120,7 +120,8 @@ function M:onRelateViewElements()
 
     --// filldata
     self.nodeHead:getChildByName("Text_Nickname"):str(gg.Utility.getShortStr(Player:getNickname(), 6))
-    self.nodeHead:getChildByName("Image_Avatar"):loadTexture(ggGlobal:getAvatarImageByGender(Player:getGender()), 1)
+    self.imgAvatar = self.nodeHead:getChildByName("Image_Avatar")
+    self.imgAvatar:loadTexture(ggGlobal:getAvatarImageByGender(Player:getGender()), 1)
 
 
     self.bfBeanValue = self.nodeBean:getChildByName("BitmapFontLabel_Value")
@@ -335,15 +336,15 @@ function M:onRegisterButtonClickEvent()
     end)
     --// 活动
     self.btnActivity:onClick_(function(obj)
-        
+        ggUIHelper:showToast("敬请期待！")
     end)
     --// 好友
     self.btnFriend:onClick_(function(obj)
-        
+        ggUIHelper:showToast("敬请期待！")
     end) 
     --// 邮件
     self.btnMail:onClick_(function(obj)
-        
+        ggUIHelper:showToast("敬请期待！")
     end)
     --// 签到
     self.btnSign:onClick_(function(obj)
@@ -356,12 +357,17 @@ function M:onRegisterButtonClickEvent()
     self.btnBuyDiamond:onClick_(function(obj)
         ggUIHelper:showDialog(ggDialog.ShopDialog, gg.CurrencyType.DIAMOND)
     end)
+    --// 用户中心
+    self.imgAvatar:setTouchEnabled(true)
+    self.imgAvatar:onClickWithColor(function(obj)
+        ggUIHelper:showDialog(ggDialog.UserCenterDialog)
+    end)
 end
 
 function M:onRegisterEventProxy()
     cc.EventProxy.new(myApp, self)
         :on("evt_bean_update", function(evt)
-            self.bfBeanValue:setString(Player:getBeanCurrency())
+            self.bfBeanValue:setString(ggUtility.getShortBean(Player:getBeanCurrency()))
         end)
         :on("evt_diamond_update", function(evt)
             self.bfDiamondValue:setString(Player:getDiamondCurrency())

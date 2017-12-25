@@ -360,7 +360,7 @@
                 <PreSize X="0.0000" Y="0.0000" />
                 <FileData Type="PlistSubImage" Path="img_head_back.png" Plist="images/lobby/lobby_atlas.plist" />
               </AbstractNodeData>
-              <AbstractNodeData Name="Image_Avatar" ActionTag="-406140273" Tag="191" IconVisible="False" LeftMargin="-40.0002" RightMargin="-39.9998" TopMargin="-42.5000" BottomMargin="-38.5000" LeftEage="26" RightEage="26" TopEage="26" BottomEage="26" Scale9OriginX="26" Scale9OriginY="26" Scale9Width="28" Scale9Height="29" ctype="ImageViewObjectData">
+              <AbstractNodeData Name="Image_Avatar" ActionTag="-406140273" Tag="191" IconVisible="False" LeftMargin="-40.0002" RightMargin="-39.9998" TopMargin="-42.5000" BottomMargin="-38.5000" LeftEage="26" RightEage="26" TopEage="26" BottomEage="26" Scale9OriginX="20" Scale9OriginY="20" Scale9Width="6" Scale9Height="6" ctype="ImageViewObjectData">
                 <Size X="80.0000" Y="81.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="-0.0002" Y="2.0000" />
@@ -368,7 +368,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="PlistSubImage" Path="img_avatar0.png" Plist="images/game/game_atlas.plist" />
+                <FileData Type="Default" Path="Default/ImageFile.png" Plist="" />
               </AbstractNodeData>
               <AbstractNodeData Name="Text_Nickname" ActionTag="-1885862564" Tag="193" IconVisible="False" LeftMargin="41.8865" RightMargin="-164.8865" TopMargin="-22.2311" BottomMargin="-3.7689" FontSize="20" LabelText="一二三四五六" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                 <Size X="123.0000" Y="26.0000" />

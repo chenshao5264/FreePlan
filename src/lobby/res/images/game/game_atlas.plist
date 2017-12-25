@@ -7,7 +7,7 @@
             <key>btn_exit_game.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{710,2},{52,52}}</string>
+                <string>{{56,202},{52,52}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -20,7 +20,7 @@
             <key>btn_set.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{656,2},{52,52}}</string>
+                <string>{{2,202},{52,52}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -30,36 +30,10 @@
                 <key>sourceSize</key>
                 <string>{52,52}</string>
             </dict>
-            <key>img_avatar0.png</key>
-            <dict>
-                <key>frame</key>
-                <string>{{513,2},{80,81}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{80,81}}</string>
-                <key>sourceSize</key>
-                <string>{80,81}</string>
-            </dict>
-            <key>img_avatar1.png</key>
-            <dict>
-                <key>frame</key>
-                <string>{{431,2},{80,81}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{80,81}}</string>
-                <key>sourceSize</key>
-                <string>{80,81}</string>
-            </dict>
             <key>img_avatar_bg.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{347,2},{82,85}}</string>
+                <string>{{132,2},{82,85}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -72,7 +46,7 @@
             <key>img_ready.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{122,2},{128,97}}</string>
+                <string>{{2,2},{128,97}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -85,7 +59,7 @@
             <key>time_bg_1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,2},{99,118}}</string>
+                <string>{{2,101},{99,118}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -98,7 +72,7 @@
             <key>time_bg_2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{252,2},{93,93}}</string>
+                <string>{{122,150},{93,93}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -111,7 +85,7 @@
             <key>time_bg_3.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{595,2},{59,59}}</string>
+                <string>{{132,89},{59,59}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -129,9 +103,9 @@
             <key>realTextureFileName</key>
             <string>game_atlas.png</string>
             <key>size</key>
-            <string>{764,103}</string>
+            <string>{217,256}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:8aa037a533d9502b1d3ed8b2f46b55aa$</string>
+            <string>$TexturePacker:SmartUpdate:b69ef9f4a5a89fabf0753633874efba1$</string>
             <key>textureFileName</key>
             <string>game_atlas.png</string>
         </dict>

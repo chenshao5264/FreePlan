@@ -25,8 +25,9 @@ local E_ZORDER = Enum({
 --// 已打开的对话框列表
 local openendDialogs = {}
 
+--// UI弹窗的跟节点
 function UIHelper:getRoot()
-    return myApp:getRunningScene()
+    return display.getRunningScene()
 end
 
 -- /**
@@ -64,7 +65,7 @@ end
 --  * 移除遮罩
 --  */
 function UIHelper:removeShade(name)
-    cclog.warn(self:getRoot().__cname)
+    cclog.warn(self:getRoot())
     if self:getRoot() then
        self:getRoot():removeChildByName(name or "layer_shade")
     end
@@ -92,11 +93,14 @@ end
 local function playCloseAction(node, cbOver)
     table_remove(openendDialogs)
     
-
+    node:stopAllActions()
     node:runAction(cc.ScaleTo:create(GOLD_QTR_TIME, 1.15))
     node:runAction(cc.Sequence:create(
         cc.FadeOut:create(GOLD_QTR_TIME), 
         cc.CallFunc:create(function()
+            if node.onClosedCompleted then
+                node:onClosedCompleted()
+            end
             if cbOver then
                 cbOver(node)
             end 
@@ -123,6 +127,7 @@ local function showMsgBox(content, type, callback)
         :addTo(UIHelper:getRoot(), E_ZORDER.POP_WINDOWS)
     msgBox:setName("msg_box")
     playOpenAction(msgBox)
+    msgBox.dialogType = "msg_box"
 end
 
 -- /**
@@ -222,6 +227,7 @@ function UIHelper:showDialog(name, ...)
         playOpenAction(dialogNode)
     end, 0)
     
+    return dialogNode
 end
 
 -- /**
@@ -238,7 +244,11 @@ function UIHelper:closeDialog(source)
     end
 
     if node then
-        UIHelper:removeShade()
+        if node.dialogType == "msg_box" then
+            self:removeShade("box_shader")
+        else
+            self:removeShade()
+        end
         playCloseAction(node, function(obj)
             obj:removeSelf()
         end)

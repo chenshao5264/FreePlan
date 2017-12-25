@@ -12,22 +12,17 @@ function M:ctor(...)
     self.super.ctor(self)
     --// todo
     --// ...
-
+    self:setName("SplashScene")
     local resNode = myApp:createCsbNode("SplashLayer")
         :addTo(self, 1)
 
-
-    ClientSocket:connectToLogin()
 end
 
 function M:onEnter()
     self.super.onEnter(self)
     --// todo
     --// ...
-    cc.EventProxy.new(myApp, self)
-        :on("LOGIN_SERVER_CONNECTED", function()
-            myApp:enterScene(LOGIN_SCENE)
-        end)
+    
 end
 
 function M:onEnterTransitionFinish()
@@ -35,6 +30,12 @@ function M:onEnterTransitionFinish()
 
     --// todo
     --// ...
+    cc.EventProxy.new(myApp, self)
+        :on("LOGIN_SERVER_CONNECTED", function()
+            myApp:enterScene(LOGIN_SCENE)
+        end)
+
+    ClientSocket:connectToLogin()
 end
 
 function M:onExit()

@@ -13,6 +13,8 @@ local crypto = require("framework.crypto")
 
 Model.schema = clone(BaseModel.schema)
 
+--// 是否自动登录
+Model.schema["IsAutoLogin"]      = {"bool", true}
 Model.schema["isLoginConnected"] = {"bool", false}
 Model.schema["lobbyPassCode"]    = {"string", ""}
 Model.schema["isBrokenConnect"]  = {"bool", false} --// 断线重连标志

@@ -57,7 +57,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.5070" Y="0.5069" />
                 <PreSize X="0.9155" Y="0.9028" />
-                <FileData Type="PlistSubImage" Path="img_avatar0.png" Plist="images/game/game_atlas.plist" />
+                <FileData Type="Default" Path="Default/ImageFile.png" Plist="" />
               </AbstractNodeData>
               <AbstractNodeData Name="Image_OK" ActionTag="-1234088593" Tag="160" IconVisible="False" LeftMargin="37.2191" RightMargin="0.7809" TopMargin="61.3615" BottomMargin="-7.3615" LeftEage="10" RightEage="10" TopEage="5" BottomEage="5" Scale9OriginX="10" Scale9OriginY="5" Scale9Width="13" Scale9Height="8" ctype="ImageViewObjectData">
                 <Size X="33.0000" Y="18.0000" />
@@ -89,7 +89,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.5070" Y="0.5069" />
                 <PreSize X="0.9155" Y="0.9028" />
-                <FileData Type="PlistSubImage" Path="img_avatar0.png" Plist="images/game/game_atlas.plist" />
+                <FileData Type="Default" Path="Default/ImageFile.png" Plist="" />
               </AbstractNodeData>
               <AbstractNodeData Name="Image_OK" ActionTag="-535312689" Tag="179" IconVisible="False" LeftMargin="37.2191" RightMargin="0.7809" TopMargin="61.3615" BottomMargin="-7.3615" LeftEage="10" RightEage="10" TopEage="5" BottomEage="5" Scale9OriginX="10" Scale9OriginY="5" Scale9Width="13" Scale9Height="8" ctype="ImageViewObjectData">
                 <Size X="33.0000" Y="18.0000" />
@@ -121,7 +121,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.5070" Y="0.5069" />
                 <PreSize X="0.9155" Y="0.9028" />
-                <FileData Type="PlistSubImage" Path="img_avatar0.png" Plist="images/game/game_atlas.plist" />
+                <FileData Type="Default" Path="Default/ImageFile.png" Plist="" />
               </AbstractNodeData>
               <AbstractNodeData Name="Image_OK" ActionTag="-1270864207" Tag="182" IconVisible="False" LeftMargin="37.2191" RightMargin="0.7809" TopMargin="61.3615" BottomMargin="-7.3615" LeftEage="10" RightEage="10" TopEage="5" BottomEage="5" Scale9OriginX="10" Scale9OriginY="5" Scale9Width="13" Scale9Height="8" ctype="ImageViewObjectData">
                 <Size X="33.0000" Y="18.0000" />
@@ -153,7 +153,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.5070" Y="0.5069" />
                 <PreSize X="0.9155" Y="0.9028" />
-                <FileData Type="PlistSubImage" Path="img_avatar0.png" Plist="images/game/game_atlas.plist" />
+                <FileData Type="Default" Path="Default/ImageFile.png" Plist="" />
               </AbstractNodeData>
               <AbstractNodeData Name="Image_OK" ActionTag="803815253" Tag="176" IconVisible="False" LeftMargin="37.2191" RightMargin="0.7809" TopMargin="61.3615" BottomMargin="-7.3615" LeftEage="10" RightEage="10" TopEage="5" BottomEage="5" Scale9OriginX="10" Scale9OriginY="5" Scale9Width="13" Scale9Height="8" ctype="ImageViewObjectData">
                 <Size X="33.0000" Y="18.0000" />

@@ -14,11 +14,24 @@ function Global:getGameImage(name)
     return string.format("images/%s.png", name)
 end
 
-function Global:getAvatarImageByGender(gender)
+-- /**
+--  * 根据性别获取头像资源
+--  * @param  [isUserCenter] 是否是用户中心界面
+--  * @return [string]
+--  */
+function Global:getAvatarImageByGender(gender, isUserCenter)
     if gender == 1 then
-        return "img_avatar1.png"
+        if isUserCenter then
+            return "UserCenter_head1.png"
+        else
+            return "img_avatar1.png"
+        end
     else
-        return "img_avatar0.png"
+        if isUserCenter then
+            return "UserCenter_head0.png"
+        else
+            return "img_avatar0.png"
+        end
     end
 end
 
