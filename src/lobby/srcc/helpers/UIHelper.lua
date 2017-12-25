@@ -65,7 +65,6 @@ end
 --  * 移除遮罩
 --  */
 function UIHelper:removeShade(name)
-    cclog.warn(self:getRoot())
     if self:getRoot() then
        self:getRoot():removeChildByName(name or "layer_shade")
     end
