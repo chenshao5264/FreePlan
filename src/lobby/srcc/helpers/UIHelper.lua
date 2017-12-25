@@ -25,6 +25,9 @@ local E_ZORDER = Enum({
 --// 已打开的对话框列表
 local openendDialogs = {}
 
+--// 已呈现的toast
+local nodeToasts = {}
+
 --// UI弹窗的跟节点
 function UIHelper:getRoot()
     return display.getRunningScene()
@@ -201,12 +204,26 @@ end
 --  * @param content 目前有长度限制，适合简短的提示
 --  */
 function UIHelper:showToast(content)
-    self:getRoot():removeChildByName("toast_dialog")
+    --self:getRoot():removeChildByName("toast_dialog")
 
-    Toast.new(content)
+    local toast = Toast.new(content)
         :pos(display.cx, display.cy)
         :addTo(self:getRoot(), E_ZORDER.WAITTING)
-        :name("toast_dialog")
+        --:name("toast_dialog")
+
+    nodeToasts[#nodeToasts + 1] = toast
+
+
+    
+
+    -- if #nodeToasts <= 3 then
+    --     for i = #nodeToasts, 1, -1 do
+    --         local nodeToast = nodeToasts[i]
+    --         nodeToast:rise(cc.p(display.cx, display.cy + nodeToast.height * (3 - i)))
+    --     end
+    -- end
+
+
 end
 
 -- /**

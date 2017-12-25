@@ -3,6 +3,7 @@
 -- Date: 2017-11-30 15:21:18
 -- Brief: 
 --
+local cc = cc
 local Global = gg.Global
 
 local M = class("ToastNode", function()
@@ -19,6 +20,8 @@ function M:ctor(content)
     local imgBg    = self:getChildByName("Image_Bg")
     local textTips = self:getChildByName("Text_Tips"):str(content)
 
+    self.height = imgBg:getContentSize().height
+
     cc.CallFuncSequence.new(self, 
         cc.DelayTime:create(1.5),
         function()
@@ -28,5 +31,8 @@ function M:ctor(content)
     ):start()
 end
 
+function M:rise(goalPos)
+    self:runAction(cc.MoveTo:create(GOLD_QTR_TIME, goalPos))
+end
 
 return M

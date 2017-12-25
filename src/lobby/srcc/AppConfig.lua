@@ -21,11 +21,10 @@ LAUNCH_GAME = "bfmj"
 GAME_ID = 1
 
 clientConfig = {}
-clientConfig.serverHost = "172.16.6.128"
 clientConfig.serverHost = "182.61.26.215" -- 百度云
 clientConfig.serverHost = "47.100.39.238" -- 阿里云
 --clientConfig.serverHost = "127.0.0.1" -- 本地
---clientConfig.serverHost = "172.16.6.147" 
+--clientConfig.serverHost = "192.168.0.224" 
 clientConfig.serverPort = 6310
 
 GOLD_TIME      = 0.618
