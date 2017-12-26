@@ -1,0 +1,2051 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>Lobby/Images/Chat/duihuak.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1969,266},{50,36}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{50,36}</string>
+			</dict>
+			<key>Lobby/Images/Chat/fegexian.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1671,452},{182,2}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{182,2}</string>
+			</dict>
+			<key>Lobby/Images/Chat/fegexianc.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1671,448},{247,2}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{247,2}</string>
+			</dict>
+			<key>Lobby/Images/Chat/hd.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1540,1},{560,61}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{560,61}</string>
+			</dict>
+			<key>Lobby/Images/Chat/hdd.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1603,485},{445,60}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{445,60}</string>
+			</dict>
+			<key>Lobby/Images/Chat/jiesanpaiyou.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1772,207},{176,65}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{178,65}</string>
+			</dict>
+			<key>Lobby/Images/Chat/kuaijieyu.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1772,274},{96,48}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{96,48}</string>
+			</dict>
+			<key>Lobby/Images/Chat/taitou.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1603,1},{482,66}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{482,66}</string>
+			</dict>
+			<key>Lobby/Images/Chat/tuichupaiyou.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1969,1},{176,65}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{178,65}</string>
+			</dict>
+			<key>Lobby/Images/Chat/xinxi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1870,274},{97,36}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{97,36}</string>
+			</dict>
+			<key>Lobby/Images/Chat/duihuak2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1913,48},{50,36}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{50,36}</string>
+			</dict>
+			<key>Lobby/Images/Chat/biaoqtub.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1913,1},{45,45}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{45,45}</string>
+			</dict>
+			<key>Lobby/Images/Chat/1_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1989,304},{56,93}}</string>
+				<key>offset</key>
+				<string>{4,-9}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/1_10.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1844,642},{56,92}}</string>
+				<key>offset</key>
+				<string>{4,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/1_11.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1989,399},{56,93}}</string>
+				<key>offset</key>
+				<string>{4,4}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/1_12.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1902,718},{56,92}}</string>
+				<key>offset</key>
+				<string>{4,-1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/1_13.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1920,433},{56,93}}</string>
+				<key>offset</key>
+				<string>{4,-5}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/1_14.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1855,452},{56,93}}</string>
+				<key>offset</key>
+				<string>{4,-9}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/1_15.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1786,456},{56,93}}</string>
+				<key>offset</key>
+				<string>{4,-9}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/1_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1978,494},{56,93}}</string>
+				<key>offset</key>
+				<string>{4,-5}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/1_3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1772,646},{56,92}}</string>
+				<key>offset</key>
+				<string>{4,-1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/1_4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1913,528},{56,93}}</string>
+				<key>offset</key>
+				<string>{4,4}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/1_5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1830,736},{56,92}}</string>
+				<key>offset</key>
+				<string>{4,-1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/1_6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1844,547},{56,93}}</string>
+				<key>offset</key>
+				<string>{4,-5}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/1_7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1786,551},{56,93}}</string>
+				<key>offset</key>
+				<string>{4,-9}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/1_8.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1971,589},{56,93}}</string>
+				<key>offset</key>
+				<string>{4,-6}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/1_9.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1902,623},{56,93}}</string>
+				<key>offset</key>
+				<string>{4,-3}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/12_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{304,869},{82,88}}</string>
+				<key>offset</key>
+				<string>{-1,-2}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/12_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1798,1275},{82,89}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/3 (01).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{184,880},{82,83}}</string>
+				<key>offset</key>
+				<string>{-4,-5}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/3 (02).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{86,888},{82,83}}</string>
+				<key>offset</key>
+				<string>{-4,-5}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/3 (03).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,915},{82,83}}</string>
+				<key>offset</key>
+				<string>{-4,-5}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/3 (04).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1820,1361},{82,83}}</string>
+				<key>offset</key>
+				<string>{-4,-5}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/3 (05).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1905,1361},{82,83}}</string>
+				<key>offset</key>
+				<string>{-4,-5}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/3 (06).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{494,951},{82,83}}</string>
+				<key>offset</key>
+				<string>{-4,-5}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/3 (07).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{579,951},{82,83}}</string>
+				<key>offset</key>
+				<string>{-4,-5}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/3 (08).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{664,952},{82,83}}</string>
+				<key>offset</key>
+				<string>{-4,-5}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/3 (09).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{749,992},{82,83}}</string>
+				<key>offset</key>
+				<string>{-4,-5}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/3 (10).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{834,1067},{82,83}}</string>
+				<key>offset</key>
+				<string>{-4,-5}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/3 (11).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{919,1081},{82,83}}</string>
+				<key>offset</key>
+				<string>{-4,-5}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/3 (12).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1004,1154},{82,83}}</string>
+				<key>offset</key>
+				<string>{-4,-5}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/3 (13).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1089,1198},{82,83}}</string>
+				<key>offset</key>
+				<string>{-4,-5}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/3 (14).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1174,1256},{82,83}}</string>
+				<key>offset</key>
+				<string>{-4,-5}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/3 (15).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1039,1070},{82,86}}</string>
+				<key>offset</key>
+				<string>{-4,-6}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/3 (16).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1215,1172},{82,85}}</string>
+				<key>offset</key>
+				<string>{-4,-5}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/3 (17).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1302,1178},{82,85}}</string>
+				<key>offset</key>
+				<string>{-4,-5}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/3 (18).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1476,1265},{82,84}}</string>
+				<key>offset</key>
+				<string>{-4,-5}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/3 (19).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1562,1278},{82,84}}</string>
+				<key>offset</key>
+				<string>{-4,-5}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/3 (20).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1259,1262},{82,83}}</string>
+				<key>offset</key>
+				<string>{-4,-4}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/3 (21).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1648,1294},{82,84}}</string>
+				<key>offset</key>
+				<string>{-4,-5}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/3 (22).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1389,1186},{82,85}}</string>
+				<key>offset</key>
+				<string>{-4,-5}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/3 (23).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1127,1114},{82,86}}</string>
+				<key>offset</key>
+				<string>{-4,-6}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/3 (24).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{772,908},{82,87}}</string>
+				<key>offset</key>
+				<string>{-4,-6}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/3 (25).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{861,983},{82,87}}</string>
+				<key>offset</key>
+				<string>{-4,-6}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/3 (26).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{592,867},{82,88}}</string>
+				<key>offset</key>
+				<string>{-4,-7}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/3 (27).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1889,1277},{82,89}}</string>
+				<key>offset</key>
+				<string>{-4,-7}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/3 (28).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1614,1194},{82,90}}</string>
+				<key>offset</key>
+				<string>{-4,-8}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/3 (29).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1706,1210},{82,90}}</string>
+				<key>offset</key>
+				<string>{-4,-8}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/3 (30).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1521,1181},{82,91}}</string>
+				<key>offset</key>
+				<string>{-4,-8}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/4 (01).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1671,328},{98,118}}</string>
+				<key>offset</key>
+				<string>{2,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/4 (02).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1344,1270},{82,83}}</string>
+				<key>offset</key>
+				<string>{0,-15}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/4 (03).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1429,1349},{82,83}}</string>
+				<key>offset</key>
+				<string>{0,-15}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/4 (04).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1514,1362},{82,83}}</string>
+				<key>offset</key>
+				<string>{0,-15}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/4 (05).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1599,1378},{82,83}}</string>
+				<key>offset</key>
+				<string>{0,-15}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/4 (06).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{405,868},{83,87}}</string>
+				<key>offset</key>
+				<string>{-1,-13}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/4 (07).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1905,908},{96,111}}</string>
+				<key>offset</key>
+				<string>{-2,-1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/4 (08).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1775,924},{96,111}}</string>
+				<key>offset</key>
+				<string>{-2,-1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/4 (09).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1888,1006},{96,111}}</string>
+				<key>offset</key>
+				<string>{-2,-1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/4 (10).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1665,694},{92,118}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/4 (11).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1665,814},{92,118}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/4 (12).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1785,830},{92,118}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/4 (13).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1892,312},{95,119}}</string>
+				<key>offset</key>
+				<string>{3,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/4 (14).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1792,1},{95,119}}</string>
+				<key>offset</key>
+				<string>{3,1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/4 (15).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1792,98},{95,119}}</string>
+				<key>offset</key>
+				<string>{3,1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/5 (1).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{86,803},{96,83}}</string>
+				<key>offset</key>
+				<string>{2,-11}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/5 (2).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{501,782},{95,83}}</string>
+				<key>offset</key>
+				<string>{1,-15}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/5 (3).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1635,1107},{96,85}}</string>
+				<key>offset</key>
+				<string>{2,-18}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/5 (4).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{598,782},{95,83}}</string>
+				<key>offset</key>
+				<string>{1,-11}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/5 (5).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,817},{96,83}}</string>
+				<key>offset</key>
+				<string>{2,-15}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/5 (6).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{308,782},{95,85}}</string>
+				<key>offset</key>
+				<string>{1,-18}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/6 (01).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{311,613},{82,107}}</string>
+				<key>offset</key>
+				<string>{2,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/6 (02).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{420,613},{82,107}}</string>
+				<key>offset</key>
+				<string>{2,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/6 (03).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{529,613},{82,107}}</string>
+				<key>offset</key>
+				<string>{2,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/6 (04).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{638,613},{82,107}}</string>
+				<key>offset</key>
+				<string>{2,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/6 (05).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1960,796},{82,110}}</string>
+				<key>offset</key>
+				<string>{2,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/6 (06).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1511,820},{82,108}}</string>
+				<key>offset</key>
+				<string>{2,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/6 (07).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{747,613},{82,107}}</string>
+				<key>offset</key>
+				<string>{2,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/6 (08).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1072,742},{82,106}}</string>
+				<key>offset</key>
+				<string>{2,-1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/6 (09).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1180,815},{82,106}}</string>
+				<key>offset</key>
+				<string>{2,-1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/6 (10).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{856,653},{82,107}}</string>
+				<key>offset</key>
+				<string>{2,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/10 (1).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1665,485},{119,101}}</string>
+				<key>offset</key>
+				<string>{-1,3}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/10 (2).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1671,1},{119,101}}</string>
+				<key>offset</key>
+				<string>{-1,3}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/10 (3).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1671,104},{119,101}}</string>
+				<key>offset</key>
+				<string>{-1,3}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/10 (4).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1771,328},{119,97}}</string>
+				<key>offset</key>
+				<string>{-1,5}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/10 (5).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1671,207},{119,99}}</string>
+				<key>offset</key>
+				<string>{-1,4}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/11 (1).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1684,1443},{82,83}}</string>
+				<key>offset</key>
+				<string>{-1,-9}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/11 (3).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{950,997},{82,87}}</string>
+				<key>offset</key>
+				<string>{-1,-13}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/11 (4).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1931,1189},{86,94}}</string>
+				<key>offset</key>
+				<string>{-3,-15}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/12 (01).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1769,1445},{82,83}}</string>
+				<key>offset</key>
+				<string>{0,-9}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/12 (02).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1854,1445},{82,83}}</string>
+				<key>offset</key>
+				<string>{0,-9}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/12 (03).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1939,1445},{82,83}}</string>
+				<key>offset</key>
+				<string>{0,-9}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/12 (04).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{269,953},{82,83}}</string>
+				<key>offset</key>
+				<string>{0,-9}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/12 (05).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{171,964},{82,83}}</string>
+				<key>offset</key>
+				<string>{0,-9}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/12 (06).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{86,972},{82,83}}</string>
+				<key>offset</key>
+				<string>{0,-9}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/12 (07).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1734,1359},{82,84}}</string>
+				<key>offset</key>
+				<string>{0,-10}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/12 (08).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,999},{82,83}}</string>
+				<key>offset</key>
+				<string>{0,-9}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/13 (01).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1219,439},{106,93}}</string>
+				<key>offset</key>
+				<string>{0,6}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/13 (02).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1307,758},{98,98}}</string>
+				<key>offset</key>
+				<string>{0,10}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/13 (03).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1327,439},{106,93}}</string>
+				<key>offset</key>
+				<string>{3,6}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/13 (04).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,709},{106,83}}</string>
+				<key>offset</key>
+				<string>{3,3}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/13 (05).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1665,588},{105,104}}</string>
+				<key>offset</key>
+				<string>{3,13}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/13 (06).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{901,439},{104,100}}</string>
+				<key>offset</key>
+				<string>{4,9}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/13 (07).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{104,613},{103,92}}</string>
+				<key>offset</key>
+				<string>{6,5}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/13 (08).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{965,727},{105,83}}</string>
+				<key>offset</key>
+				<string>{4,3}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/13 (09).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1960,684},{110,84}}</string>
+				<key>offset</key>
+				<string>{2,1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/13 (10).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1665,908},{108,100}}</string>
+				<key>offset</key>
+				<string>{1,9}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/13 (11).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1435,439},{106,93}}</string>
+				<key>offset</key>
+				<string>{0,6}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/13 (12).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1950,179},{97,85}}</string>
+				<key>offset</key>
+				<string>{-5,2}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/13 (13).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1733,1124},{97,84}}</string>
+				<key>offset</key>
+				<string>{-5,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/13 (14).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1115,439},{102,98}}</string>
+				<key>offset</key>
+				<string>{-2,10}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/13 (15).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1219,534},{106,93}}</string>
+				<key>offset</key>
+				<string>{0,6}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/14 (01).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1327,534},{110,89}}</string>
+				<key>offset</key>
+				<string>{0,-7}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/14 (02).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1209,629},{110,89}}</string>
+				<key>offset</key>
+				<string>{0,-7}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/14 (03).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1418,547},{110,89}}</string>
+				<key>offset</key>
+				<string>{0,-7}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/14 (04).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1418,638},{110,89}}</string>
+				<key>offset</key>
+				<string>{0,-7}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/14 (05).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1321,646},{110,89}}</string>
+				<key>offset</key>
+				<string>{0,-7}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/14 (06).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1412,729},{110,89}}</string>
+				<key>offset</key>
+				<string>{0,-7}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/14 (07).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,522},{110,89}}</string>
+				<key>offset</key>
+				<string>{0,-7}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/14 (08).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{113,522},{110,89}}</string>
+				<key>offset</key>
+				<string>{0,-7}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/14 (09).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{225,522},{110,89}}</string>
+				<key>offset</key>
+				<string>{0,-7}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/14 (10).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{337,522},{110,89}}</string>
+				<key>offset</key>
+				<string>{0,-7}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/14 (11).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{449,522},{110,89}}</string>
+				<key>offset</key>
+				<string>{0,-7}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/14 (12).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{561,522},{110,89}}</string>
+				<key>offset</key>
+				<string>{0,-7}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/14 (13).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{673,522},{110,89}}</string>
+				<key>offset</key>
+				<string>{0,-7}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/14 (14).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{785,522},{110,89}}</string>
+				<key>offset</key>
+				<string>{0,-7}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/14 (15).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{897,541},{110,89}}</string>
+				<key>offset</key>
+				<string>{0,-7}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/15 (01).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1391,916},{100,83}}</string>
+				<key>offset</key>
+				<string>{2,-10}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/15 (02).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1493,930},{100,83}}</string>
+				<key>offset</key>
+				<string>{3,-10}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/15 (03).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1595,1010},{100,83}}</string>
+				<key>offset</key>
+				<string>{3,-10}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/15 (04).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1697,1022},{100,83}}</string>
+				<key>offset</key>
+				<string>{3,-10}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/15 (05).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1799,1022},{100,83}}</string>
+				<key>offset</key>
+				<string>{3,-10}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/15 (06).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1884,1104},{100,83}}</string>
+				<key>offset</key>
+				<string>{3,-10}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/15 (07).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{311,697},{100,83}}</string>
+				<key>offset</key>
+				<string>{3,-10}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/15 (08).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{206,709},{100,83}}</string>
+				<key>offset</key>
+				<string>{3,-10}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/15 (09).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{413,697},{100,83}}</string>
+				<key>offset</key>
+				<string>{3,-10}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/15 (10).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1288,858},{101,83}}</string>
+				<key>offset</key>
+				<string>{3,-10}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/15 (11).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{515,697},{100,83}}</string>
+				<key>offset</key>
+				<string>{3,-10}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/15 (12).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{617,697},{100,83}}</string>
+				<key>offset</key>
+				<string>{3,-10}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/15 (13).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{719,697},{100,83}}</string>
+				<key>offset</key>
+				<string>{3,-10}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/15 (14).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{821,737},{100,83}}</string>
+				<key>offset</key>
+				<string>{3,-10}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/15 (15).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{923,812},{100,83}}</string>
+				<key>offset</key>
+				<string>{3,-10}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/15 (16).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1025,826},{100,83}}</string>
+				<key>offset</key>
+				<string>{3,-10}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/15 (17).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1127,899},{100,83}}</string>
+				<key>offset</key>
+				<string>{3,-10}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/15 (18).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1229,943},{100,83}}</string>
+				<key>offset</key>
+				<string>{3,-10}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/15 (19).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1331,1001},{100,83}}</string>
+				<key>offset</key>
+				<string>{3,-10}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/15 (20).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1433,1015},{100,83}}</string>
+				<key>offset</key>
+				<string>{3,-10}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/7 (1).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{682,868},{82,88}}</string>
+				<key>offset</key>
+				<string>{0,-9}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/7 (2).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{501,867},{82,89}}</string>
+				<key>offset</key>
+				<string>{0,-9}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/8 (02).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{354,953},{82,82}}</string>
+				<key>offset</key>
+				<string>{-2,-2}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/8 (03).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1535,1095},{84,98}}</string>
+				<key>offset</key>
+				<string>{-3,6}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/8 (04).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1832,1189},{84,97}}</string>
+				<key>offset</key>
+				<string>{-3,6}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/8 (05).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{206,794},{84,96}}</string>
+				<key>offset</key>
+				<string>{-3,5}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/8 (06).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{405,782},{84,94}}</string>
+				<key>offset</key>
+				<string>{-3,4}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/8 (07).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{695,782},{84,93}}</string>
+				<key>offset</key>
+				<string>{-3,4}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/8 (08).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{790,822},{84,91}}</string>
+				<key>offset</key>
+				<string>{-3,3}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/8 (09).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{883,897},{84,90}}</string>
+				<key>offset</key>
+				<string>{-3,2}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/8 (10).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{975,911},{84,90}}</string>
+				<key>offset</key>
+				<string>{-3,2}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/8 (11).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1067,984},{84,90}}</string>
+				<key>offset</key>
+				<string>{-3,2}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/8 (12).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1159,1028},{84,90}}</string>
+				<key>offset</key>
+				<string>{-3,2}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/8 (13).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1251,1086},{84,90}}</string>
+				<key>offset</key>
+				<string>{-3,2}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/8 (14).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1343,1086},{84,90}}</string>
+				<key>offset</key>
+				<string>{-3,2}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/8 (15).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1429,1100},{84,90}}</string>
+				<key>offset</key>
+				<string>{-3,2}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/9 (01).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,613},{101,94}}</string>
+				<key>offset</key>
+				<string>{-3,-9}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/9 (02).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1407,820},{102,94}}</string>
+				<key>offset</key>
+				<string>{-3,-9}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/9 (03).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1007,536},{105,94}}</string>
+				<key>offset</key>
+				<string>{-3,-9}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/9 (04).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1007,439},{106,95}}</string>
+				<key>offset</key>
+				<string>{-3,-9}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/9 (05).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1114,539},{106,93}}</string>
+				<key>offset</key>
+				<string>{-3,-8}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/9 (06).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{988,632},{105,93}}</string>
+				<key>offset</key>
+				<string>{-3,-8}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/9 (07).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1095,647},{104,93}}</string>
+				<key>offset</key>
+				<string>{-2,-8}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/9 (08).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1201,720},{104,93}}</string>
+				<key>offset</key>
+				<string>{-2,-8}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/9 (09).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{209,613},{100,94}}</string>
+				<key>offset</key>
+				<string>{-2,-9}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/9 (10).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{104,707},{100,94}}</string>
+				<key>offset</key>
+				<string>{-2,-9}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>Lobby/Images/Chat/liaotian.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{898,519}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{898,519}</string>
+			</dict>
+			<key>Lobby/Images/Chat/neiliaotian.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{901,1},{637,436}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{637,436}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>chat.png</string>
+			<key>realTextureFileName</key>
+			<string>chat.png</string>
+			<key>size</key>
+			<string>{2048,1528}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>2048</integer>
+			<key>height</key>
+			<integer>1528</integer>
+		</dict>
+	</dict>
+</plist>
