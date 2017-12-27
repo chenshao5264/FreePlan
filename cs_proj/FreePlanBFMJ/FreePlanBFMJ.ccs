@@ -319,11 +319,11 @@
             <PlistImageFile Name="mj_light.png" Key="mj_light.png" />
             <PlistImageFile Name="mj_mahj_remain.png" Key="mj_mahj_remain.png" />
             <PlistImageFile Name="mj_mutiply_chow.png" Key="mj_mutiply_chow.png" />
+            <PlistImageFile Name="mj_play_cursor.png" Key="mj_play_cursor.png" />
             <PlistImageFile Name="mj_play_tips_bg.png" Key="mj_play_tips_bg.png" />
             <PlistImageFile Name="mj_tt_fan.png" Key="mj_tt_fan.png" />
             <PlistImageFile Name="mj_tt_pjjs.png" Key="mj_tt_pjjs.png" />
             <PlistImageFile Name="mj_tt_remain.png" Key="mj_tt_remain.png" />
-            <PlistImageFile Name="mj_play_cursor.png" Key="mj_play_cursor.png" />
           </PlistImageFolder>
           <PlistImageFolder Image="points_atlas.png" PListFile="points_atlas.plist" Name=".points_atlas_PList.Dir">
             <PlistImageFile Name="mj_points_anGang.png" Key="mj_points_anGang.png" />

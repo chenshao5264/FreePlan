@@ -28,5 +28,13 @@
         <EnableHTML5Advanced Value="False" />
       </Value>
     </Item>
+    <Item Key="TabsParamsKey">
+      <Value ctype="TabsInfo">
+        <OpenedDocuments>
+          <FilePathData Path="csb/dialogs/ChatDialog.csd" />
+        </OpenedDocuments>
+        <ActiveDocument Path="csb/dialogs/ChatDialog.csd" />
+      </Value>
+    </Item>
   </Properties>
 </UserData>

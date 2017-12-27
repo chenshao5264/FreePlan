@@ -197,8 +197,6 @@
               <PlistImageFile Name="Chat_Emoticon7_12.png" Key="Chat_Emoticon7_12.png" />
               <PlistImageFile Name="Chat_Emoticon7_13.png" Key="Chat_Emoticon7_13.png" />
               <PlistImageFile Name="Chat_Emoticon7_14.png" Key="Chat_Emoticon7_14.png" />
-              <PlistImageFile Name="Chat_Emoticon7_15.png" Key="Chat_Emoticon7_15.png" />
-              <PlistImageFile Name="Chat_Emoticon7_16.png" Key="Chat_Emoticon7_16.png" />
               <PlistImageFile Name="Chat_Emoticon8_01.png" Key="Chat_Emoticon8_01.png" />
               <PlistImageFile Name="Chat_Emoticon8_02.png" Key="Chat_Emoticon8_02.png" />
               <PlistImageFile Name="Chat_Emoticon8_03.png" Key="Chat_Emoticon8_03.png" />
@@ -214,10 +212,12 @@
               <PlistImageFile Name="Chat_Emoticon9_03.png" Key="Chat_Emoticon9_03.png" />
               <PlistImageFile Name="Chat_Emoticon9_04.png" Key="Chat_Emoticon9_04.png" />
               <PlistImageFile Name="Chat_Emoticon9_05.png" Key="Chat_Emoticon9_05.png" />
-              <PlistImageFile Name="Chat_Input_Bg.png" Key="Chat_Input_Bg.png" />
               <PlistImageFile Name="Chat_Main_Bg.png" Key="Chat_Main_Bg.png" />
               <PlistImageFile Name="Chat_Text_Frame_1.png" Key="Chat_Text_Frame_1.png" />
               <PlistImageFile Name="Chat_Text_Frame_2.png" Key="Chat_Text_Frame_2.png" />
+              <PlistImageFile Name="Chat_Emoticon16_01.png" Key="Chat_Emoticon16_01.png" />
+              <PlistImageFile Name="Chat_Emoticon16_02.png" Key="Chat_Emoticon16_02.png" />
+              <PlistImageFile Name="Chat_fgx.png" Key="Chat_fgx.png" />
             </PlistImageFolder>
           </Folder>
           <Folder Name="game">
@@ -229,6 +229,7 @@
               <PlistImageFile Name="time_bg_1.png" Key="time_bg_1.png" />
               <PlistImageFile Name="time_bg_2.png" Key="time_bg_2.png" />
               <PlistImageFile Name="time_bg_3.png" Key="time_bg_3.png" />
+              <PlistImageFile Name="Lobby_Images_public_btnLT-s.png" Key="Lobby_Images_public_btnLT-s.png" />
             </PlistImageFolder>
             <Fnt Name="timeNum.fnt" />
           </Folder>
@@ -341,6 +342,7 @@
               <PlistImageFile Name="reward_dialog_title.png" Key="reward_dialog_title.png" />
               <PlistImageFile Name="tt_wxts.png" Key="tt_wxts.png" />
               <PlistImageFile Name="txt_hd.png" Key="txt_hd.png" />
+              <PlistImageFile Name="bg_sp9_2.png" Key="bg_sp9_2.png" />
             </PlistImageFolder>
           </Folder>
           <Folder Name="shop">
