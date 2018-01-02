@@ -8,12 +8,13 @@
             <Project Name="ProjTable.csd" Type="Node" />
           </Folder>
           <Folder Name="dialogs">
+            <Project Name="ChatDialog.csd" Type="Node" />
             <Project Name="RegisterDialog.csd" Type="Node" />
             <Project Name="SetupDialog.csd" Type="Node" />
             <Project Name="ShopDialog.csd" Type="Node" />
             <Project Name="SignInDialog.csd" Type="Node" />
             <Project Name="UserCenterDialog.csd" Type="Node" />
-            <Project Name="ChatDialog.csd" Type="Node" />
+            <Project Name="RoomIDInputDialog.csd" Type="Node" />
           </Folder>
           <Folder Name="games">
             <Project Name="AvatarNode.csd" Type="Node" />
@@ -38,12 +39,34 @@
           <TTF Name="msyhbd.ttf" />
         </Folder>
         <Folder Name="images">
+          <Folder Name="box">
+            <PlistImageFolder Image="box_atlas.png" PListFile="box_atlas.plist" Name=".box_atlas_PList.Dir">
+              <PlistImageFile Name="box_btn_jsq.png" Key="box_btn_jsq.png" />
+              <PlistImageFile Name="box_jr_kuang.png" Key="box_jr_kuang.png" />
+              <PlistImageFile Name="box_jrfj_bg.png" Key="box_jrfj_bg.png" />
+            </PlistImageFolder>
+          </Folder>
           <Folder Name="chat">
             <PlistImageFolder Image="chat_atlas.png" PListFile="chat_atlas.plist" Name=".chat_atlas_PList.Dir">
               <PlistImageFile Name="Chat_Btn_Close.png" Key="Chat_Btn_Close.png" />
               <PlistImageFile Name="Chat_Btn_Emoticon.png" Key="Chat_Btn_Emoticon.png" />
               <PlistImageFile Name="Chat_Btn_Lang.png" Key="Chat_Btn_Lang.png" />
               <PlistImageFile Name="Chat_Btn_Send.png" Key="Chat_Btn_Send.png" />
+              <PlistImageFile Name="Chat_Emoticon1_01.png" Key="Chat_Emoticon1_01.png" />
+              <PlistImageFile Name="Chat_Emoticon1_02.png" Key="Chat_Emoticon1_02.png" />
+              <PlistImageFile Name="Chat_Emoticon1_03.png" Key="Chat_Emoticon1_03.png" />
+              <PlistImageFile Name="Chat_Emoticon1_04.png" Key="Chat_Emoticon1_04.png" />
+              <PlistImageFile Name="Chat_Emoticon1_05.png" Key="Chat_Emoticon1_05.png" />
+              <PlistImageFile Name="Chat_Emoticon1_06.png" Key="Chat_Emoticon1_06.png" />
+              <PlistImageFile Name="Chat_Emoticon1_07.png" Key="Chat_Emoticon1_07.png" />
+              <PlistImageFile Name="Chat_Emoticon1_08.png" Key="Chat_Emoticon1_08.png" />
+              <PlistImageFile Name="Chat_Emoticon1_09.png" Key="Chat_Emoticon1_09.png" />
+              <PlistImageFile Name="Chat_Emoticon1_10.png" Key="Chat_Emoticon1_10.png" />
+              <PlistImageFile Name="Chat_Emoticon1_11.png" Key="Chat_Emoticon1_11.png" />
+              <PlistImageFile Name="Chat_Emoticon1_12.png" Key="Chat_Emoticon1_12.png" />
+              <PlistImageFile Name="Chat_Emoticon1_13.png" Key="Chat_Emoticon1_13.png" />
+              <PlistImageFile Name="Chat_Emoticon1_14.png" Key="Chat_Emoticon1_14.png" />
+              <PlistImageFile Name="Chat_Emoticon1_15.png" Key="Chat_Emoticon1_15.png" />
               <PlistImageFile Name="Chat_Emoticon10_01.png" Key="Chat_Emoticon10_01.png" />
               <PlistImageFile Name="Chat_Emoticon10_02.png" Key="Chat_Emoticon10_02.png" />
               <PlistImageFile Name="Chat_Emoticon10_03.png" Key="Chat_Emoticon10_03.png" />
@@ -107,21 +130,8 @@
               <PlistImageFile Name="Chat_Emoticon15_18.png" Key="Chat_Emoticon15_18.png" />
               <PlistImageFile Name="Chat_Emoticon15_19.png" Key="Chat_Emoticon15_19.png" />
               <PlistImageFile Name="Chat_Emoticon15_20.png" Key="Chat_Emoticon15_20.png" />
-              <PlistImageFile Name="Chat_Emoticon1_01.png" Key="Chat_Emoticon1_01.png" />
-              <PlistImageFile Name="Chat_Emoticon1_02.png" Key="Chat_Emoticon1_02.png" />
-              <PlistImageFile Name="Chat_Emoticon1_03.png" Key="Chat_Emoticon1_03.png" />
-              <PlistImageFile Name="Chat_Emoticon1_04.png" Key="Chat_Emoticon1_04.png" />
-              <PlistImageFile Name="Chat_Emoticon1_05.png" Key="Chat_Emoticon1_05.png" />
-              <PlistImageFile Name="Chat_Emoticon1_06.png" Key="Chat_Emoticon1_06.png" />
-              <PlistImageFile Name="Chat_Emoticon1_07.png" Key="Chat_Emoticon1_07.png" />
-              <PlistImageFile Name="Chat_Emoticon1_08.png" Key="Chat_Emoticon1_08.png" />
-              <PlistImageFile Name="Chat_Emoticon1_09.png" Key="Chat_Emoticon1_09.png" />
-              <PlistImageFile Name="Chat_Emoticon1_10.png" Key="Chat_Emoticon1_10.png" />
-              <PlistImageFile Name="Chat_Emoticon1_11.png" Key="Chat_Emoticon1_11.png" />
-              <PlistImageFile Name="Chat_Emoticon1_12.png" Key="Chat_Emoticon1_12.png" />
-              <PlistImageFile Name="Chat_Emoticon1_13.png" Key="Chat_Emoticon1_13.png" />
-              <PlistImageFile Name="Chat_Emoticon1_14.png" Key="Chat_Emoticon1_14.png" />
-              <PlistImageFile Name="Chat_Emoticon1_15.png" Key="Chat_Emoticon1_15.png" />
+              <PlistImageFile Name="Chat_Emoticon16_01.png" Key="Chat_Emoticon16_01.png" />
+              <PlistImageFile Name="Chat_Emoticon16_02.png" Key="Chat_Emoticon16_02.png" />
               <PlistImageFile Name="Chat_Emoticon2_01.png" Key="Chat_Emoticon2_01.png" />
               <PlistImageFile Name="Chat_Emoticon2_02.png" Key="Chat_Emoticon2_02.png" />
               <PlistImageFile Name="Chat_Emoticon2_03.png" Key="Chat_Emoticon2_03.png" />
@@ -212,12 +222,10 @@
               <PlistImageFile Name="Chat_Emoticon9_03.png" Key="Chat_Emoticon9_03.png" />
               <PlistImageFile Name="Chat_Emoticon9_04.png" Key="Chat_Emoticon9_04.png" />
               <PlistImageFile Name="Chat_Emoticon9_05.png" Key="Chat_Emoticon9_05.png" />
+              <PlistImageFile Name="Chat_fgx.png" Key="Chat_fgx.png" />
               <PlistImageFile Name="Chat_Main_Bg.png" Key="Chat_Main_Bg.png" />
               <PlistImageFile Name="Chat_Text_Frame_1.png" Key="Chat_Text_Frame_1.png" />
               <PlistImageFile Name="Chat_Text_Frame_2.png" Key="Chat_Text_Frame_2.png" />
-              <PlistImageFile Name="Chat_Emoticon16_01.png" Key="Chat_Emoticon16_01.png" />
-              <PlistImageFile Name="Chat_Emoticon16_02.png" Key="Chat_Emoticon16_02.png" />
-              <PlistImageFile Name="Chat_fgx.png" Key="Chat_fgx.png" />
             </PlistImageFolder>
           </Folder>
           <Folder Name="game">
@@ -226,10 +234,10 @@
               <PlistImageFile Name="btn_set.png" Key="btn_set.png" />
               <PlistImageFile Name="img_avatar_bg.png" Key="img_avatar_bg.png" />
               <PlistImageFile Name="img_ready.png" Key="img_ready.png" />
+              <PlistImageFile Name="Lobby_Images_public_btnLT-s.png" Key="Lobby_Images_public_btnLT-s.png" />
               <PlistImageFile Name="time_bg_1.png" Key="time_bg_1.png" />
               <PlistImageFile Name="time_bg_2.png" Key="time_bg_2.png" />
               <PlistImageFile Name="time_bg_3.png" Key="time_bg_3.png" />
-              <PlistImageFile Name="Lobby_Images_public_btnLT-s.png" Key="Lobby_Images_public_btnLT-s.png" />
             </PlistImageFolder>
             <Fnt Name="timeNum.fnt" />
           </Folder>
@@ -323,6 +331,7 @@
               <PlistImageFile Name="bg_msgbox_1.png" Key="bg_msgbox_1.png" />
               <PlistImageFile Name="bg_msgbox_2.png" Key="bg_msgbox_2.png" />
               <PlistImageFile Name="bg_sp9_1.png" Key="bg_sp9_1.png" />
+              <PlistImageFile Name="bg_sp9_2.png" Key="bg_sp9_2.png" />
               <PlistImageFile Name="btn_cancel1.png" Key="btn_cancel1.png" />
               <PlistImageFile Name="btn_cancel2.png" Key="btn_cancel2.png" />
               <PlistImageFile Name="btn_close_1.png" Key="btn_close_1.png" />
@@ -342,7 +351,7 @@
               <PlistImageFile Name="reward_dialog_title.png" Key="reward_dialog_title.png" />
               <PlistImageFile Name="tt_wxts.png" Key="tt_wxts.png" />
               <PlistImageFile Name="txt_hd.png" Key="txt_hd.png" />
-              <PlistImageFile Name="bg_sp9_2.png" Key="bg_sp9_2.png" />
+              <PlistImageFile Name="btn_common.png" Key="btn_common.png" />
             </PlistImageFolder>
           </Folder>
           <Folder Name="shop">
@@ -577,6 +586,192 @@
             <PlistImageFile Name="Lobby_Images_Match_Champion_txt_zjje_D.png" Key="Lobby/Images/Match/Champion/txt_zjje_D.png" />
             <PlistImageFile Name="Lobby_Images_Match_Champion_WC.png" Key="Lobby/Images/Match/Champion/WC.png" />
             <PlistImageFile Name="Lobby_Images_Match_Champion_ygpz.png" Key="Lobby/Images/Match/Champion/ygpz.png" />
+          </PlistImageFolder>
+          <PlistImageFolder Image="chat.png" PListFile="chat.plist" Name=".chat_PList.Dir">
+            <PlistImageFile Name="Lobby_Images_Chat_1_1.png" Key="Lobby/Images/Chat/1_1.png" />
+            <PlistImageFile Name="Lobby_Images_Chat_1_10.png" Key="Lobby/Images/Chat/1_10.png" />
+            <PlistImageFile Name="Lobby_Images_Chat_1_11.png" Key="Lobby/Images/Chat/1_11.png" />
+            <PlistImageFile Name="Lobby_Images_Chat_1_12.png" Key="Lobby/Images/Chat/1_12.png" />
+            <PlistImageFile Name="Lobby_Images_Chat_1_13.png" Key="Lobby/Images/Chat/1_13.png" />
+            <PlistImageFile Name="Lobby_Images_Chat_1_14.png" Key="Lobby/Images/Chat/1_14.png" />
+            <PlistImageFile Name="Lobby_Images_Chat_1_15.png" Key="Lobby/Images/Chat/1_15.png" />
+            <PlistImageFile Name="Lobby_Images_Chat_1_2.png" Key="Lobby/Images/Chat/1_2.png" />
+            <PlistImageFile Name="Lobby_Images_Chat_1_3.png" Key="Lobby/Images/Chat/1_3.png" />
+            <PlistImageFile Name="Lobby_Images_Chat_1_4.png" Key="Lobby/Images/Chat/1_4.png" />
+            <PlistImageFile Name="Lobby_Images_Chat_1_5.png" Key="Lobby/Images/Chat/1_5.png" />
+            <PlistImageFile Name="Lobby_Images_Chat_1_6.png" Key="Lobby/Images/Chat/1_6.png" />
+            <PlistImageFile Name="Lobby_Images_Chat_1_7.png" Key="Lobby/Images/Chat/1_7.png" />
+            <PlistImageFile Name="Lobby_Images_Chat_1_8.png" Key="Lobby/Images/Chat/1_8.png" />
+            <PlistImageFile Name="Lobby_Images_Chat_1_9.png" Key="Lobby/Images/Chat/1_9.png" />
+            <PlistImageFile Name="Lobby_Images_Chat_10 (1).png" Key="Lobby/Images/Chat/10 (1).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_10 (2).png" Key="Lobby/Images/Chat/10 (2).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_10 (3).png" Key="Lobby/Images/Chat/10 (3).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_10 (4).png" Key="Lobby/Images/Chat/10 (4).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_10 (5).png" Key="Lobby/Images/Chat/10 (5).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_11 (1).png" Key="Lobby/Images/Chat/11 (1).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_11 (3).png" Key="Lobby/Images/Chat/11 (3).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_11 (4).png" Key="Lobby/Images/Chat/11 (4).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_12 (01).png" Key="Lobby/Images/Chat/12 (01).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_12 (02).png" Key="Lobby/Images/Chat/12 (02).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_12 (03).png" Key="Lobby/Images/Chat/12 (03).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_12 (04).png" Key="Lobby/Images/Chat/12 (04).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_12 (05).png" Key="Lobby/Images/Chat/12 (05).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_12 (06).png" Key="Lobby/Images/Chat/12 (06).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_12 (07).png" Key="Lobby/Images/Chat/12 (07).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_12 (08).png" Key="Lobby/Images/Chat/12 (08).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_12_1.png" Key="Lobby/Images/Chat/12_1.png" />
+            <PlistImageFile Name="Lobby_Images_Chat_12_2.png" Key="Lobby/Images/Chat/12_2.png" />
+            <PlistImageFile Name="Lobby_Images_Chat_13 (01).png" Key="Lobby/Images/Chat/13 (01).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_13 (02).png" Key="Lobby/Images/Chat/13 (02).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_13 (03).png" Key="Lobby/Images/Chat/13 (03).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_13 (04).png" Key="Lobby/Images/Chat/13 (04).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_13 (05).png" Key="Lobby/Images/Chat/13 (05).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_13 (06).png" Key="Lobby/Images/Chat/13 (06).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_13 (07).png" Key="Lobby/Images/Chat/13 (07).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_13 (08).png" Key="Lobby/Images/Chat/13 (08).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_13 (09).png" Key="Lobby/Images/Chat/13 (09).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_13 (10).png" Key="Lobby/Images/Chat/13 (10).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_13 (11).png" Key="Lobby/Images/Chat/13 (11).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_13 (12).png" Key="Lobby/Images/Chat/13 (12).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_13 (13).png" Key="Lobby/Images/Chat/13 (13).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_13 (14).png" Key="Lobby/Images/Chat/13 (14).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_13 (15).png" Key="Lobby/Images/Chat/13 (15).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_14 (01).png" Key="Lobby/Images/Chat/14 (01).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_14 (02).png" Key="Lobby/Images/Chat/14 (02).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_14 (03).png" Key="Lobby/Images/Chat/14 (03).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_14 (04).png" Key="Lobby/Images/Chat/14 (04).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_14 (05).png" Key="Lobby/Images/Chat/14 (05).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_14 (06).png" Key="Lobby/Images/Chat/14 (06).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_14 (07).png" Key="Lobby/Images/Chat/14 (07).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_14 (08).png" Key="Lobby/Images/Chat/14 (08).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_14 (09).png" Key="Lobby/Images/Chat/14 (09).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_14 (10).png" Key="Lobby/Images/Chat/14 (10).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_14 (11).png" Key="Lobby/Images/Chat/14 (11).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_14 (12).png" Key="Lobby/Images/Chat/14 (12).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_14 (13).png" Key="Lobby/Images/Chat/14 (13).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_14 (14).png" Key="Lobby/Images/Chat/14 (14).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_14 (15).png" Key="Lobby/Images/Chat/14 (15).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_15 (01).png" Key="Lobby/Images/Chat/15 (01).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_15 (02).png" Key="Lobby/Images/Chat/15 (02).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_15 (03).png" Key="Lobby/Images/Chat/15 (03).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_15 (04).png" Key="Lobby/Images/Chat/15 (04).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_15 (05).png" Key="Lobby/Images/Chat/15 (05).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_15 (06).png" Key="Lobby/Images/Chat/15 (06).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_15 (07).png" Key="Lobby/Images/Chat/15 (07).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_15 (08).png" Key="Lobby/Images/Chat/15 (08).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_15 (09).png" Key="Lobby/Images/Chat/15 (09).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_15 (10).png" Key="Lobby/Images/Chat/15 (10).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_15 (11).png" Key="Lobby/Images/Chat/15 (11).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_15 (12).png" Key="Lobby/Images/Chat/15 (12).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_15 (13).png" Key="Lobby/Images/Chat/15 (13).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_15 (14).png" Key="Lobby/Images/Chat/15 (14).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_15 (15).png" Key="Lobby/Images/Chat/15 (15).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_15 (16).png" Key="Lobby/Images/Chat/15 (16).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_15 (17).png" Key="Lobby/Images/Chat/15 (17).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_15 (18).png" Key="Lobby/Images/Chat/15 (18).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_15 (19).png" Key="Lobby/Images/Chat/15 (19).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_15 (20).png" Key="Lobby/Images/Chat/15 (20).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_3 (01).png" Key="Lobby/Images/Chat/3 (01).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_3 (02).png" Key="Lobby/Images/Chat/3 (02).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_3 (03).png" Key="Lobby/Images/Chat/3 (03).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_3 (04).png" Key="Lobby/Images/Chat/3 (04).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_3 (05).png" Key="Lobby/Images/Chat/3 (05).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_3 (06).png" Key="Lobby/Images/Chat/3 (06).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_3 (07).png" Key="Lobby/Images/Chat/3 (07).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_3 (08).png" Key="Lobby/Images/Chat/3 (08).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_3 (09).png" Key="Lobby/Images/Chat/3 (09).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_3 (10).png" Key="Lobby/Images/Chat/3 (10).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_3 (11).png" Key="Lobby/Images/Chat/3 (11).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_3 (12).png" Key="Lobby/Images/Chat/3 (12).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_3 (13).png" Key="Lobby/Images/Chat/3 (13).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_3 (14).png" Key="Lobby/Images/Chat/3 (14).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_3 (15).png" Key="Lobby/Images/Chat/3 (15).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_3 (16).png" Key="Lobby/Images/Chat/3 (16).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_3 (17).png" Key="Lobby/Images/Chat/3 (17).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_3 (18).png" Key="Lobby/Images/Chat/3 (18).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_3 (19).png" Key="Lobby/Images/Chat/3 (19).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_3 (20).png" Key="Lobby/Images/Chat/3 (20).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_3 (21).png" Key="Lobby/Images/Chat/3 (21).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_3 (22).png" Key="Lobby/Images/Chat/3 (22).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_3 (23).png" Key="Lobby/Images/Chat/3 (23).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_3 (24).png" Key="Lobby/Images/Chat/3 (24).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_3 (25).png" Key="Lobby/Images/Chat/3 (25).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_3 (26).png" Key="Lobby/Images/Chat/3 (26).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_3 (27).png" Key="Lobby/Images/Chat/3 (27).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_3 (28).png" Key="Lobby/Images/Chat/3 (28).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_3 (29).png" Key="Lobby/Images/Chat/3 (29).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_3 (30).png" Key="Lobby/Images/Chat/3 (30).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_4 (01).png" Key="Lobby/Images/Chat/4 (01).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_4 (02).png" Key="Lobby/Images/Chat/4 (02).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_4 (03).png" Key="Lobby/Images/Chat/4 (03).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_4 (04).png" Key="Lobby/Images/Chat/4 (04).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_4 (05).png" Key="Lobby/Images/Chat/4 (05).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_4 (06).png" Key="Lobby/Images/Chat/4 (06).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_4 (07).png" Key="Lobby/Images/Chat/4 (07).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_4 (08).png" Key="Lobby/Images/Chat/4 (08).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_4 (09).png" Key="Lobby/Images/Chat/4 (09).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_4 (10).png" Key="Lobby/Images/Chat/4 (10).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_4 (11).png" Key="Lobby/Images/Chat/4 (11).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_4 (12).png" Key="Lobby/Images/Chat/4 (12).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_4 (13).png" Key="Lobby/Images/Chat/4 (13).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_4 (14).png" Key="Lobby/Images/Chat/4 (14).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_4 (15).png" Key="Lobby/Images/Chat/4 (15).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_5 (1).png" Key="Lobby/Images/Chat/5 (1).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_5 (2).png" Key="Lobby/Images/Chat/5 (2).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_5 (3).png" Key="Lobby/Images/Chat/5 (3).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_5 (4).png" Key="Lobby/Images/Chat/5 (4).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_5 (5).png" Key="Lobby/Images/Chat/5 (5).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_5 (6).png" Key="Lobby/Images/Chat/5 (6).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_6 (01).png" Key="Lobby/Images/Chat/6 (01).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_6 (02).png" Key="Lobby/Images/Chat/6 (02).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_6 (03).png" Key="Lobby/Images/Chat/6 (03).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_6 (04).png" Key="Lobby/Images/Chat/6 (04).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_6 (05).png" Key="Lobby/Images/Chat/6 (05).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_6 (06).png" Key="Lobby/Images/Chat/6 (06).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_6 (07).png" Key="Lobby/Images/Chat/6 (07).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_6 (08).png" Key="Lobby/Images/Chat/6 (08).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_6 (09).png" Key="Lobby/Images/Chat/6 (09).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_6 (10).png" Key="Lobby/Images/Chat/6 (10).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_7 (1).png" Key="Lobby/Images/Chat/7 (1).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_7 (2).png" Key="Lobby/Images/Chat/7 (2).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_8 (02).png" Key="Lobby/Images/Chat/8 (02).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_8 (03).png" Key="Lobby/Images/Chat/8 (03).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_8 (04).png" Key="Lobby/Images/Chat/8 (04).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_8 (05).png" Key="Lobby/Images/Chat/8 (05).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_8 (06).png" Key="Lobby/Images/Chat/8 (06).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_8 (07).png" Key="Lobby/Images/Chat/8 (07).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_8 (08).png" Key="Lobby/Images/Chat/8 (08).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_8 (09).png" Key="Lobby/Images/Chat/8 (09).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_8 (10).png" Key="Lobby/Images/Chat/8 (10).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_8 (11).png" Key="Lobby/Images/Chat/8 (11).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_8 (12).png" Key="Lobby/Images/Chat/8 (12).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_8 (13).png" Key="Lobby/Images/Chat/8 (13).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_8 (14).png" Key="Lobby/Images/Chat/8 (14).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_8 (15).png" Key="Lobby/Images/Chat/8 (15).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_9 (01).png" Key="Lobby/Images/Chat/9 (01).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_9 (02).png" Key="Lobby/Images/Chat/9 (02).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_9 (03).png" Key="Lobby/Images/Chat/9 (03).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_9 (04).png" Key="Lobby/Images/Chat/9 (04).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_9 (05).png" Key="Lobby/Images/Chat/9 (05).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_9 (06).png" Key="Lobby/Images/Chat/9 (06).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_9 (07).png" Key="Lobby/Images/Chat/9 (07).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_9 (08).png" Key="Lobby/Images/Chat/9 (08).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_9 (09).png" Key="Lobby/Images/Chat/9 (09).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_9 (10).png" Key="Lobby/Images/Chat/9 (10).png" />
+            <PlistImageFile Name="Lobby_Images_Chat_biaoqtub.png" Key="Lobby/Images/Chat/biaoqtub.png" />
+            <PlistImageFile Name="Lobby_Images_Chat_duihuak.png" Key="Lobby/Images/Chat/duihuak.png" />
+            <PlistImageFile Name="Lobby_Images_Chat_duihuak2.png" Key="Lobby/Images/Chat/duihuak2.png" />
+            <PlistImageFile Name="Lobby_Images_Chat_fegexian.png" Key="Lobby/Images/Chat/fegexian.png" />
+            <PlistImageFile Name="Lobby_Images_Chat_fegexianc.png" Key="Lobby/Images/Chat/fegexianc.png" />
+            <PlistImageFile Name="Lobby_Images_Chat_hd.png" Key="Lobby/Images/Chat/hd.png" />
+            <PlistImageFile Name="Lobby_Images_Chat_hdd.png" Key="Lobby/Images/Chat/hdd.png" />
+            <PlistImageFile Name="Lobby_Images_Chat_jiesanpaiyou.png" Key="Lobby/Images/Chat/jiesanpaiyou.png" />
+            <PlistImageFile Name="Lobby_Images_Chat_kuaijieyu.png" Key="Lobby/Images/Chat/kuaijieyu.png" />
+            <PlistImageFile Name="Lobby_Images_Chat_liaotian.png" Key="Lobby/Images/Chat/liaotian.png" />
+            <PlistImageFile Name="Lobby_Images_Chat_neiliaotian.png" Key="Lobby/Images/Chat/neiliaotian.png" />
+            <PlistImageFile Name="Lobby_Images_Chat_taitou.png" Key="Lobby/Images/Chat/taitou.png" />
+            <PlistImageFile Name="Lobby_Images_Chat_tuichupaiyou.png" Key="Lobby/Images/Chat/tuichupaiyou.png" />
+            <PlistImageFile Name="Lobby_Images_Chat_xinxi.png" Key="Lobby/Images/Chat/xinxi.png" />
           </PlistImageFolder>
           <PlistImageFolder Image="HallBigTexture.png" PListFile="HallBigTexture.plist" Name=".HallBigTexture_PList.Dir">
             <PlistImageFile Name="Resources_BaseLiving_box_closed.png" Key="Resources/BaseLiving/box_closed.png" />
@@ -1411,192 +1606,6 @@
           <PlistParticleFile Name="jindutiaojiemian001.plist" />
           <PlistParticleFile Name="xingxinglihebao001.plist" />
           <PlistParticleFile Name="zhuanguang001.plist" />
-          <PlistImageFolder Image="chat.png" PListFile="chat.plist" Name=".chat_PList.Dir">
-            <PlistImageFile Name="Lobby_Images_Chat_duihuak.png" Key="Lobby/Images/Chat/duihuak.png" />
-            <PlistImageFile Name="Lobby_Images_Chat_fegexian.png" Key="Lobby/Images/Chat/fegexian.png" />
-            <PlistImageFile Name="Lobby_Images_Chat_fegexianc.png" Key="Lobby/Images/Chat/fegexianc.png" />
-            <PlistImageFile Name="Lobby_Images_Chat_hd.png" Key="Lobby/Images/Chat/hd.png" />
-            <PlistImageFile Name="Lobby_Images_Chat_hdd.png" Key="Lobby/Images/Chat/hdd.png" />
-            <PlistImageFile Name="Lobby_Images_Chat_jiesanpaiyou.png" Key="Lobby/Images/Chat/jiesanpaiyou.png" />
-            <PlistImageFile Name="Lobby_Images_Chat_kuaijieyu.png" Key="Lobby/Images/Chat/kuaijieyu.png" />
-            <PlistImageFile Name="Lobby_Images_Chat_taitou.png" Key="Lobby/Images/Chat/taitou.png" />
-            <PlistImageFile Name="Lobby_Images_Chat_tuichupaiyou.png" Key="Lobby/Images/Chat/tuichupaiyou.png" />
-            <PlistImageFile Name="Lobby_Images_Chat_xinxi.png" Key="Lobby/Images/Chat/xinxi.png" />
-            <PlistImageFile Name="Lobby_Images_Chat_duihuak2.png" Key="Lobby/Images/Chat/duihuak2.png" />
-            <PlistImageFile Name="Lobby_Images_Chat_biaoqtub.png" Key="Lobby/Images/Chat/biaoqtub.png" />
-            <PlistImageFile Name="Lobby_Images_Chat_1_1.png" Key="Lobby/Images/Chat/1_1.png" />
-            <PlistImageFile Name="Lobby_Images_Chat_1_10.png" Key="Lobby/Images/Chat/1_10.png" />
-            <PlistImageFile Name="Lobby_Images_Chat_1_11.png" Key="Lobby/Images/Chat/1_11.png" />
-            <PlistImageFile Name="Lobby_Images_Chat_1_12.png" Key="Lobby/Images/Chat/1_12.png" />
-            <PlistImageFile Name="Lobby_Images_Chat_1_13.png" Key="Lobby/Images/Chat/1_13.png" />
-            <PlistImageFile Name="Lobby_Images_Chat_1_14.png" Key="Lobby/Images/Chat/1_14.png" />
-            <PlistImageFile Name="Lobby_Images_Chat_1_15.png" Key="Lobby/Images/Chat/1_15.png" />
-            <PlistImageFile Name="Lobby_Images_Chat_1_2.png" Key="Lobby/Images/Chat/1_2.png" />
-            <PlistImageFile Name="Lobby_Images_Chat_1_3.png" Key="Lobby/Images/Chat/1_3.png" />
-            <PlistImageFile Name="Lobby_Images_Chat_1_4.png" Key="Lobby/Images/Chat/1_4.png" />
-            <PlistImageFile Name="Lobby_Images_Chat_1_5.png" Key="Lobby/Images/Chat/1_5.png" />
-            <PlistImageFile Name="Lobby_Images_Chat_1_6.png" Key="Lobby/Images/Chat/1_6.png" />
-            <PlistImageFile Name="Lobby_Images_Chat_1_7.png" Key="Lobby/Images/Chat/1_7.png" />
-            <PlistImageFile Name="Lobby_Images_Chat_1_8.png" Key="Lobby/Images/Chat/1_8.png" />
-            <PlistImageFile Name="Lobby_Images_Chat_1_9.png" Key="Lobby/Images/Chat/1_9.png" />
-            <PlistImageFile Name="Lobby_Images_Chat_12_1.png" Key="Lobby/Images/Chat/12_1.png" />
-            <PlistImageFile Name="Lobby_Images_Chat_12_2.png" Key="Lobby/Images/Chat/12_2.png" />
-            <PlistImageFile Name="Lobby_Images_Chat_3 (01).png" Key="Lobby/Images/Chat/3 (01).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_3 (02).png" Key="Lobby/Images/Chat/3 (02).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_3 (03).png" Key="Lobby/Images/Chat/3 (03).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_3 (04).png" Key="Lobby/Images/Chat/3 (04).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_3 (05).png" Key="Lobby/Images/Chat/3 (05).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_3 (06).png" Key="Lobby/Images/Chat/3 (06).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_3 (07).png" Key="Lobby/Images/Chat/3 (07).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_3 (08).png" Key="Lobby/Images/Chat/3 (08).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_3 (09).png" Key="Lobby/Images/Chat/3 (09).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_3 (10).png" Key="Lobby/Images/Chat/3 (10).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_3 (11).png" Key="Lobby/Images/Chat/3 (11).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_3 (12).png" Key="Lobby/Images/Chat/3 (12).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_3 (13).png" Key="Lobby/Images/Chat/3 (13).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_3 (14).png" Key="Lobby/Images/Chat/3 (14).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_3 (15).png" Key="Lobby/Images/Chat/3 (15).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_3 (16).png" Key="Lobby/Images/Chat/3 (16).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_3 (17).png" Key="Lobby/Images/Chat/3 (17).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_3 (18).png" Key="Lobby/Images/Chat/3 (18).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_3 (19).png" Key="Lobby/Images/Chat/3 (19).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_3 (20).png" Key="Lobby/Images/Chat/3 (20).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_3 (21).png" Key="Lobby/Images/Chat/3 (21).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_3 (22).png" Key="Lobby/Images/Chat/3 (22).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_3 (23).png" Key="Lobby/Images/Chat/3 (23).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_3 (24).png" Key="Lobby/Images/Chat/3 (24).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_3 (25).png" Key="Lobby/Images/Chat/3 (25).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_3 (26).png" Key="Lobby/Images/Chat/3 (26).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_3 (27).png" Key="Lobby/Images/Chat/3 (27).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_3 (28).png" Key="Lobby/Images/Chat/3 (28).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_3 (29).png" Key="Lobby/Images/Chat/3 (29).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_3 (30).png" Key="Lobby/Images/Chat/3 (30).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_4 (01).png" Key="Lobby/Images/Chat/4 (01).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_4 (02).png" Key="Lobby/Images/Chat/4 (02).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_4 (03).png" Key="Lobby/Images/Chat/4 (03).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_4 (04).png" Key="Lobby/Images/Chat/4 (04).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_4 (05).png" Key="Lobby/Images/Chat/4 (05).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_4 (06).png" Key="Lobby/Images/Chat/4 (06).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_4 (07).png" Key="Lobby/Images/Chat/4 (07).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_4 (08).png" Key="Lobby/Images/Chat/4 (08).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_4 (09).png" Key="Lobby/Images/Chat/4 (09).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_4 (10).png" Key="Lobby/Images/Chat/4 (10).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_4 (11).png" Key="Lobby/Images/Chat/4 (11).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_4 (12).png" Key="Lobby/Images/Chat/4 (12).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_4 (13).png" Key="Lobby/Images/Chat/4 (13).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_4 (14).png" Key="Lobby/Images/Chat/4 (14).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_4 (15).png" Key="Lobby/Images/Chat/4 (15).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_5 (1).png" Key="Lobby/Images/Chat/5 (1).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_5 (2).png" Key="Lobby/Images/Chat/5 (2).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_5 (3).png" Key="Lobby/Images/Chat/5 (3).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_5 (4).png" Key="Lobby/Images/Chat/5 (4).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_5 (5).png" Key="Lobby/Images/Chat/5 (5).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_5 (6).png" Key="Lobby/Images/Chat/5 (6).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_6 (01).png" Key="Lobby/Images/Chat/6 (01).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_6 (02).png" Key="Lobby/Images/Chat/6 (02).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_6 (03).png" Key="Lobby/Images/Chat/6 (03).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_6 (04).png" Key="Lobby/Images/Chat/6 (04).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_6 (05).png" Key="Lobby/Images/Chat/6 (05).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_6 (06).png" Key="Lobby/Images/Chat/6 (06).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_6 (07).png" Key="Lobby/Images/Chat/6 (07).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_6 (08).png" Key="Lobby/Images/Chat/6 (08).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_6 (09).png" Key="Lobby/Images/Chat/6 (09).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_6 (10).png" Key="Lobby/Images/Chat/6 (10).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_10 (1).png" Key="Lobby/Images/Chat/10 (1).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_10 (2).png" Key="Lobby/Images/Chat/10 (2).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_10 (3).png" Key="Lobby/Images/Chat/10 (3).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_10 (4).png" Key="Lobby/Images/Chat/10 (4).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_10 (5).png" Key="Lobby/Images/Chat/10 (5).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_11 (1).png" Key="Lobby/Images/Chat/11 (1).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_11 (3).png" Key="Lobby/Images/Chat/11 (3).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_11 (4).png" Key="Lobby/Images/Chat/11 (4).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_12 (01).png" Key="Lobby/Images/Chat/12 (01).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_12 (02).png" Key="Lobby/Images/Chat/12 (02).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_12 (03).png" Key="Lobby/Images/Chat/12 (03).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_12 (04).png" Key="Lobby/Images/Chat/12 (04).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_12 (05).png" Key="Lobby/Images/Chat/12 (05).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_12 (06).png" Key="Lobby/Images/Chat/12 (06).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_12 (07).png" Key="Lobby/Images/Chat/12 (07).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_12 (08).png" Key="Lobby/Images/Chat/12 (08).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_13 (01).png" Key="Lobby/Images/Chat/13 (01).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_13 (02).png" Key="Lobby/Images/Chat/13 (02).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_13 (03).png" Key="Lobby/Images/Chat/13 (03).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_13 (04).png" Key="Lobby/Images/Chat/13 (04).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_13 (05).png" Key="Lobby/Images/Chat/13 (05).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_13 (06).png" Key="Lobby/Images/Chat/13 (06).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_13 (07).png" Key="Lobby/Images/Chat/13 (07).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_13 (08).png" Key="Lobby/Images/Chat/13 (08).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_13 (09).png" Key="Lobby/Images/Chat/13 (09).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_13 (10).png" Key="Lobby/Images/Chat/13 (10).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_13 (11).png" Key="Lobby/Images/Chat/13 (11).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_13 (12).png" Key="Lobby/Images/Chat/13 (12).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_13 (13).png" Key="Lobby/Images/Chat/13 (13).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_13 (14).png" Key="Lobby/Images/Chat/13 (14).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_13 (15).png" Key="Lobby/Images/Chat/13 (15).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_14 (01).png" Key="Lobby/Images/Chat/14 (01).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_14 (02).png" Key="Lobby/Images/Chat/14 (02).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_14 (03).png" Key="Lobby/Images/Chat/14 (03).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_14 (04).png" Key="Lobby/Images/Chat/14 (04).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_14 (05).png" Key="Lobby/Images/Chat/14 (05).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_14 (06).png" Key="Lobby/Images/Chat/14 (06).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_14 (07).png" Key="Lobby/Images/Chat/14 (07).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_14 (08).png" Key="Lobby/Images/Chat/14 (08).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_14 (09).png" Key="Lobby/Images/Chat/14 (09).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_14 (10).png" Key="Lobby/Images/Chat/14 (10).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_14 (11).png" Key="Lobby/Images/Chat/14 (11).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_14 (12).png" Key="Lobby/Images/Chat/14 (12).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_14 (13).png" Key="Lobby/Images/Chat/14 (13).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_14 (14).png" Key="Lobby/Images/Chat/14 (14).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_14 (15).png" Key="Lobby/Images/Chat/14 (15).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_15 (01).png" Key="Lobby/Images/Chat/15 (01).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_15 (02).png" Key="Lobby/Images/Chat/15 (02).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_15 (03).png" Key="Lobby/Images/Chat/15 (03).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_15 (04).png" Key="Lobby/Images/Chat/15 (04).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_15 (05).png" Key="Lobby/Images/Chat/15 (05).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_15 (06).png" Key="Lobby/Images/Chat/15 (06).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_15 (07).png" Key="Lobby/Images/Chat/15 (07).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_15 (08).png" Key="Lobby/Images/Chat/15 (08).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_15 (09).png" Key="Lobby/Images/Chat/15 (09).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_15 (10).png" Key="Lobby/Images/Chat/15 (10).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_15 (11).png" Key="Lobby/Images/Chat/15 (11).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_15 (12).png" Key="Lobby/Images/Chat/15 (12).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_15 (13).png" Key="Lobby/Images/Chat/15 (13).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_15 (14).png" Key="Lobby/Images/Chat/15 (14).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_15 (15).png" Key="Lobby/Images/Chat/15 (15).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_15 (16).png" Key="Lobby/Images/Chat/15 (16).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_15 (17).png" Key="Lobby/Images/Chat/15 (17).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_15 (18).png" Key="Lobby/Images/Chat/15 (18).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_15 (19).png" Key="Lobby/Images/Chat/15 (19).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_15 (20).png" Key="Lobby/Images/Chat/15 (20).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_7 (1).png" Key="Lobby/Images/Chat/7 (1).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_7 (2).png" Key="Lobby/Images/Chat/7 (2).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_8 (02).png" Key="Lobby/Images/Chat/8 (02).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_8 (03).png" Key="Lobby/Images/Chat/8 (03).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_8 (04).png" Key="Lobby/Images/Chat/8 (04).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_8 (05).png" Key="Lobby/Images/Chat/8 (05).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_8 (06).png" Key="Lobby/Images/Chat/8 (06).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_8 (07).png" Key="Lobby/Images/Chat/8 (07).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_8 (08).png" Key="Lobby/Images/Chat/8 (08).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_8 (09).png" Key="Lobby/Images/Chat/8 (09).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_8 (10).png" Key="Lobby/Images/Chat/8 (10).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_8 (11).png" Key="Lobby/Images/Chat/8 (11).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_8 (12).png" Key="Lobby/Images/Chat/8 (12).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_8 (13).png" Key="Lobby/Images/Chat/8 (13).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_8 (14).png" Key="Lobby/Images/Chat/8 (14).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_8 (15).png" Key="Lobby/Images/Chat/8 (15).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_9 (01).png" Key="Lobby/Images/Chat/9 (01).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_9 (02).png" Key="Lobby/Images/Chat/9 (02).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_9 (03).png" Key="Lobby/Images/Chat/9 (03).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_9 (04).png" Key="Lobby/Images/Chat/9 (04).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_9 (05).png" Key="Lobby/Images/Chat/9 (05).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_9 (06).png" Key="Lobby/Images/Chat/9 (06).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_9 (07).png" Key="Lobby/Images/Chat/9 (07).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_9 (08).png" Key="Lobby/Images/Chat/9 (08).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_9 (09).png" Key="Lobby/Images/Chat/9 (09).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_9 (10).png" Key="Lobby/Images/Chat/9 (10).png" />
-            <PlistImageFile Name="Lobby_Images_Chat_liaotian.png" Key="Lobby/Images/Chat/liaotian.png" />
-            <PlistImageFile Name="Lobby_Images_Chat_neiliaotian.png" Key="Lobby/Images/Chat/neiliaotian.png" />
-          </PlistImageFolder>
         </Folder>
       </RootFolder>
     </Group>
