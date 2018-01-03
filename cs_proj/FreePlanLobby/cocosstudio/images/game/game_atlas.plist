@@ -4,7 +4,7 @@
     <dict>
         <key>frames</key>
         <dict>
-            <key>Lobby_Images_public_btnLT-s.png</key>
+            <key>btn_chat.png</key>
             <dict>
                 <key>frame</key>
                 <string>{{181,103},{65,57}}</string>
@@ -118,7 +118,7 @@
             <key>size</key>
             <string>{252,250}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:059e03ab68ccd9d2a8d30297fccc3dcd$</string>
+            <string>$TexturePacker:SmartUpdate:28ec4a068f2dd923aee574790c123f56$</string>
             <key>textureFileName</key>
             <string>game_atlas.png</string>
         </dict>

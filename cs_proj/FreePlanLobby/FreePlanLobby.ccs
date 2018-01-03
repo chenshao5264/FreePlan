@@ -10,11 +10,11 @@
           <Folder Name="dialogs">
             <Project Name="ChatDialog.csd" Type="Node" />
             <Project Name="RegisterDialog.csd" Type="Node" />
+            <Project Name="RoomIDInputDialog.csd" Type="Node" />
             <Project Name="SetupDialog.csd" Type="Node" />
             <Project Name="ShopDialog.csd" Type="Node" />
             <Project Name="SignInDialog.csd" Type="Node" />
             <Project Name="UserCenterDialog.csd" Type="Node" />
-            <Project Name="RoomIDInputDialog.csd" Type="Node" />
           </Folder>
           <Folder Name="games">
             <Project Name="AvatarNode.csd" Type="Node" />
@@ -42,7 +42,7 @@
           <Folder Name="box">
             <PlistImageFolder Image="box_atlas.png" PListFile="box_atlas.plist" Name=".box_atlas_PList.Dir">
               <PlistImageFile Name="box_btn_jsq.png" Key="box_btn_jsq.png" />
-              <PlistImageFile Name="box_jr_kuang.png" Key="box_jr_kuang.png" />
+              <PlistImageFile Name="box_id_bg.png" Key="box_id_bg.png" />
               <PlistImageFile Name="box_jrfj_bg.png" Key="box_jrfj_bg.png" />
             </PlistImageFolder>
           </Folder>
@@ -234,10 +234,10 @@
               <PlistImageFile Name="btn_set.png" Key="btn_set.png" />
               <PlistImageFile Name="img_avatar_bg.png" Key="img_avatar_bg.png" />
               <PlistImageFile Name="img_ready.png" Key="img_ready.png" />
-              <PlistImageFile Name="Lobby_Images_public_btnLT-s.png" Key="Lobby_Images_public_btnLT-s.png" />
               <PlistImageFile Name="time_bg_1.png" Key="time_bg_1.png" />
               <PlistImageFile Name="time_bg_2.png" Key="time_bg_2.png" />
               <PlistImageFile Name="time_bg_3.png" Key="time_bg_3.png" />
+              <PlistImageFile Name="btn_chat.png" Key="btn_chat.png" />
             </PlistImageFolder>
             <Fnt Name="timeNum.fnt" />
           </Folder>
@@ -335,6 +335,7 @@
               <PlistImageFile Name="btn_cancel1.png" Key="btn_cancel1.png" />
               <PlistImageFile Name="btn_cancel2.png" Key="btn_cancel2.png" />
               <PlistImageFile Name="btn_close_1.png" Key="btn_close_1.png" />
+              <PlistImageFile Name="btn_common.png" Key="btn_common.png" />
               <PlistImageFile Name="btn_ok1.png" Key="btn_ok1.png" />
               <PlistImageFile Name="btn_ok2.png" Key="btn_ok2.png" />
               <PlistImageFile Name="dialog_banner _1.png" Key="dialog_banner _1.png" />
@@ -351,7 +352,6 @@
               <PlistImageFile Name="reward_dialog_title.png" Key="reward_dialog_title.png" />
               <PlistImageFile Name="tt_wxts.png" Key="tt_wxts.png" />
               <PlistImageFile Name="txt_hd.png" Key="txt_hd.png" />
-              <PlistImageFile Name="btn_common.png" Key="btn_common.png" />
             </PlistImageFolder>
           </Folder>
           <Folder Name="shop">

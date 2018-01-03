@@ -256,6 +256,21 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
+          <AbstractNodeData Name="Button_ksk" ActionTag="1726861941" Tag="289" IconVisible="False" LeftMargin="693.5000" RightMargin="169.5000" TopMargin="431.5000" BottomMargin="101.5000" TouchEnable="True" FontSize="14" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="243" Scale9Height="85" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+            <Size X="273.0000" Y="107.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="830.0000" Y="155.0000" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.7306" Y="0.2422" />
+            <PreSize X="0.2403" Y="0.1672" />
+            <TextColor A="255" R="65" G="65" B="70" />
+            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
+            <PressedFileData Type="PlistSubImage" Path="lobby_btn_ksks.png" Plist="images/lobby/lobby_atlas.plist" />
+            <NormalFileData Type="PlistSubImage" Path="lobby_btn_ksks.png" Plist="images/lobby/lobby_atlas.plist" />
+            <OutlineColor A="255" R="255" G="0" B="0" />
+            <ShadowColor A="255" R="110" G="110" B="110" />
+          </AbstractNodeData>
           <AbstractNodeData Name="Image_bg_2" Visible="False" ActionTag="-1760367956" Tag="290" IconVisible="False" LeftEage="374" RightEage="374" TopEage="237" BottomEage="237" Scale9OriginX="374" Scale9OriginY="237" Scale9Width="388" Scale9Height="165" ctype="ImageViewObjectData">
             <Size X="1136.0000" Y="640.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -417,21 +432,6 @@
             <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
             <PressedFileData Type="PlistSubImage" Path="lobby_btn_jrbx.png" Plist="images/lobby/lobby_atlas.plist" />
             <NormalFileData Type="PlistSubImage" Path="lobby_btn_jrbx.png" Plist="images/lobby/lobby_atlas.plist" />
-            <OutlineColor A="255" R="255" G="0" B="0" />
-            <ShadowColor A="255" R="110" G="110" B="110" />
-          </AbstractNodeData>
-          <AbstractNodeData Name="Button_ksk" Visible="False" ActionTag="1726861941" Tag="289" IconVisible="False" LeftMargin="693.5000" RightMargin="169.5000" TopMargin="431.5000" BottomMargin="101.5000" TouchEnable="True" FontSize="14" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="243" Scale9Height="85" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
-            <Size X="273.0000" Y="107.0000" />
-            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="830.0000" Y="155.0000" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-            <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.7306" Y="0.2422" />
-            <PreSize X="0.2403" Y="0.1672" />
-            <TextColor A="255" R="65" G="65" B="70" />
-            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
-            <PressedFileData Type="PlistSubImage" Path="lobby_btn_ksks.png" Plist="images/lobby/lobby_atlas.plist" />
-            <NormalFileData Type="PlistSubImage" Path="lobby_btn_ksks.png" Plist="images/lobby/lobby_atlas.plist" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
