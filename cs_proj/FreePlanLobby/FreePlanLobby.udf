@@ -39,8 +39,10 @@
           <FilePathData Path="csb/games/PlayerNode3.csd" />
           <FilePathData Path="csb/games/TimerNode.csd" />
           <FilePathData Path="csb/LobbyLayer.csd" />
+          <FilePathData Path="csb/SplashLayer.csd" />
+          <FilePathData Path="csb/LoginLayer.csd" />
         </OpenedDocuments>
-        <ActiveDocument Path="csb/games/PlayerNode2.csd" />
+        <ActiveDocument Path="csb/SplashLayer.csd" />
       </Value>
     </Item>
   </Properties>

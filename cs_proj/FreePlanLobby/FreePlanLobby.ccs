@@ -230,6 +230,7 @@
           </Folder>
           <Folder Name="game">
             <PlistImageFolder Image="game_atlas.png" PListFile="game_atlas.plist" Name=".game_atlas_PList.Dir">
+              <PlistImageFile Name="btn_chat.png" Key="btn_chat.png" />
               <PlistImageFile Name="btn_exit_game.png" Key="btn_exit_game.png" />
               <PlistImageFile Name="btn_set.png" Key="btn_set.png" />
               <PlistImageFile Name="img_avatar_bg.png" Key="img_avatar_bg.png" />
@@ -237,7 +238,6 @@
               <PlistImageFile Name="time_bg_1.png" Key="time_bg_1.png" />
               <PlistImageFile Name="time_bg_2.png" Key="time_bg_2.png" />
               <PlistImageFile Name="time_bg_3.png" Key="time_bg_3.png" />
-              <PlistImageFile Name="btn_chat.png" Key="btn_chat.png" />
             </PlistImageFolder>
             <Fnt Name="timeNum.fnt" />
           </Folder>

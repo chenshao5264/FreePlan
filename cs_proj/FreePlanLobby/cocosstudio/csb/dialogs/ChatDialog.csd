@@ -6,7 +6,7 @@
       <ObjectData Name="Node" Tag="36" ctype="GameNodeObjectData">
         <Size X="0.0000" Y="0.0000" />
         <Children>
-          <AbstractNodeData Name="Image_Bg" ActionTag="-1713588869" Tag="37" IconVisible="False" LeftMargin="-448.6731" RightMargin="-449.3269" TopMargin="-259.0508" BottomMargin="-259.9492" LeftEage="296" RightEage="296" TopEage="171" BottomEage="171" Scale9OriginX="296" Scale9OriginY="171" Scale9Width="45" Scale9Height="94" ctype="ImageViewObjectData">
+          <AbstractNodeData Name="Image_Bg" ActionTag="-1713588869" Tag="37" IconVisible="False" LeftMargin="-448.6731" RightMargin="-449.3269" TopMargin="-259.0507" BottomMargin="-259.9493" LeftEage="296" RightEage="296" TopEage="171" BottomEage="171" Scale9OriginX="296" Scale9OriginY="171" Scale9Width="45" Scale9Height="94" ctype="ImageViewObjectData">
             <Size X="898.0000" Y="519.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="0.3269" Y="-0.4493" />
@@ -306,10 +306,56 @@
             <EndColor A="255" R="255" G="255" B="255" />
             <ColorVector ScaleY="1.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Panel_Msg_Item_Other" ActionTag="-1757620518" Tag="107" IconVisible="False" LeftMargin="-366.3215" RightMargin="-163.6785" TopMargin="-296.2079" BottomMargin="260.2079" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
-            <Size X="530.0000" Y="36.0000" />
+          <AbstractNodeData Name="Panel_Msg_Item_Other" ActionTag="-1757620518" Tag="107" IconVisible="False" LeftMargin="-366.0000" RightMargin="-164.0000" TopMargin="-294.4000" BottomMargin="244.4000" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+            <Size X="530.0000" Y="50.0000" />
             <Children>
-              <AbstractNodeData Name="Image_Other_Bubble_Bg" ActionTag="1144596252" Tag="104" IconVisible="False" LeftMargin="45.5289" RightMargin="402.4711" TopMargin="0.0000" BottomMargin="0.0000" Scale9Enable="True" LeftEage="31" RightEage="16" TopEage="25" BottomEage="25" Scale9OriginX="31" Scale9OriginY="11" Scale9Width="3" Scale9Height="14" ctype="ImageViewObjectData">
+              <AbstractNodeData Name="Image_Avatar_Other" ActionTag="747879146" Tag="77" IconVisible="False" LeftMargin="10.0000" RightMargin="480.0000" TopMargin="0.0000" BottomMargin="10.0000" LeftEage="26" RightEage="26" TopEage="26" BottomEage="26" Scale9OriginX="26" Scale9OriginY="26" Scale9Width="28" Scale9Height="29" ctype="ImageViewObjectData">
+                <Size X="40.0000" Y="40.0000" />
+                <Children>
+                  <AbstractNodeData Name="Text_Nickname" ActionTag="1617001266" Tag="78" IconVisible="False" LeftMargin="44.9999" RightMargin="-40.9999" TopMargin="0.0000" BottomMargin="28.0000" FontSize="12" LabelText="哈哈哈" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                    <Size X="36.0000" Y="12.0000" />
+                    <AnchorPoint ScaleY="1.0000" />
+                    <Position X="44.9999" Y="40.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="77" G="77" B="77" />
+                    <PrePosition X="1.1250" Y="1.0000" />
+                    <PreSize X="0.9000" Y="0.3000" />
+                    <OutlineColor A="255" R="255" G="0" B="0" />
+                    <ShadowColor A="255" R="110" G="110" B="110" />
+                  </AbstractNodeData>
+                </Children>
+                <AnchorPoint ScaleX="0.5000" ScaleY="1.0000" />
+                <Position X="30.0000" Y="50.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition X="0.0566" Y="1.0000" />
+                <PreSize X="0.0755" Y="0.8000" />
+                <FileData Type="PlistSubImage" Path="img_avatar0.png" Plist="images/share/share_atlas.plist" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="Image_Avatar_Self" ActionTag="-690068531" Tag="79" IconVisible="False" LeftMargin="480.0000" RightMargin="10.0000" BottomMargin="10.0000" LeftEage="26" RightEage="26" TopEage="26" BottomEage="26" Scale9OriginX="26" Scale9OriginY="26" Scale9Width="28" Scale9Height="29" ctype="ImageViewObjectData">
+                <Size X="40.0000" Y="40.0000" />
+                <Children>
+                  <AbstractNodeData Name="Text_Nickname" ActionTag="-1364876497" Tag="80" IconVisible="False" LeftMargin="-41.0000" RightMargin="45.0000" TopMargin="0.0000" BottomMargin="28.0000" FontSize="12" LabelText="哈哈哈" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                    <Size X="36.0000" Y="12.0000" />
+                    <AnchorPoint ScaleX="1.0000" ScaleY="1.0000" />
+                    <Position X="-5.0000" Y="40.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="-0.1250" Y="1.0000" />
+                    <PreSize X="0.9000" Y="0.3000" />
+                    <OutlineColor A="255" R="255" G="0" B="0" />
+                    <ShadowColor A="255" R="110" G="110" B="110" />
+                  </AbstractNodeData>
+                </Children>
+                <AnchorPoint ScaleX="0.5000" ScaleY="1.0000" />
+                <Position X="500.0000" Y="50.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition X="0.9434" Y="1.0000" />
+                <PreSize X="0.0755" Y="0.8000" />
+                <FileData Type="PlistSubImage" Path="img_avatar0.png" Plist="images/share/share_atlas.plist" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="Image_Bubble_Other" ActionTag="1144596252" Tag="104" IconVisible="False" LeftMargin="55.0000" RightMargin="393.0000" TopMargin="14.0000" Scale9Enable="True" LeftEage="31" RightEage="16" TopEage="25" BottomEage="25" Scale9OriginX="31" Scale9OriginY="11" Scale9Width="3" Scale9Height="14" ctype="ImageViewObjectData">
                 <Size X="82.0000" Y="36.0000" />
                 <Children>
                   <AbstractNodeData Name="Text_Content" ActionTag="-1864090422" Tag="105" IconVisible="False" LeftMargin="15.0000" RightMargin="7.0000" TopMargin="8.0000" BottomMargin="8.0000" IsCustomSize="True" FontSize="20" LabelText="阿发短发散发" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
@@ -335,42 +381,17 @@
                   </AbstractNodeData>
                 </Children>
                 <AnchorPoint ScaleY="1.0000" />
-                <Position X="45.5289" Y="36.0000" />
+                <Position X="55.0000" Y="36.0000" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.0859" Y="1.0000" />
-                <PreSize X="0.1547" Y="1.0000" />
+                <PrePosition X="0.1038" Y="0.7200" />
+                <PreSize X="0.1547" Y="0.7200" />
                 <FileData Type="PlistSubImage" Path="Chat_Text_Frame_1.png" Plist="images/chat/chat_atlas.plist" />
               </AbstractNodeData>
-              <AbstractNodeData Name="BitmapFontLabel_ChairID" ActionTag="-1492326949" Tag="185" IconVisible="False" LeftMargin="14.0000" RightMargin="506.0000" TopMargin="5.0000" BottomMargin="7.0000" LabelText="1" ctype="TextBMFontObjectData">
-                <Size X="10.0000" Y="24.0000" />
-                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="19.0000" Y="19.0000" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.0358" Y="0.5278" />
-                <PreSize X="0.0189" Y="0.6667" />
-                <LabelBMFontFile_CNB Type="Normal" Path="fonts/fnt_sd_sz.fnt" Plist="" />
-              </AbstractNodeData>
-            </Children>
-            <AnchorPoint ScaleY="1.0000" />
-            <Position X="-366.3215" Y="296.2079" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-            <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition />
-            <PreSize X="0.0000" Y="0.0000" />
-            <SingleColor A="255" R="150" G="200" B="255" />
-            <FirstColor A="255" R="150" G="200" B="255" />
-            <EndColor A="255" R="255" G="255" B="255" />
-            <ColorVector ScaleY="1.0000" />
-          </AbstractNodeData>
-          <AbstractNodeData Name="Panel_Msg_Item_Self" ActionTag="1533065508" Tag="179" IconVisible="False" LeftMargin="-366.3215" RightMargin="-163.6785" TopMargin="-244.2970" BottomMargin="208.2970" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
-            <Size X="530.0000" Y="36.0000" />
-            <Children>
-              <AbstractNodeData Name="Image_Other_Bubble_Bg" ActionTag="-2032737159" Tag="180" IconVisible="False" LeftMargin="403.0000" RightMargin="45.0000" TopMargin="0.0000" BottomMargin="0.0000" Scale9Enable="True" LeftEage="31" RightEage="16" TopEage="11" BottomEage="11" Scale9OriginX="31" Scale9OriginY="11" Scale9Width="3" Scale9Height="14" ctype="ImageViewObjectData">
+              <AbstractNodeData Name="Image_Bubble_Self" ActionTag="-1572014232" Tag="74" IconVisible="False" LeftMargin="392.9999" RightMargin="55.0001" TopMargin="14.0000" Scale9Enable="True" LeftEage="31" RightEage="16" TopEage="11" BottomEage="11" Scale9OriginX="31" Scale9OriginY="11" Scale9Width="3" Scale9Height="14" ctype="ImageViewObjectData">
                 <Size X="82.0000" Y="36.0000" />
                 <Children>
-                  <AbstractNodeData Name="Text_Content" ActionTag="-1070047384" Tag="181" IconVisible="False" LeftMargin="7.9999" RightMargin="14.0001" TopMargin="8.0000" BottomMargin="8.0000" IsCustomSize="True" FontSize="20" LabelText="阿发短发散发" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                  <AbstractNodeData Name="Text_Content" ActionTag="311689061" Tag="75" IconVisible="False" LeftMargin="7.9999" RightMargin="14.0001" TopMargin="8.0000" BottomMargin="8.0000" IsCustomSize="True" FontSize="20" LabelText="阿发短发散发" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                     <Size X="60.0000" Y="20.0000" />
                     <AnchorPoint ScaleX="1.0000" ScaleY="1.0000" />
                     <Position X="67.9999" Y="28.0000" />
@@ -381,7 +402,7 @@
                     <OutlineColor A="255" R="255" G="0" B="0" />
                     <ShadowColor A="255" R="110" G="110" B="110" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="Image_Emoticon" ActionTag="-1835950571" Tag="183" IconVisible="False" LeftMargin="-3.5957" RightMargin="3.5957" TopMargin="-23.8023" BottomMargin="-23.1977" LeftEage="27" RightEage="27" TopEage="27" BottomEage="27" Scale9OriginX="27" Scale9OriginY="27" Scale9Width="28" Scale9Height="29" ctype="ImageViewObjectData">
+                  <AbstractNodeData Name="Image_Emoticon" ActionTag="-447940845" Tag="76" IconVisible="False" LeftMargin="-3.5957" RightMargin="3.5957" TopMargin="-23.8023" BottomMargin="-23.1977" LeftEage="27" RightEage="27" TopEage="27" BottomEage="27" Scale9OriginX="27" Scale9OriginY="27" Scale9Width="28" Scale9Height="29" ctype="ImageViewObjectData">
                     <Size X="82.0000" Y="83.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                     <Position X="37.4043" Y="18.3023" />
@@ -393,26 +414,16 @@
                   </AbstractNodeData>
                 </Children>
                 <AnchorPoint ScaleX="1.0000" ScaleY="1.0000" />
-                <Position X="485.0000" Y="36.0000" />
+                <Position X="474.9999" Y="36.0000" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.9151" Y="1.0000" />
-                <PreSize X="0.1547" Y="1.0000" />
+                <PrePosition X="0.8962" Y="0.7200" />
+                <PreSize X="0.1547" Y="0.7200" />
                 <FileData Type="PlistSubImage" Path="Chat_Text_Frame_2.png" Plist="images/chat/chat_atlas.plist" />
-              </AbstractNodeData>
-              <AbstractNodeData Name="BitmapFontLabel_ChairID" ActionTag="-156978087" Tag="186" IconVisible="False" LeftMargin="505.0003" RightMargin="14.9998" TopMargin="5.0000" BottomMargin="7.0000" LabelText="1" ctype="TextBMFontObjectData">
-                <Size X="10.0000" Y="24.0000" />
-                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="510.0003" Y="19.0000" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.9623" Y="0.5278" />
-                <PreSize X="0.0189" Y="0.6667" />
-                <LabelBMFontFile_CNB Type="Normal" Path="fonts/fnt_sd_sz.fnt" Plist="" />
               </AbstractNodeData>
             </Children>
             <AnchorPoint ScaleY="1.0000" />
-            <Position X="-366.3215" Y="244.2970" />
+            <Position X="-366.0000" Y="294.4000" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
