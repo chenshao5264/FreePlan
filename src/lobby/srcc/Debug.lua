@@ -14,7 +14,7 @@ _DEBUG_QUICK_LOGIN = true
 --_DEBUG_SHOP = true
 
 --LAUNCH_SCENE = LOBBY_SCENE
-
+--_DEBUG_SHOP = true
 
 _Debug_Table = {}
 _Debug_Table[1] = {}

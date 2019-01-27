@@ -15,6 +15,7 @@ function MyApp:ctor()
     display.loadSpriteFrames("images/share/share_atlas.plist", "images/share/share_atlas.png")
     display.loadSpriteFrames("images/game/game_atlas.plist", "images/game/game_atlas.png")
     display.loadSpriteFrames("images/shop/shop_atlas.plist", "images/shop/shop_atlas.png")
+    display.loadSpriteFrames("images/signin/signin_atlas.plist", "images/signin/signin_atlas.png")
     
     --// 小游戏实例
     game = nil
@@ -71,7 +72,7 @@ function MyApp:enterScene(name, isNotWrap)
     local sceneName = string.format("scenes.%s", name)
     local scene = require(sceneName).new()
     if not isNotWrap then
-        display.runScene(scene, "fade", 0.618)
+        display.runScene(scene, "fade", GOLD_TIME)
     else
         display.runScene(scene)
     end

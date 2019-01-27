@@ -11,6 +11,7 @@
             <Project Name="RegisterDialog.csd" Type="Node" />
             <Project Name="SetupDialog.csd" Type="Node" />
             <Project Name="ShopDialog.csd" Type="Node" />
+            <Project Name="SignInDialog.csd" Type="Node" />
           </Folder>
           <Folder Name="games">
             <Project Name="AvatarNode.csd" Type="Node" />
@@ -64,7 +65,9 @@
               <PlistImageFile Name="lobby_board.png" Key="lobby_board.png" />
               <PlistImageFile Name="lobby_btn_activity.png" Key="lobby_btn_activity.png" />
               <PlistImageFile Name="lobby_btn_back_home.png" Key="lobby_btn_back_home.png" />
+              <PlistImageFile Name="lobby_btn_bx.png" Key="lobby_btn_bx.png" />
               <PlistImageFile Name="lobby_btn_cjbx.png" Key="lobby_btn_cjbx.png" />
+              <PlistImageFile Name="lobby_btn_friend.png" Key="lobby_btn_friend.png" />
               <PlistImageFile Name="lobby_btn_jrbx.png" Key="lobby_btn_jrbx.png" />
               <PlistImageFile Name="lobby_btn_ksks.png" Key="lobby_btn_ksks.png" />
               <PlistImageFile Name="lobby_btn_mail.png" Key="lobby_btn_mail.png" />
@@ -78,8 +81,6 @@
               <PlistImageFile Name="lobby_table_enter.png" Key="lobby_table_enter.png" />
               <PlistImageFile Name="lobby_table_num_bg.png" Key="lobby_table_num_bg.png" />
               <PlistImageFile Name="lobby_table_vsing.png" Key="lobby_table_vsing.png" />
-              <PlistImageFile Name="lobby_btn_bx.png" Key="lobby_btn_bx.png" />
-              <PlistImageFile Name="lobby_btn_friend.png" Key="lobby_btn_friend.png" />
             </PlistImageFolder>
             <Image Name="bg_lobby_1.jpg" />
             <Image Name="bg_lobby_2.jpg" />
@@ -130,8 +131,8 @@
               <PlistImageFile Name="img_loading.png" Key="img_loading.png" />
               <PlistImageFile Name="input_sp9_1.png" Key="input_sp9_1.png" />
               <PlistImageFile Name="reward_dialog_title.png" Key="reward_dialog_title.png" />
-              <PlistImageFile Name="txt_hd.png" Key="txt_hd.png" />
               <PlistImageFile Name="tt_wxts.png" Key="tt_wxts.png" />
+              <PlistImageFile Name="txt_hd.png" Key="txt_hd.png" />
             </PlistImageFolder>
           </Folder>
           <Folder Name="shop">
@@ -167,6 +168,14 @@
             <Fnt Name="fnt_sd_sz3.fnt" />
           </Folder>
           <Folder Name="signin">
+            <PlistImageFolder Image="signin_atlas.png" PListFile="signin_atlas.plist" Name=".signin_atlas_PList.Dir">
+              <PlistImageFile Name="bg_sign_item_1.png" Key="bg_sign_item_1.png" />
+              <PlistImageFile Name="bg_sign_item_2.png" Key="bg_sign_item_2.png" />
+              <PlistImageFile Name="btn_djlq.png" Key="btn_djlq.png" />
+              <PlistImageFile Name="frame_sign_item.png" Key="frame_sign_item.png" />
+              <PlistImageFile Name="ic_sign_ylq.png" Key="ic_sign_ylq.png" />
+              <PlistImageFile Name="img_sign_mark.png" Key="img_sign_mark.png" />
+            </PlistImageFolder>
             <Fnt Name="fnt_sign_day.fnt" />
           </Folder>
         </Folder>
@@ -1049,10 +1058,10 @@
             <PlistImageFile Name="Lobby_Images_Match_Champion_WaitNode_ZZPPZ1.png" Key="Lobby/Images/Match/Champion/WaitNode/ZZPPZ1.png" />
             <PlistImageFile Name="Lobby_Images_Match_Champion_WaitNode_ZZPPZ2.png" Key="Lobby/Images/Match/Champion/WaitNode/ZZPPZ2.png" />
           </PlistImageFolder>
-          <PlistParticleFile Name="xingxinglihebao001.plist" />
-          <PlistParticleFile Name="zhuanguang001.plist" />
           <PlistParticleFile Name="jindutiaohuo001.plist" />
           <PlistParticleFile Name="jindutiaojiemian001.plist" />
+          <PlistParticleFile Name="xingxinglihebao001.plist" />
+          <PlistParticleFile Name="zhuanguang001.plist" />
         </Folder>
       </RootFolder>
     </Group>

@@ -1,114 +1,52 @@
 [
     {
-        "ProductId": "2-60",
-        "ProductType": 2,
-        "ProductPrice": 6,
-        "ProductNum": 60,
-        "ProductExtra": 0
+        "productId": "1-60",
+        "productType": 1,
+        "productPrice": 6,
+        "productNum": 60,
+        "productExtra": 0
     },
     {
-        "ProductId": "2-180",
-        "ProductType": 2,
-        "ProductPrice": 18,
-        "ProductNum": 180,
-        "ProductExtra": 10
+        "productId": "2-60",
+        "productType": 2,
+        "productPrice": 6,
+        "productNum": 60,
+        "productExtra": 0
     },
     {
-        "ProductId": "2-300",
-        "ProductType": 2,
-        "ProductPrice": 30,
-        "ProductNum": 300,
-        "ProductExtra": 20
+        "productId": "2-60",
+        "productType": 2,
+        "productPrice": 6,
+        "productNum": 60,
+        "productExtra": 0
     },
     {
-        "ProductId": "2-680",
-        "ProductType": 2,
-        "ProductPrice": 68,
-        "ProductNum": 680,
-        "ProductExtra": 50
+        "productId": "2-60",
+        "productType": 2,
+        "productPrice": 6,
+        "productNum": 60,
+        "productExtra": 0
     },
     {
-        "ProductId": "2-1280",
-        "ProductType": 2,
-        "ProductPrice": 128,
-        "ProductNum": 1280,
-        "ProductExtra": 120
+        "productId": "2-60",
+        "productType": 2,
+        "productPrice": 6,
+        "productNum": 600,
+        "productExtra": 0
     },
     {
-        "ProductId": "2-2680",
-        "ProductType": 2,
-        "ProductPrice": 268,
-        "ProductNum": 2680,
-        "ProductExtra": 320
+        "productId": "2-60",
+        "productType": 2,
+        "productPrice": 6,
+        "productNum": 6000,
+        "productExtra": 0
     },
     {
-        "ProductId": "2-3480",
-        "ProductType": 2,
-        "ProductPrice": 348,
-        "ProductNum": 3480,
-        "ProductExtra": 520
-    },
-    {
-        "ProductId": "2-6480",
-        "ProductType": 2,
-        "ProductPrice": 648,
-        "ProductNum": 6480,
-        "ProductExtra": 1120
-    },
-    {
-        "ProductId": "1-20",
-        "ProductType": 1,
-        "ProductPrice": 20,
-        "ProductNum": 20000,
-        "ProductExtra": 0
-    },
-    {
-        "ProductId": "1-50",
-        "ProductType": 1,
-        "ProductPrice": 50,
-        "ProductNum": 50000,
-        "ProductExtra": 5000
-    },
-    {
-        "ProductId": "1-150",
-        "ProductType": 1,
-        "ProductPrice": 150,
-        "ProductNum": 150000,
-        "ProductExtra": 30000
-    },
-    {
-        "ProductId": "1-300",
-        "ProductType": 1,
-        "ProductPrice": 300,
-        "ProductNum": 300000,
-        "ProductExtra": 70000
-    },
-    {
-        "ProductId": "1-600",
-        "ProductType": 1,
-        "ProductPrice": 600,
-        "ProductNum": 600000,
-        "ProductExtra": 160000
-    },
-    {
-        "ProductId": "1-1000",
-        "ProductType": 1,
-        "ProductPrice": 1000,
-        "ProductNum": 1000000,
-        "ProductExtra": 300000
-    },
-    {
-        "ProductId": "1-2800",
-        "ProductType": 1,
-        "ProductPrice": 2800,
-        "ProductNum": 2800000,
-        "ProductExtra": 1200000
-    },
-    {
-        "ProductId": "1-5000",
-        "ProductType": 1,
-        "ProductPrice": 5000,
-        "ProductNum": 5000000,
-        "ProductExtra": 1800000
+        "productId": "2-60",
+        "productType": 2,
+        "productPrice": 6,
+        "productNum": 60000,
+        "productExtra": 0
     }
+   
 ]

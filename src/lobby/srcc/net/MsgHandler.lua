@@ -242,7 +242,7 @@ MsgHandler[protocolNum.PL_PHONE_IOS_RECHARGEINFO_ACK_P] = function(buf)
 
     myApp:emit("evt_PL_PHONE_IOS_RECHARGEINFO_ACK_P")
 
-    cclog.warn(AppModel:getShopGooldsInfo(), "AppModel:getShopGooldsInfo()")
+    --cclog.warn(AppModel:getShopGooldsInfo(), "AppModel:getShopGooldsInfo()")
 
     --gg.RequestManager:reqRecharge(AppModel:getShopGooldsInfo()[2][1].productId)
 end
@@ -254,11 +254,11 @@ MsgHandler[protocolNum.PL_PHONE_IOS_RECHARGE_ACK_P] = function(buf)
     cclog.debug(resp, "PL_PHONE_IOS_RECHARGE_ACK")
 
     if resp.nRet == 0 then
-        if resp.payType == 1 then
+        if resp.payType == gg.CurrencyType.BEAN then
             Player:setBeanCurrency(resp.totalGameCurrency.l)
             myApp:emit("evt_bean_update")
 
-        elseif resp.payType == 2 then
+        elseif resp.payType == gg.CurrencyType.DIAMOND then
             Player:setDiamondCurrency(resp.totalGoldCurrency)
             myApp:emit("evt_diamond_update")
         end
@@ -267,8 +267,38 @@ MsgHandler[protocolNum.PL_PHONE_IOS_RECHARGE_ACK_P] = function(buf)
 end
 
 --// 玩家签到信息 
--- MsgHandler[protocolNum.PL_PHONE_LC_INISIGNININFO_ACK_P] = function(buf)
--- end
+MsgHandler[protocolNum.PL_PHONE_LC_INISIGNININFO_ACK_P] = function(buf)
+    local resp = wnet.PL_PHONE_LC_INISIGNININFO.new()
+    resp:bufferOut(buf)
+    cclog.debug(resp, "PL_PHONE_LC_INISIGNININFO")
+
+    AppModel:setSignInInfo(resp.bSignIn, resp.signInDay, resp.signInAwardInfo.awardInfo)
+
+    myApp:emit("evt_sign_red_tag_visible", {bSignIn = resp.bSignIn ~= 0})
+end
+
+--// 签到回复
+MsgHandler[protocolNum.PL_PHONE_LC_SIGNIN_ACK_P] = function(buf)
+    local resp = wnet.PL_PHONE_LC_SIGNIN.new()
+    resp:bufferOut(buf)
+    cclog.debug(resp, "PL_PHONE_LC_SIGNIN")
+
+    if resp.signResult == 0 then
+        AppModel:doSignIn()
+        myApp:emit("evt_PL_PHONE_LC_SIGNIN_ACK_P")
+        myApp:emit("evt_sign_red_tag_visible", {bSignIn = true})
+        if resp.totalGameCurrency.l > 0 then
+            Player:setBeanCurrency(resp.totalGameCurrency.l)
+            myApp:emit("evt_bean_update")
+        end
+        if resp.totalGoldCurrency > 0 then
+            Player:setDiamondCurrency(resp.totalGoldCurrency)
+            myApp:emit("evt_diamond_update")
+        end
+    else
+
+    end
+end
 
 --// 是否显示首冲按钮
 -- MsgHandler[protocolNum.PL_PHONE_LC_SHOWFIRSTINFO_ACK_P] = function(buf)

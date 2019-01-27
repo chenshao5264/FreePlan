@@ -22,7 +22,7 @@ end
 local MAX_IP_LENGTH = 16 --ip地址长度
 
 wnet = {}
-
+wnet.packBody = packBody
 ------------------------------------------------------------------------------
 ------------------------------------------------------------------------------
 wnet.heartBeatCheck = class("heartBeatCheck", packBody)
@@ -589,4 +589,68 @@ function wnet.PL_PHONE_IOS_RECHARGE_ACK:bufferOut(buf)
     local gcl              = buf:readInt()
     self.totalGameCurrency = i64(gch, gcl)
     self.totalGoldCurrency = buf:readFloat()
+end
+--// **************************************************************
+--// **************************************************************
+wnet.stVipData = class("stVipData")
+function wnet.stVipData:ctor()
+end
+function wnet.stVipData:bufferOut(buf)
+    self.vipExp   = buf:readInt()
+    self.vipBegin = buf:readInt()
+    self.vipEnd   = buf:readInt()
+    self.vipLevel = buf:readChar()
+    self.vipUp    = buf:readInt()
+end
+--// **************************************************************
+--// **************************************************************
+wnet.SIGNIN_DAYAWARDINFO = class("SIGNIN_DAYAWARDINFO", packBody)
+function wnet.SIGNIN_DAYAWARDINFO:ctor(code, uid, pnum, mapid, syncid)
+    wnet.SIGNIN_DAYAWARDINFO.super.ctor(self, code, uid or 0, pnum or 0, mapid or 0, syncid or 0)
+end
+function wnet.SIGNIN_DAYAWARDINFO:bufferOut(buf)
+    self.day               = buf:readInt()
+    self.odds              = buf:readInt()
+    self.awardGameCurrency = buf:readInt()
+    self.awardGoldCurrency = buf:readInt()
+    self.awardIngore       = buf:readInt()
+    self.awardVipDays      = buf:readInt()
+end
+wnet.SIGNIN_AWARDINFO = class("SIGNIN_AWARDINFO", packBody)
+function wnet.SIGNIN_AWARDINFO:ctor(code, uid, pnum, mapid, syncid)
+    wnet.SIGNIN_AWARDINFO.super.ctor(self, code, uid or 0, pnum or 0, mapid or 0, syncid or 0)
+end
+function wnet.SIGNIN_AWARDINFO:bufferOut(buf)
+    self.vipRate = buf:readInt()
+    local size = buf:readShort()
+    self.awardInfo = {}
+    for i = 1, size do
+        local tmp = wnet.SIGNIN_DAYAWARDINFO.new()
+        tmp:bufferOut(buf)
+        self.awardInfo[i] = tmp
+    end
+end
+wnet.PL_PHONE_LC_INISIGNININFO = class("PL_PHONE_LC_INISIGNININFO", packBody)
+function wnet.PL_PHONE_LC_INISIGNININFO:ctor(code, uid, pnum, mapid, syncid)
+    wnet.PL_PHONE_LC_INISIGNININFO.super.ctor(self, code, uid or 0, pnum or 0, mapid or 0, syncid or 0)
+    self.signInAwardInfo = wnet.SIGNIN_AWARDINFO.new()
+end
+function wnet.PL_PHONE_LC_INISIGNININFO:bufferOut(buf)
+    self.signInDay = buf:readInt()
+    self.bSignIn = buf:readChar()
+    self.signInAwardInfo:bufferOut(buf)
+end
+wnet.PL_PHONE_LC_SIGNIN = class("PL_PHONE_LC_SIGNIN", packBody)
+function wnet.PL_PHONE_LC_SIGNIN:ctor(code, uid, pnum, mapid, syncid)
+    wnet.PL_PHONE_LC_SIGNIN.super.ctor(self, code, uid or 0, pnum or 0, mapid or 0, syncid or 0)
+    --self.vipData = wnet.stVipData.new()
+end
+function wnet.PL_PHONE_LC_SIGNIN:bufferOut(buf)
+    self.signResult        = buf:readInt()
+    self.awardDouble       = buf:readChar()
+    local gch              = buf:readInt()
+    local gcl              = buf:readInt()
+    self.totalGameCurrency = i64(gch, gcl)
+    self.totalGoldCurrency = buf:readFloat()
+    --self.vipData:bufferOut(buf)
 end

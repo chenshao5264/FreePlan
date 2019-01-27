@@ -20,12 +20,6 @@ function M:ctor(...)
     ClientSocket:connectToLogin()
 end
 
-function M:onInit()
-    self.super.onInit(self)
-    --// todo
-    --// ...
-end
-
 function M:onEnter()
     self.super.onEnter(self)
     --// todo

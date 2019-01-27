@@ -12,19 +12,12 @@ end)
 
 function BaseScene:ctor()
     self:enableNodeEvents()
-    self:onInit()
+
 
     myApp:setRunningScene(self)
 
     -- local testView = require("app.TestView").new()
     -- self:addChild(testView, 1)
-end
-
--- /**
---  * 用于变量声明定义
---  */
-function BaseScene:onInit()
-
 end
 
 -- /**

@@ -15,11 +15,6 @@ function M:ctor(...)
     self:addChild(lobbyCtrl, 1)
 end
 
-function M:onInit()
-    self.super.onInit(self)
-    --// todo
-    --// ...
-end
 
 function M:onEnter()
     self.super.onEnter(self)

@@ -102,4 +102,11 @@ function RequestManager:reqRecharge(productId)
     ClientSocket:sendMsg2Lobby(pack)
 end
 
+--// 签到
+function RequestManager:reqSignIn()
+    local req = wnet.packBody.new(protocolNum.PL_PHONE_CL_SIGNIN_REQ_P, Player:getUserID())
+    local pack = req:bufferIn():getPack()
+    ClientSocket:sendMsg2Lobby(pack)
+end
+
 return RequestManager

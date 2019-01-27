@@ -7,11 +7,11 @@
 local math_floor = math.floor
 
 local gg = gg
-local Global     = gg.Global
-local ggDialog   = gg.Dialog
-local ggUtility  = gg.Utility
-local ggPayType  = gg.PayType
-local ggUIHelper = gg.UIHelper
+local Global         = gg.Global
+local ggDialog       = gg.Dialog
+local ggUtility      = gg.Utility
+local ggCurrencyType = gg.CurrencyType
+local ggUIHelper     = gg.UIHelper
 
 local M = class(ggDialog.ShopDialog, function()
     return cc.CSLoader:createNode(Global:getCsbFile("dialogs/ShopDialog"))
@@ -39,14 +39,14 @@ function M:ctor()
         if not self._isReady then
             return
         end
-        self:turn2OnePage(ggPayType.RMB, true)
+        self:turn2OnePage(ggCurrencyType.DIAMOND, true)
     end)
 
     self.btnBean:onClickWithColor(function()
         if not self._isReady then
             return
         end
-        self:turn2OnePage(ggPayType.DIAMOND, true)
+        self:turn2OnePage(ggCurrencyType.BEAN, true)
     end)
 
     self:getChildByName("Image_Goods_Item"):hide()
@@ -66,7 +66,7 @@ function M:ctor()
             if data.nRet == 0 then
 
                 local item = {}
-                if self._buyType == ggPayType.DIAMOND then
+                if self._buyType == ggCurrencyType.BEAN then
                     item.res = "shop_icon_bean_" .. self._buyIndex ..".png"
                     item.str = ggUtility.getShortBean(self._buyQuantity)
                 else
@@ -80,6 +80,14 @@ function M:ctor()
 end
 
 function M:onOpenCompleted()
+    if _DEBUG_SHOP then    
+        local infoString = cc.FileUtils:getInstance():getStringFromFile("IosRechargeInfo.json")
+        local json = require("framework.json")
+        local info = json.decode(infoString)
+        gg.AppModel:setShopGoodsInfo(info)
+        self:onFillData()
+        return
+    end
     if #gg.AppModel:getShopGoodsInfo() > 0 then
         self:onFillData()
     else
@@ -92,21 +100,18 @@ function M:onFillData()
     ggUIHelper:stopWaitting()
 
     self._isReady = true
-if _DEBUG_SHOP then    
-    local infoString = cc.FileUtils:getInstance():getStringFromFile("IosRechargeInfo.json")
-    local json = require("framework.json")
-    local info = json.decode(infoString)
-    gg.AppModel:setShopGoodsInfo(info)
-end
-    local goods = gg.AppModel:getShopGoodsInfo()
 
+    local goods = gg.AppModel:getShopGoodsInfo()
+    
     local imgGoodsItem = self:getChildByName("Image_Goods_Item")
     self.nodeGoods = {}
     for i = 1, #goods do
+        local goodsCount = 0
         local items = {}
-        local goods = goods[i]
-        for j = 1, #goods do
-            local info = goods[j]
+        local infos = goods[i]
+        for j = 1, #infos do
+            goodsCount = goodsCount + 1
+            local info = infos[j]
             local imgItem = imgGoodsItem:clone():show()
             imgItem:setCascadeOpacityEnabled(true)
             imgItem.productId = info.productId
@@ -124,7 +129,7 @@ end
             
             local imgCurrencyType = imgItem:getChildByName("Image_Currency_Type")
             imgCurrencyType:ignoreContentAdaptWithSize(true)
-            if i == ggPayType.DIAMOND then
+            if i == ggCurrencyType.BEAN then
                 imgItem:getChildByName("BitmapFontLabel_Quantity"):setString(ggUtility.getShortBean(info.productNum) .."d")
                 imgIcon:loadTexture("shop_icon_bean_" .. j ..".png", 1)
                 imgCurrencyType:loadTexture("shop_icon_currency_type_diamond.png", 1)
@@ -147,13 +152,20 @@ end
             end
         end
 
-        self.nodeGoods[i] = cc.GridNode:create(items, 1, 20, 4, 20)
-            :posY(44)
-            :addTo(self, 1)
-        self.nodeGoods[i]:setCascadeOpacityEnabled(true)
+        if #items > 0 then
+            self.nodeGoods[i] = cc.GridNode:create(items, {totalCount = goodsCount, 
+                                                            colCount = 4,
+                                                            rowMargin = 20,
+                                                            colMargin = 20,
+                                                            alignment = "center"
+                                                            })
+                :posY(-65)
+                :addTo(self, 1)
+            self.nodeGoods[i]:setCascadeOpacityEnabled(true)
+        end
     end
     
-    self:setDefaultPage(ggPayType.RMB)
+    self:setDefaultPage(ggCurrencyType.DIAMOND)
 end
 
 --// 购买按钮事件回调
@@ -180,15 +192,15 @@ end
 --  */
 function M:turn2OnePage(page, isAni)
 
-    local isDiamond = ggPayType.DIAMOND == page
+    local isBean = ggCurrencyType.BEAN == page
 
-    self.btnDiamond:setEnabled(isDiamond)
-    self.btnDiamond:setBright(isDiamond)
-    self.btnBean:setEnabled(not isDiamond)
-    self.btnBean:setBright(not isDiamond)
+    self.btnDiamond:setEnabled(isBean)
+    self.btnDiamond:setBright(isBean)
+    self.btnBean:setEnabled(not isBean)
+    self.btnBean:setBright(not isBean)
 
-    self.nodeGoods[ggPayType.DIAMOND]:setVisible(isDiamond)
-    self.nodeGoods[ggPayType.RMB]:setVisible(not isDiamond)
+    self.nodeGoods[ggCurrencyType.BEAN]:setVisible(isBean)
+    self.nodeGoods[ggCurrencyType.DIAMOND]:setVisible(not isBean)
 
     if isAni then
         local items = self.nodeGoods[page]:getChildren()

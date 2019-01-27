@@ -36,8 +36,11 @@ end
 function utility.getShortBean(quantity)
     if quantity < 10000 then
         return quantity
+    -- elseif quantity < 100000 then
+    --     return math_floor(quantity / 1000) / 10 .."w"
     else
-        return math_floor(quantity / 10000) .."w"
+        return quantity
+        --return math_floor(quantity / 10000) .."w"
     end
 end
 

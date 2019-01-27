@@ -143,13 +143,25 @@
             <FileData Type="PlistSubImage" Path="lobby_board.png" Plist="images/lobby/lobby_atlas.plist" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Button_Sign" ActionTag="-203286932" Tag="324" IconVisible="False" LeftMargin="271.5858" RightMargin="757.4142" TopMargin="-0.3397" BottomMargin="524.3397" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="77" Scale9Height="94" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+          <AbstractNodeData Name="Button_Sign" ActionTag="-203286932" Tag="324" IconVisible="False" LeftMargin="271.5857" RightMargin="757.4143" TopMargin="0.6604" BottomMargin="523.3396" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="77" Scale9Height="94" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="107.0000" Y="116.0000" />
+            <Children>
+              <AbstractNodeData Name="Image_Red_Tag" ActionTag="509677519" Tag="557" IconVisible="False" LeftMargin="56.7530" RightMargin="18.2470" TopMargin="1.1308" BottomMargin="82.8692" LeftEage="10" RightEage="10" TopEage="10" BottomEage="10" Scale9OriginX="10" Scale9OriginY="10" Scale9Width="12" Scale9Height="12" ctype="ImageViewObjectData">
+                <Size X="32.0000" Y="32.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="72.7530" Y="98.8692" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition X="0.6799" Y="0.8523" />
+                <PreSize X="0.2991" Y="0.2759" />
+                <FileData Type="PlistSubImage" Path="lobby_red_point.png" Plist="images/lobby/lobby_atlas.plist" />
+              </AbstractNodeData>
+            </Children>
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="325.0858" Y="582.3397" />
+            <Position X="325.0857" Y="581.3396" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.2862" Y="0.9099" />
+            <PrePosition X="0.2862" Y="0.9083" />
             <PreSize X="0.0942" Y="0.1813" />
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />

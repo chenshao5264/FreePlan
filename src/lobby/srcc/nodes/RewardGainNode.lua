@@ -42,7 +42,14 @@ function M:ctor(infos)
         items[#items + 1] = w
     end
 
-    local grid = cc.GridNode:create(items, 1, 10, #items, 180)
+    local params = {
+        totalCount = #infos,
+        colCount = #infos,
+        rowMargin = 10,
+        colMargin = 180,
+    }
+
+    local grid = cc.GridNode:create(items, params)
         :addTo(self, 1)
 
     widget:hide()

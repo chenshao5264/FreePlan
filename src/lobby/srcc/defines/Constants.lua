@@ -6,10 +6,10 @@
 
 local gg = gg or {}
 
---// 支付方式
-gg.PayType = {
-    DIAMOND = 1,    --// 钻石
-    RMB     = 2,    --// rmb    
+--//  货币类型
+gg.CurrencyType = {
+    BEAN    = 1,   --// 游戏豆
+    DIAMOND = 2,  --// 钻石
 }
 
 --// 桌子状态

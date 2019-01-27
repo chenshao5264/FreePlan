@@ -115,6 +115,7 @@ function M:onRelateViewElements()
     self.btnSign.fixedPos  = cc.p(self.btnSign:getPosition())
     self.btnSign.goalPos = cc.p(self.btnSign.fixedPos.x, display.top + self.btnSign:getContentSize().height / 2)
     self.btnSign:setPositionY(self.btnSign.goalPos.y)
+    self.btnSign.imgRedTag = self.btnSign:getChildByName("Image_Red_Tag"):hide()
 
     --// filldata
     self.nodeHead:getChildByName("Text_Nickname"):str(gg.Utility.getShortStr(Player:getNickname(), 6))
@@ -338,7 +339,7 @@ function M:onRegisterButtonClickEvent()
     end)
     --// 签到
     self.btnSign:onClick_(function(obj)
-        
+        ggUIHelper:showDialog(ggDialog.SignInDialog)
     end)
 end
 
@@ -349,6 +350,10 @@ function M:onRegisterEventProxy()
         end)
         :on("evt_diamond_update", function(evt)
             self.bfDiamondValue:setString(Player:getDiamondCurrency())
+        end)
+        :on("evt_sign_red_tag_visible", function(evt)
+            local data = evt.data
+            self.btnSign.imgRedTag:setVisible(not data.bSignIn)
         end)
 end
 

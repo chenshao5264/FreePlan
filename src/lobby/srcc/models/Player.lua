@@ -39,4 +39,16 @@ function Model:setPlayerBasicInfo(lobbyUser)
     self._diamondCurrency = lobbyUser.goldCurrency
 end
 
+--// value 差值
+function Model:updateBeanCurrencyWithBy(value)
+    self._beanCurrency = self._beanCurrency + value
+    myApp:emit("evt_bean_update")
+end
+
+--// value 差值
+function Model:updateDiamondCurrencyWithBy(value)
+    self._diamondCurrency = self._diamondCurrency + value
+    myApp:emit("evt_diamond_update")
+end
+
 return Model

@@ -16,6 +16,74 @@
             <PreSize X="0.0000" Y="0.0000" />
             <FileData Type="PlistSubImage" Path="bg_dialog_sp9_2.png" Plist="images/share/share_atlas.plist" />
           </AbstractNodeData>
+          <AbstractNodeData Name="Image_1_0" ActionTag="-1406064064" Tag="366" IconVisible="False" LeftMargin="-499.9988" RightMargin="-500.0012" TopMargin="-308.5094" BottomMargin="281.5094" Scale9Enable="True" LeftEage="66" RightEage="66" TopEage="8" BottomEage="8" Scale9OriginX="66" Scale9OriginY="8" Scale9Width="18" Scale9Height="11" ctype="ImageViewObjectData">
+            <Size X="1000.0000" Y="27.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="0.0012" Y="295.0094" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="PlistSubImage" Path="dialog_banner _2.png" Plist="images/share/share_atlas.plist" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Sprite_Banner" ActionTag="342829269" Tag="359" IconVisible="False" LeftMargin="-470.9999" RightMargin="-471.0001" TopMargin="-304.0067" BottomMargin="236.0067" ctype="SpriteObjectData">
+            <Size X="942.0000" Y="68.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="0.0001" Y="270.0067" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="PlistSubImage" Path="dialog_banner _1.png" Plist="images/share/share_atlas.plist" />
+            <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="dialog_btn_bg_2" ActionTag="-2057717932" Tag="513" IconVisible="False" LeftMargin="450.0000" RightMargin="-497.0000" TopMargin="-288.0000" BottomMargin="180.0000" ctype="SpriteObjectData">
+            <Size X="47.0000" Y="108.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="473.5000" Y="234.0000" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="PlistSubImage" Path="dialog_btn_bg.png" Plist="images/share/share_atlas.plist" />
+            <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Button_Close" ActionTag="946169109" Tag="514" IconVisible="False" LeftMargin="450.0000" RightMargin="-499.0000" TopMargin="-273.0000" BottomMargin="224.0000" TouchEnable="True" FontSize="14" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="19" Scale9Height="27" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+            <Size X="49.0000" Y="49.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="474.5000" Y="248.5000" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition />
+            <PreSize X="0.0000" Y="0.0000" />
+            <TextColor A="255" R="65" G="65" B="70" />
+            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
+            <PressedFileData Type="PlistSubImage" Path="btn_close_1.png" Plist="images/share/share_atlas.plist" />
+            <NormalFileData Type="PlistSubImage" Path="btn_close_1.png" Plist="images/share/share_atlas.plist" />
+            <OutlineColor A="255" R="255" G="0" B="0" />
+            <ShadowColor A="255" R="110" G="110" B="110" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Image_2" ActionTag="-1851489243" Tag="377" IconVisible="False" LeftMargin="-469.9999" RightMargin="-470.0001" TopMargin="-171.7234" BottomMargin="-289.2766" Scale9Enable="True" LeftEage="30" RightEage="30" TopEage="21" BottomEage="21" Scale9OriginX="30" Scale9OriginY="21" Scale9Width="32" Scale9Height="24" ctype="ImageViewObjectData">
+            <Size X="940.0000" Y="461.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="1.0000" />
+            <Position X="0.0001" Y="171.7234" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="PlistSubImage" Path="bg_dialog_sp9_3.png" Plist="images/share/share_atlas.plist" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="shop_tt_title_1" ActionTag="1749846107" Tag="512" IconVisible="False" LeftMargin="-56.4999" RightMargin="-56.5001" TopMargin="-298.0743" BottomMargin="250.0743" ctype="SpriteObjectData">
+            <Size X="113.0000" Y="48.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="0.0001" Y="274.0743" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="PlistSubImage" Path="shop_tt_title.png" Plist="images/shop/shop_atlas.plist" />
+            <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
           <AbstractNodeData Name="Button_Bean" ActionTag="-489751653" Tag="386" IconVisible="False" LeftMargin="-186.4996" RightMargin="-0.5004" TopMargin="-216.5033" BottomMargin="163.5033" TouchEnable="True" FontSize="14" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="157" Scale9Height="31" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="187.0000" Y="53.0000" />
             <AnchorPoint ScaleX="0.5000" />
@@ -45,37 +113,6 @@
             <NormalFileData Type="PlistSubImage" Path="shop_btn_diamond_2.png" Plist="images/shop/shop_atlas.plist" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
-          </AbstractNodeData>
-          <AbstractNodeData Name="Image_1_0" ActionTag="-1406064064" Tag="366" IconVisible="False" LeftMargin="-499.9988" RightMargin="-500.0012" TopMargin="-308.5094" BottomMargin="281.5094" Scale9Enable="True" LeftEage="66" RightEage="66" TopEage="8" BottomEage="8" Scale9OriginX="66" Scale9OriginY="8" Scale9Width="18" Scale9Height="11" ctype="ImageViewObjectData">
-            <Size X="1000.0000" Y="27.0000" />
-            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="0.0012" Y="295.0094" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-            <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition />
-            <PreSize X="0.0000" Y="0.0000" />
-            <FileData Type="PlistSubImage" Path="dialog_banner _2.png" Plist="images/share/share_atlas.plist" />
-          </AbstractNodeData>
-          <AbstractNodeData Name="Sprite_Banner" ActionTag="342829269" Tag="359" IconVisible="False" LeftMargin="-470.9999" RightMargin="-471.0001" TopMargin="-304.0067" BottomMargin="236.0067" ctype="SpriteObjectData">
-            <Size X="942.0000" Y="68.0000" />
-            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="0.0001" Y="270.0067" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-            <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition />
-            <PreSize X="0.0000" Y="0.0000" />
-            <FileData Type="PlistSubImage" Path="dialog_banner _1.png" Plist="images/share/share_atlas.plist" />
-            <BlendFunc Src="1" Dst="771" />
-          </AbstractNodeData>
-          <AbstractNodeData Name="Image_2" ActionTag="-1851489243" Tag="377" IconVisible="False" LeftMargin="-464.9999" RightMargin="-465.0001" TopMargin="-171.7234" BottomMargin="-284.2766" Scale9Enable="True" LeftEage="30" RightEage="30" TopEage="21" BottomEage="21" Scale9OriginX="30" Scale9OriginY="21" Scale9Width="32" Scale9Height="24" ctype="ImageViewObjectData">
-            <Size X="930.0000" Y="456.0000" />
-            <AnchorPoint ScaleX="0.5000" ScaleY="1.0000" />
-            <Position X="0.0001" Y="171.7234" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-            <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition />
-            <PreSize X="0.0000" Y="0.0000" />
-            <FileData Type="PlistSubImage" Path="bg_dialog_sp9_3.png" Plist="images/share/share_atlas.plist" />
           </AbstractNodeData>
           <AbstractNodeData Name="Image_Goods_Item" ActionTag="747532339" Tag="388" IconVisible="False" LeftMargin="-732.2072" RightMargin="530.2072" TopMargin="-18.1957" BottomMargin="-170.8043" LeftEage="66" RightEage="66" TopEage="62" BottomEage="62" Scale9OriginX="66" Scale9OriginY="62" Scale9Width="70" Scale9Height="65" ctype="ImageViewObjectData">
             <Size X="202.0000" Y="189.0000" />
@@ -148,43 +185,6 @@
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
             <FileData Type="PlistSubImage" Path="shop_goods_bg.png" Plist="images/shop/shop_atlas.plist" />
-          </AbstractNodeData>
-          <AbstractNodeData Name="shop_tt_title_1" ActionTag="1749846107" Tag="512" IconVisible="False" LeftMargin="-56.4999" RightMargin="-56.5001" TopMargin="-298.0743" BottomMargin="250.0743" ctype="SpriteObjectData">
-            <Size X="113.0000" Y="48.0000" />
-            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="0.0001" Y="274.0743" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-            <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition />
-            <PreSize X="0.0000" Y="0.0000" />
-            <FileData Type="PlistSubImage" Path="shop_tt_title.png" Plist="images/shop/shop_atlas.plist" />
-            <BlendFunc Src="1" Dst="771" />
-          </AbstractNodeData>
-          <AbstractNodeData Name="dialog_btn_bg_2" ActionTag="-2057717932" Tag="513" IconVisible="False" LeftMargin="451.0061" RightMargin="-498.0061" TopMargin="-288.0583" BottomMargin="180.0583" ctype="SpriteObjectData">
-            <Size X="47.0000" Y="108.0000" />
-            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="474.5061" Y="234.0583" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-            <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition />
-            <PreSize X="0.0000" Y="0.0000" />
-            <FileData Type="PlistSubImage" Path="dialog_btn_bg.png" Plist="images/share/share_atlas.plist" />
-            <BlendFunc Src="1" Dst="771" />
-          </AbstractNodeData>
-          <AbstractNodeData Name="Button_Close" ActionTag="946169109" Tag="514" IconVisible="False" LeftMargin="450.0557" RightMargin="-499.0557" TopMargin="-271.9547" BottomMargin="222.9547" TouchEnable="True" FontSize="14" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="19" Scale9Height="27" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
-            <Size X="49.0000" Y="49.0000" />
-            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="474.5557" Y="247.4547" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-            <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition />
-            <PreSize X="0.0000" Y="0.0000" />
-            <TextColor A="255" R="65" G="65" B="70" />
-            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
-            <PressedFileData Type="PlistSubImage" Path="btn_close_1.png" Plist="images/share/share_atlas.plist" />
-            <NormalFileData Type="PlistSubImage" Path="btn_close_1.png" Plist="images/share/share_atlas.plist" />
-            <OutlineColor A="255" R="255" G="0" B="0" />
-            <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
         </Children>
       </ObjectData>

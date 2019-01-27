@@ -39,7 +39,9 @@ M.PL_PHONE_IOS_RECHARGE_ACK_P     = 51055   --// 充值结果
 
 
 -- M.PL_PHONE_LC_SHOWFIRSTINFO_ACK_P = 51060    --// 发送给客户端是否显示首冲按钮
--- M.PL_PHONE_LC_INISIGNININFO_ACK_P = 51079    --// 初始化签到信息给客户端
+M.PL_PHONE_LC_INISIGNININFO_ACK_P = 51079   --// 初始化签到信息给客户端
+M.PL_PHONE_CL_SIGNIN_REQ_P        = 51080   --// 签到请求
+M.PL_PHONE_LC_SIGNIN_ACK_P        = 51081   --// 签到回复
 
 --// 服务器暂时屏蔽发送
 -- M.SC_LOGIN_TOKEN_P                = 11573    --// 登陆成功服务器发送玩家代币信息

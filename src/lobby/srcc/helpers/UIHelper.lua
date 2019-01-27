@@ -64,7 +64,10 @@ end
 --  * 移除遮罩
 --  */
 function UIHelper:removeShade(name)
-    self:getRoot():removeChildByName(name or "layer_shade")
+    cclog.warn(self:getRoot().__cname)
+    if self:getRoot() then
+       self:getRoot():removeChildByName(name or "layer_shade")
+    end
 end
 
 --// 弹窗打开动画
